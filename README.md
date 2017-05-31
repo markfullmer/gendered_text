@@ -40,11 +40,10 @@ In order to render as male-gendered, the text could be entered as:
 > Colonel {{ Aureliana Buendía }} was to remember that distant afternoon when
 > {{ herd(Aureliana Buendía) }} father took {{ her(Aureliana Buendía) }} to
 > discover ice.
+> [[Aureliana Buendía/Aureliano Buendía:male]]
 
 ** Note the use of "herd" to differentiate determiner & object. See **Callouts**,
 below.
-
-[[Aureliana Buendía/Aureliano Buendía:male]]
 
 ### The Legend
 Text to be processed must include a legend, wrapped in double square brackets,
