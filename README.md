@@ -27,12 +27,12 @@ persona.
 For example, original the *Hundred Years of Solitude* sentence, above, would need
 to be entered as:
 
-> Many years later, as {{ he(Aureliano Buendía) }} faced the firing squad,
-> Colonel {{ Aureliano Buendía }} was to remember that distant afternoon when
-> {{ his(Aureliano Buendía) }} father took {{ him(Aureliano Buendía) }} to
+> Many years later, as {{ he(Aureliana Buendía) }} faced the firing squad,
+> Colonel {{ Aureliana Buendía }} was to remember that distant afternoon when
+> {{ his(Aureliana Buendía) }} father took {{ him(Aureliana Buendía) }} to
 > discover ice.
 >
-> [[Aureliano Buendía/Aureliana Buendía:female]]
+> [[Aureliana Buendía/Aureliano Buendía:female]]
 
 ### The Legend
 Text to be processed must include a legend, wrapped in double square brackets,
