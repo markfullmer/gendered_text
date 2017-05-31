@@ -17,22 +17,11 @@ The included `/demo/index.php` file contains a conversion form demonstration.
 Make your code aware of the `GenderedLit` class via your favorite method (e.g.,
 `use` or `require`)
 
-Two simple methods, "male" and "female" are available, and can be used as such:
-```php
-$text = GenderedLit::male("She sells seashells.");
-echo $text; // He sells seashells.
-
-$text = GenderedLit::female("He sells seashells.");
-echo $text; // She sells seashells.
-```
-
-However, these are really helper methods for the main "process" method, described
-next.
-
 ### The Legend
 Text to be processed must include a legend, wrapped in double square brackets, which may appear anywhere in the text. An example legend:
 
-```[[Mindy/Mork:male][Charlize/Charles:female][Kate/Ken/Kan:trans]]``
+```[[Mindy/Mork:male][Charlize/Charles:female][Kate/Ken/Kan:trans]]```
+
 Each element in the legend is wrapped in square brackets, and consists of the
 gendered proper names for the character, in the order ```FEMALE/MALE/TRANS```.
 This is followed by a colon, after which indicates the gender that should be used
@@ -70,6 +59,7 @@ render as:
 
 Example code implementation:
 
+```php
 $text = "{{ She(Mindy) }} sells seashells [[Mindy:Mork:male]]";
 $result = GenderedLit::process($text);
 echo $text; // He sells seashells
