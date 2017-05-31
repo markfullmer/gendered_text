@@ -1,7 +1,7 @@
-# Gendered Lit
+# Gendered Text
 
-[![Circle CI](https://circleci.com/gh/markfullmer/porter2.svg?style=shield)](https://circleci.com/gh/markfullmer/gendered_lit)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/markfullmer/gendered_lit/master/LICENSE)
+[![Circle CI](https://circleci.com/gh/markfullmer/porter2.svg?style=shield)](https://circleci.com/gh/markfullmer/gendered_text)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/markfullmer/gendered_text/master/LICENSE)
 
 Dynamically rewrite the gender of personae in texts
 
@@ -9,7 +9,7 @@ Dynamically rewrite the gender of personae in texts
 
 ## Background
 Given a text with properly parameterized gender placeholders, this library will
-generate an alternate version of the text based on user preference of gender. Gabriel Garcia Marquez'
+generate an alternate version of the text based on user preference of gender. Gabriel García Márquez' first sentence,
 
 > "Many years later, as he faced the firing squad, Colonel Aureliano Buendía was
 > to remember that distant afternoon when his father took him to discover ice."
@@ -20,10 +20,17 @@ would become
 > to remember that distant afternoon when her father took her to discover ice."
 
 ## Basic Usage
-The included `/demo/index.php` file contains a conversion form demonstration.
+Text must have personae gender indicators entered as placeholder text, as well
+as a legend that instructs the code which gender should be used for each
+persona.
 
-Make your code aware of the `GenderedLit` class via your favorite method (e.g.,
-`use` or `require`)
+For example, original the *Hundred Years of Solitude* sentence, above, would need
+to be entered as:
+
+> Many years later, as {{ he(Aureliano Buendía) }} faced the firing squad,
+> Colonel {{ Aureliano Buendía }} was to remember that distant afternoon when
+> {{ his(Aureliano Buendía) }} father took him to discover ice.
+> [[Aureliano Buendía:Aureliana Buendía:female]]
 
 ### The Legend
 Text to be processed must include a legend, wrapped in double square brackets,
@@ -70,6 +77,6 @@ Example code implementation:
 
 ```php
 $text = "{{ She(Mindy) }} sells seashells [[Mindy:Mork:male]]";
-$result = GenderedLit::process($text);
+$result = GenderedText::process($text);
 echo $text; // He sells seashells
 ```

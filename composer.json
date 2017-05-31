@@ -1,5 +1,5 @@
 {
-    "name": "markfullmer/gendered_lit",
+    "name": "markfullmer/gendered_text",
     "description": "Dynamically rewrite the gender of personae in texts",
     "type": "library",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "license": "MIT",
     "autoload": {
-        "psr-4": { "markfullmer\\gendered_lit\\": ["src/", "test/"] }
+        "psr-4": { "markfullmer\\gendered_text\\": ["src/", "test/"] }
     },
     "require-dev": {
         "phpunit/phpunit": "~4"
