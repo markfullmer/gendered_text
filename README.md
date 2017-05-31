@@ -45,6 +45,34 @@ In order to render as male-gendered, the text could be entered as:
 ** Note the use of "herd" to differentiate determiner & object. See **Callouts**,
 below.
 
+## Texts with multiple personae.
+The sentence from D.H Lawrence's *Sons and Lovers*, "He kept her because he never satisfied her", illustrates two personae
+working in tandem. The following parameterized text
+
+> {{ He(Paulina) }} kept {{ her(Clara) }} because {{ he(Paulina) }} never
+> satisfied {{ her(Clara) }}.
+> [[Paulina/Paul:male][Clara/Clark:female]]
+
+would generate the original gender roles, while
+
+> {{ He(Paulina) }} kept {{ her(Clara) }} because {{ he(Paulina) }} never
+> satisfied {{ her(Clara) }}.
+> [[Paulina/Paul:female][Clara/Clark:male]]
+
+would reverse them to:
+
+> She kept him because she never satisfied him.
+
+and, in comparison,
+
+> {{ He(Paulina) }} kept {{ her(Clara) }} because {{ he(Paulina) }} never
+> satisfied {{ her(Clara) }}.
+> [[Paulina/Paul:male][Clara/Clark:male]]
+
+would generate:
+
+> He kept him because he never satisfied him.
+
 ### The Legend
 Text to be processed must include a legend, wrapped in double square brackets,
 which may appear anywhere in the text. An example legend:
