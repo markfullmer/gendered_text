@@ -29,7 +29,9 @@ to be entered as:
 
 > Many years later, as {{ he(Aureliano Buendía) }} faced the firing squad,
 > Colonel {{ Aureliano Buendía }} was to remember that distant afternoon when
-> {{ his(Aureliano Buendía) }} father took him to discover ice.
+> {{ his(Aureliano Buendía) }} father took {{ him(Aureliano Buendía) }} to
+> discover ice.
+>
 > [[Aureliano Buendía/Aureliana Buendía:female]]
 
 ### The Legend
