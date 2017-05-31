@@ -38,8 +38,11 @@ In order to render as male-gendered, the text could be entered as:
 
 > Many years later, as {{ she(Aureliana Buendía) }} faced the firing squad,
 > Colonel {{ Aureliana Buendía }} was to remember that distant afternoon when
-> {{ her(Aureliana Buendía) }} father took {{ her(Aureliana Buendía) }} to
+> {{ herd(Aureliana Buendía) }} father took {{ her(Aureliana Buendía) }} to
 > discover ice.
+
+** Note the use of "herd" to differentiate determiner & object. See **Callouts**,
+below.
 
 [[Aureliana Buendía/Aureliano Buendía:male]]
 
