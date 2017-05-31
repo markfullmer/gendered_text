@@ -34,6 +34,15 @@ to be entered as:
 >
 > [[Aureliana Buendía/Aureliano Buendía:female]]
 
+In order to render as male-gendered, the text could be entered as:
+
+> Many years later, as {{ she(Aureliana Buendía) }} faced the firing squad,
+> Colonel {{ Aureliana Buendía }} was to remember that distant afternoon when
+> {{ her(Aureliana Buendía) }} father took {{ her(Aureliana Buendía) }} to
+> discover ice.
+
+[[Aureliana Buendía/Aureliano Buendía:male]]
+
 ### The Legend
 Text to be processed must include a legend, wrapped in double square brackets,
 which may appear anywhere in the text. An example legend:
@@ -84,10 +93,13 @@ echo $text; // He sells seashells
 ```
 
 ### Callouts
-An idiosyncrasy of English language pronouns is that, while the male possessive
+- An idiosyncrasy of English language pronouns is that, while the male possessive
 pronoun "his" (as in "I like **his** shirt") is identical to the determinative
 (as in "That shirt is **his**"), the female equivalents differ (i.e., "I like
 **her** shirt" vs. "That shirt is **hers**"). Accordingly, male possessive
 pronouns must be entered as "hisp" (e.g., ```I like {{ hisp(Mork) }} shirt```)
 for differentiation from the determinative "his" (to avoid the result "I like
 hers shirt").
+- Similarly, the female determiner ("I like **her** hairdo") is identical to the
+female object ("I like **her**"), but the male forms differ ("I like **his** hairo" vs.
+"I like **him**"). Therefore, the female determiner must be identified as "herd".

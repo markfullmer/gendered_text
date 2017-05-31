@@ -57,7 +57,7 @@ class GenderedText {
   public static $pronoun_map = [
     'subject' => ['male' => 'he', 'female' => 'she', 'trans' => 'ze'],
     'object' => ['male' => 'him', 'female' => 'her', 'trans' => 'hir'],
-    'determiner' => ['male' => 'his', 'female' => 'her', 'trans' => 'hir'],
+    'determiner' => ['male' => 'his', 'female' => 'herd', 'trans' => 'hir'],
     'possessive' => ['male' => 'hisp', 'female' => 'hers', 'trans' => 'hirs'],
     'reflexive' => ['male' => 'himself', 'female' => 'herself', 'trans' => 'hirself'],
   ];
@@ -70,7 +70,7 @@ class GenderedText {
     'her' => ['gender' => 'female', 'pos' => 'object'],
     'hir' => ['gender' => 'trans', 'pos' => 'object'],
     'his' => ['gender' => 'male', 'pos' => 'determiner'],
-    'her' => ['gender' => 'female', 'pos' => 'determiner'],
+    'herd' => ['gender' => 'female', 'pos' => 'determiner'],
     'hir' => ['gender' => 'trans', 'pos' => 'determiner'],
     'hisp' => ['gender' => 'male', 'pos' => 'possessive'],
     'hers' => ['gender' => 'female', 'pos' => 'possessive'],
