@@ -47,29 +47,18 @@ below.
 
 ## Texts with multiple personae.
 The sentence from D.H Lawrence's *Sons and Lovers*, "He kept her because he never satisfied her", illustrates two personae
-working in tandem. The following parameterized text
+working in tandem. The text would be parameterized as:
 
 > {{ He(Paul) }} kept {{ her(Clara) }} because {{ he(Paul) }} never
 > satisfied {{ her(Clara) }}.
-> [[Paulina/Paul:male][Clara/Clark:female]]
 
-would generate the original gender roles, while
-
-> {{ He(Paul) }} kept {{ her(Clara) }} because {{ he(Paul) }} never
-> satisfied {{ her(Clara) }}.
-> [[Paulina/Paul:female][Clara/Clark:male]]
-
-would reverse the roles:
+Adding the legend ``` [[Paulina/Paul:male][Clara/Clark:female]]``` would generate
+ the original text, while ```[[Paulina/Paul:female][Clara/Clark:male]]``` would
+ reverse the roles:
 
 > She kept him because she never satisfied him.
 
-and, in comparison,
-
-> {{ He(Paul) }} kept {{ her(Clara) }} because {{ he(Paul) }} never
-> satisfied {{ her(Clara) }}.
-> [[Paulina/Paul:male][Clara/Clark:male]]
-
-would generate:
+and ```[[Paulina/Paul:male][Clara/Clark:male]]``` would generate:
 
 > He kept him because he never satisfied him.
 
