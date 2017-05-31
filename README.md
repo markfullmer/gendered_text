@@ -11,13 +11,13 @@ Dynamically rewrite the gender of personae in texts
 Given a text with properly parameterized gender placeholders, this library will
 generate an alternate version of the text based on user preference of gender. Gabriel García Márquez' first sentence,
 
-> "Many years later, as he faced the firing squad, Colonel Aureliano Buendía was
-> to remember that distant afternoon when his father took him to discover ice."
+> Many years later, as he faced the firing squad, Colonel Aureliano Buendía was
+> to remember that distant afternoon when his father took him to discover ice.
 
 would become
 
-> "Many years later, as she faced the firing squad, Colonel Aureliana Buendía was
-> to remember that distant afternoon when her father took her to discover ice."
+> Many years later, as she faced the firing squad, Colonel Aureliana Buendía was
+> to remember that distant afternoon when her father took her to discover ice.
 
 ## Basic Usage
 Text must have personae gender indicators entered as placeholder text, as well
@@ -27,18 +27,18 @@ persona.
 For example, original the *Hundred Years of Solitude* sentence, above, would need
 to be entered as:
 
-> Many years later, as {{ he(Aureliana Buendía) }} faced the firing squad,
-> Colonel {{ Aureliana Buendía }} was to remember that distant afternoon when
-> {{ his(Aureliana Buendía) }} father took {{ him(Aureliana Buendía) }} to
+> Many years later, as {{ he(Aureliano Buendía) }} faced the firing squad,
+> Colonel {{ Aureliano Buendía }} was to remember that distant afternoon when
+> {{ his(Aureliano Buendía) }} father took {{ him(Aureliano Buendía) }} to
 > discover ice.
 >
 > [[Aureliana Buendía/Aureliano Buendía:female]]
 
 In order to render as male-gendered, the text could be entered as:
 
-> Many years later, as {{ she(Aureliana Buendía) }} faced the firing squad,
-> Colonel {{ Aureliana Buendía }} was to remember that distant afternoon when
-> {{ herd(Aureliana Buendía) }} father took {{ her(Aureliana Buendía) }} to
+> Many years later, as {{ she(Aureliano Buendía) }} faced the firing squad,
+> Colonel {{ Aureliano Buendía }} was to remember that distant afternoon when
+> {{ herd(Aureliano Buendía) }} father took {{ her(Aureliano Buendía) }} to
 > discover ice.
 > [[Aureliana Buendía/Aureliano Buendía:male]]
 
@@ -49,23 +49,23 @@ below.
 The sentence from D.H Lawrence's *Sons and Lovers*, "He kept her because he never satisfied her", illustrates two personae
 working in tandem. The following parameterized text
 
-> {{ He(Paulina) }} kept {{ her(Clara) }} because {{ he(Paulina) }} never
+> {{ He(Paul) }} kept {{ her(Clara) }} because {{ he(Paul) }} never
 > satisfied {{ her(Clara) }}.
 > [[Paulina/Paul:male][Clara/Clark:female]]
 
 would generate the original gender roles, while
 
-> {{ He(Paulina) }} kept {{ her(Clara) }} because {{ he(Paulina) }} never
+> {{ He(Paul) }} kept {{ her(Clara) }} because {{ he(Paul) }} never
 > satisfied {{ her(Clara) }}.
 > [[Paulina/Paul:female][Clara/Clark:male]]
 
-would reverse them to:
+would reverse the roles:
 
 > She kept him because she never satisfied him.
 
 and, in comparison,
 
-> {{ He(Paulina) }} kept {{ her(Clara) }} because {{ he(Paulina) }} never
+> {{ He(Paul) }} kept {{ her(Clara) }} because {{ he(Paul) }} never
 > satisfied {{ her(Clara) }}.
 > [[Paulina/Paul:male][Clara/Clark:male]]
 
