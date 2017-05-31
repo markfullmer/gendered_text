@@ -5,7 +5,7 @@
 
 Dynamically rewrite the gender of personae in texts
 
-![Screenshot of Conversion](https://raw.githubusercontent.com/markfullmer/gendered_lit/master/demo/demo.png)
+![Screenshot of Conversion](https://github.com/markfullmer/gendered_text/raw/master/demo/demo.png)
 
 ## Background
 Given a text with properly parameterized gender placeholders, this library will
