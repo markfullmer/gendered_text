@@ -9,7 +9,15 @@ Dynamically rewrite the gender of personae in texts
 
 ## Background
 Given a text with properly parameterized gender placeholders, this library will
-generate an alternate version of the text based on user preference of gender. Gabriel Garcia Marquez' "Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice." will become "Many years later, as she faced the firing squad, Colonel Aureliana Buendía was to remember that distant afternoon when her father took her to discover ice."
+generate an alternate version of the text based on user preference of gender. Gabriel Garcia Marquez'
+
+> "Many years later, as he faced the firing squad, Colonel Aureliano Buendía was
+> to remember that distant afternoon when his father took him to discover ice."
+
+would become
+
+> "Many years later, as she faced the firing squad, Colonel Aureliana Buendía was
+> to remember that distant afternoon when her father took her to discover ice."
 
 ## Basic Usage
 The included `/demo/index.php` file contains a conversion form demonstration.
@@ -18,7 +26,8 @@ Make your code aware of the `GenderedLit` class via your favorite method (e.g.,
 `use` or `require`)
 
 ### The Legend
-Text to be processed must include a legend, wrapped in double square brackets, which may appear anywhere in the text. An example legend:
+Text to be processed must include a legend, wrapped in double square brackets,
+which may appear anywhere in the text. An example legend:
 
 ```[[Mindy/Mork:male][Charlize/Charles:female][Kate/Ken/Kan:trans]]```
 
