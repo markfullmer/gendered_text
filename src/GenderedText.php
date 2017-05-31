@@ -58,7 +58,7 @@ class GenderedText {
     'subject' => ['male' => 'he', 'female' => 'she', 'trans' => 'ze'],
     'object' => ['male' => 'him', 'female' => 'her', 'trans' => 'hir'],
     'determiner' => ['male' => 'his', 'female' => 'her', 'trans' => 'hir'],
-    'possessive' => ['male' => 'his', 'female' => 'hers', 'trans' => 'hirs'],
+    'possessive' => ['male' => 'hisp', 'female' => 'hers', 'trans' => 'hirs'],
     'reflexive' => ['male' => 'himself', 'female' => 'herself', 'trans' => 'hirself'],
   ];
 
@@ -72,7 +72,7 @@ class GenderedText {
     'his' => ['gender' => 'male', 'pos' => 'determiner'],
     'her' => ['gender' => 'female', 'pos' => 'determiner'],
     'hir' => ['gender' => 'trans', 'pos' => 'determiner'],
-    'his' => ['gender' => 'male', 'pos' => 'possessive'],
+    'hisp' => ['gender' => 'male', 'pos' => 'possessive'],
     'hers' => ['gender' => 'female', 'pos' => 'possessive'],
     'hirs' => ['gender' => 'trans', 'pos' => 'possessive'],
     'herself' => ['gender' => 'female', 'pos' => 'reflexive'],

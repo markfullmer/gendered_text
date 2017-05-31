@@ -30,7 +30,7 @@ to be entered as:
 > Many years later, as {{ he(Aureliano Buendía) }} faced the firing squad,
 > Colonel {{ Aureliano Buendía }} was to remember that distant afternoon when
 > {{ his(Aureliano Buendía) }} father took him to discover ice.
-> [[Aureliano Buendía:Aureliana Buendía:female]]
+> [[Aureliano Buendía/Aureliana Buendía:female]]
 
 ### The Legend
 Text to be processed must include a legend, wrapped in double square brackets,
@@ -76,7 +76,16 @@ render as:
 Example code implementation:
 
 ```php
-$text = "{{ She(Mindy) }} sells seashells [[Mindy:Mork:male]]";
+$text = "{{ She(Mindy) }} sells seashells [[Mindy/Mork:male]]";
 $result = GenderedText::process($text);
 echo $text; // He sells seashells
 ```
+
+### Callouts
+An idiosyncrasy of English language pronouns is that, while the male possessive
+pronoun "his" (as in "I like **his** shirt") is identical to the determinative
+(as in "That shirt is **his**"), the female equivalents differ (i.e., "I like
+**her** shirt" vs. "That shirt is **hers**"). Accordingly, male possessive
+pronouns must be entered as "hisp" (e.g., ```I like {{ hisp(Mork) }} shirt```)
+for differentiation from the determinative "his" (to avoid the result "I like
+hers shirt").
