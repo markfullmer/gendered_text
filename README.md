@@ -115,9 +115,9 @@ echo $text; // He sells seashells
 - An idiosyncrasy of English language pronouns is that, while the male possessive
 pronoun "his" (as in "I like **his** shirt") is identical to the determinative
 (as in "That shirt is **his**"), the female equivalents differ (i.e., "I like
-**her** shirt" vs. "That shirt is **hers**"). Accordingly, male possessive
-pronouns must be entered as "hisp" (e.g., ```I like {{ hisp(Mork) }} shirt```)
-for differentiation from the determinative "his" (to avoid the result "I like
+**her** shirt" vs. "That shirt is **hers**"). Accordingly, male determinative
+pronouns must be entered as "hisd" (e.g., ```That shirt is {{ hisd(Mork) }}```)
+for differentiation from the possessive "his" (to avoid the result "I like
 hers shirt").
 - Similarly, the female determiner ("I like **her** hairdo") is identical to the
 female object ("I like **her**"), but the male forms differ ("I like **his** hairo" vs.

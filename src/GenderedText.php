@@ -16,68 +16,111 @@ class GenderedText {
   public static function process($text) {
     $legend = self::legend($text);
     $placeholders = self::placeholders($text);
+    $map = self::transform_replacements();
+    // Strip the legend from the output.
     $text = self::removeLegend($text);
-    $modified = self::replace($text, $placeholders, $legend);
+    // Perform text replacements.
+    $modified = self::replace($text, $placeholders, $legend, $map);
     return $modified;
   }
 
-  public static function replace($text, $placeholders, $legend) {
-
+  /**
+   * Swap out placeholders for real text, using the legend.
+   *
+   * @return string
+   *   The string-replaced text.
+   */
+  public static function replace($text, $placeholders, $legend, $map) {
     foreach ($placeholders as $key => $placeholder) {
       if (empty($placeholder)) {
-        $legend_map = $legend[$key];
-        $name = $key;
-        if ($legend_map['gender'] == 'male') {
-          $name = $legend_map['names'][1];
+        // The placeholder only contains the name. Replace it with the
+        // appropriate gendered name.
+        if (!empty($legend[$key])) {
+          $legend_map = $legend[$key];
         }
-        elseif ($legend_map['gender'] == 'trans') {
-          $name = $legend_map['names'][2];
+        if (!empty($legend_map)) {
+          $gender = $legend_map['gender'];
+          if (!empty($legend_map['names'][$gender])) {
+            $name = $legend_map['names'][$gender];
+          }
+          $text = preg_replace("/{{\s*" . $key . "\s*}}/i", $name, $text);
         }
-        $text = str_ireplace("{{ " . $key . " }}", $name, $text);
       }
       else {
+        // Deal with pronouns and other replacements.
         $replaceable = $placeholder[0];
-        $pronoun = strtolower($placeholder[1]);
-        if (in_array($pronoun, array_keys(self::$pronouns))) {
-          $usage = self::$pronouns[$pronoun];
+        $replacement = $placeholder[1];
+        $identifier = strtolower($placeholder[1]);
+        $persona = $placeholder[2];
+        if (in_array($identifier, array_keys(self::$replacements)) && in_array($persona, array_keys($legend))) {
+          $pos = self::$replacements[$identifier]['pos'];
+          $legend_item = $legend[$persona];
+          $gender = $legend_item['gender'];
+          // The real action: find which replacement should be used.
+          $replacement = $map[$pos][$gender];
         }
-        $id = $placeholder[2];
-        if (in_array($id, array_keys($legend))) {
-          $legend_map = $legend[$id];
+        if (self::is_capitalized($placeholder[1])) {
+          $replacement = ucfirst($replacement);
         }
-        $gender = $legend_map['gender'];
-        $pos = self::$pronouns[$pronoun]['pos'];
-        $replacement = self::$pronoun_map[$pos][$gender];
-        $text = str_ireplace("{{ " . $placeholder[0] . " }}", $replacement, $text);
+        $text = preg_replace("/{{\s*" . preg_quote($placeholder[0]) . "\s*}}/", $replacement, $text);
       }
     }
     return $text;
   }
 
-  public static $pronoun_map = [
-    'subject' => ['male' => 'he', 'female' => 'she', 'trans' => 'ze'],
-    'object' => ['male' => 'him', 'female' => 'her', 'trans' => 'hir'],
-    'determiner' => ['male' => 'his', 'female' => 'her', 'trans' => 'hir'],
-    'possessive' => ['male' => 'his', 'female' => 'hers', 'trans' => 'hirs'],
-    'reflexive' => ['male' => 'himself', 'female' => 'herself', 'trans' => 'hirself'],
-  ];
+  /**
+   * Create a mapping from self::$replacements.
+   *
+   * @return array
+   *   A traversable array of parts of speech.
+   */
+  public static function transform_replacements() {
+    $map = [];
+    foreach (self::$replacements as $id => $attributes) {
+      $pos = $attributes['pos'];
+      $gender = $attributes['gender'];
+      $output = !empty($attributes['output']) ? $attributes['output'] : $id;
+      $map[$pos][$gender] = $output;
+    }
+    return $map;
+  }
 
-  public static $pronouns = [
+  /**
+   * Machine-first mapping of all words.
+   *
+   * @var replacements
+   */
+  public static $replacements = [
     'he' => ['gender' => 'male', 'pos' => 'subject'],
     'she' => ['gender' => 'female', 'pos' => 'subject'],
     'ze' => ['gender' => 'trans', 'pos' => 'subject'],
     'him' => ['gender' => 'male', 'pos' => 'object'],
-    'her' => ['gender' => 'female', 'pos' => 'object'],
+    'her' => ['gender' => 'female', 'pos' => 'object', 'output' => 'her'],
     'hir' => ['gender' => 'trans', 'pos' => 'object'],
-    'his' => ['gender' => 'male', 'pos' => 'determiner'],
+    'hisd' => ['gender' => 'male', 'pos' => 'determiner', 'output' => 'his'],
     'herd' => ['gender' => 'female', 'pos' => 'determiner'],
     'hir' => ['gender' => 'trans', 'pos' => 'determiner'],
-    'hisp' => ['gender' => 'male', 'pos' => 'possessive'],
+    'his' => ['gender' => 'male', 'pos' => 'possessive'],
     'hers' => ['gender' => 'female', 'pos' => 'possessive'],
     'hirs' => ['gender' => 'trans', 'pos' => 'possessive'],
     'herself' => ['gender' => 'female', 'pos' => 'reflexive'],
     'himself' => ['gender' => 'male', 'pos' => 'reflexive'],
     'hirself' => ['gender' => 'trans', 'pos' => 'reflexive'],
+    'mr' => ['gender' => 'male', 'pos' => 'title'],
+    'ms' => ['gender' => 'female', 'pos' => 'title'],
+    'm' => ['gender' => 'trans', 'pos' => 'title'],
+    'bastard' => ['gender' => 'male', 'pos' => 'insult'],
+    'bitch' => ['gender' => 'female', 'pos' => 'insult'],
+    'asshole' => ['gender' => 'trans', 'pos' => 'insult'],
+    'brother' => ['gender' => 'male', 'pos' => 'sibling'],
+    'sister' => ['gender' => 'female', 'pos' => 'sibling'],
+    'sibling' => ['gender' => 'trans', 'pos' => 'sibling'],
+    'husband' => ['gender' => 'male', 'pos' => 'spouse'],
+    'wife' => ['gender' => 'female', 'pos' => 'spouse'],
+    'spouse' => ['gender' => 'trans', 'pos' => 'spouse'],
+    'man' => ['gender' => 'male', 'pos' => 'gender'],
+    'woman' => ['gender' => 'female', 'pos' => 'gender'],
+    'person' => ['gender' => 'trans', 'pos' => 'gender'],
   ];
 
   /**
@@ -113,11 +156,14 @@ class GenderedText {
         if (isset($values[0])) {
           $names = preg_split("/\//", $values[0]);
         }
-        $key = $names[0];
-        $legend[$key] = [
-          'names' => $names,
-          'gender' => $values[1],
-        ];
+        foreach ($names as $key => $value) {
+          $legend[$value]['names']['female'] = $names[0];
+          $legend[$value]['names']['male'] = $names[1];
+          if (isset($names[2])) {
+            $legend[$value]['names']['trans'] = $names[2];
+          }
+          $legend[$value]['gender'] = $values[1];
+        }
         $legend['names'][] = $names;
       }
       // Flatten the 'names' array so we can easily do a string match.
@@ -143,6 +189,17 @@ class GenderedText {
       return $return;
     }
     return [];
+  }
+
+  /**
+   * Determine whether a word is capitalized.
+   *
+   * @return bool
+   *   Whether the word is capitalized.
+   */
+  public static function is_capitalized($string) {
+    $first_letter = substr($string, 0, 1);
+    return ctype_upper($first_letter);
   }
 
 }
