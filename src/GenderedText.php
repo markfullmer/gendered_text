@@ -87,6 +87,20 @@ class GenderedText {
   }
 
   /**
+   * Replace pronouns and other words with placeholder markers.
+   *
+   * @return array
+   *   A traversable array of parts of speech.
+   */
+  public static function addPlaceholders($text) {
+    foreach (array_keys(self::$replacements) as $replacement) {
+      $text = preg_replace("/\s(" . $replacement . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
+      $text = preg_replace("/\s(" . ucfirst($replacement) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
+    }
+    return $text;
+  }
+
+  /**
    * Machine-first mapping of all words.
    *
    * @var replacements
@@ -107,9 +121,9 @@ class GenderedText {
     'herself' => ['gender' => 'female', 'pos' => 'reflexive'],
     'himself' => ['gender' => 'male', 'pos' => 'reflexive'],
     'hirself' => ['gender' => 'trans', 'pos' => 'reflexive'],
-    'mr' => ['gender' => 'male', 'pos' => 'title'],
-    'ms' => ['gender' => 'female', 'pos' => 'title'],
-    'm' => ['gender' => 'trans', 'pos' => 'title'],
+    'mr.' => ['gender' => 'male', 'pos' => 'title'],
+    'ms.' => ['gender' => 'female', 'pos' => 'title'],
+    'm.' => ['gender' => 'trans', 'pos' => 'title'],
     'bastard' => ['gender' => 'male', 'pos' => 'insult'],
     'bitch' => ['gender' => 'female', 'pos' => 'insult'],
     'asshole' => ['gender' => 'trans', 'pos' => 'insult'],
