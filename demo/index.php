@@ -34,10 +34,10 @@ echo '
         <label for="text">Text to be genderized. See <a href="https://github.com/markfullmer/gendered_lit/blob/master/README.md">examples of required text elements.</a></label>
         <textarea class="u-full-width textbox" placeholder="Place words here..." name="text">' . $text . '</textarea>
       </div>
-      <div class="six columns"><input type="submit" name="json" value="Transform" />';
+      <div class="six columns"><input type="submit" name="json" value="Genderize" />';
 if (isset($_POST['text'])) {
   $start = microtime(TRUE);
-  echo '<p>' . GenderedText::process($text) . '</p>';
+  echo '<p>' . nl2br(GenderedText::process($text)) . '</p>';
   echo (microtime(TRUE) - $start) . ' seconds to complete operation.';
 }
 echo '

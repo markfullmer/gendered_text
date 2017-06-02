@@ -14,11 +14,12 @@ class GenderedText {
    *   The gendered text variant.
    */
   public static function process($text) {
-    $legend = self::legend($text);
+    $legend_string = self::findLegend($text);
+    $legend = self::parseLegend($legend_string);
     $placeholders = self::placeholders($text);
     $map = self::transform_replacements();
     // Strip the legend from the output.
-    $text = self::removeLegend($text);
+    $text = self::removeLegend($text, $legend_string);
     // Perform text replacements.
     $modified = self::replace($text, $placeholders, $legend, $map);
     return $modified;
@@ -95,10 +96,10 @@ class GenderedText {
     'she' => ['gender' => 'female', 'pos' => 'subject'],
     'ze' => ['gender' => 'trans', 'pos' => 'subject'],
     'him' => ['gender' => 'male', 'pos' => 'object'],
-    'her' => ['gender' => 'female', 'pos' => 'object', 'output' => 'her'],
+    'her' => ['gender' => 'female', 'pos' => 'object'],
     'hir' => ['gender' => 'trans', 'pos' => 'object'],
     'hisd' => ['gender' => 'male', 'pos' => 'determiner', 'output' => 'his'],
-    'herd' => ['gender' => 'female', 'pos' => 'determiner'],
+    'herd' => ['gender' => 'female', 'pos' => 'determiner', 'output' => 'her'],
     'hir' => ['gender' => 'trans', 'pos' => 'determiner'],
     'his' => ['gender' => 'male', 'pos' => 'possessive'],
     'hers' => ['gender' => 'female', 'pos' => 'possessive'],
@@ -129,12 +130,23 @@ class GenderedText {
    * @return string
    *   The text, minus the legend string, if it exists.
    */
-  public static function removeLegend($text) {
-    preg_match("/\[\[(.*)\]\]/", $text, $legend_string);
+  public static function removeLegend($text, $legend) {
+    return str_replace($legend, "", $text);
+  }
+
+  /**
+   * Retrieve the string that identifies the legend.
+   *
+   * @return string
+   *   The legend string, if it exists.
+   */
+  public static function findLegend($text) {
+    // Find text matching [[STRING][STRING]].
+    preg_match("/\[\s*\[(.*)\]\s*\]/", $text, $legend_string);
     if (isset($legend_string[0])) {
-      return str_replace($legend_string[0], "", $text);
+      return $legend_string[0];
     }
-    return $text;
+    return '';
   }
 
   /**
@@ -143,12 +155,11 @@ class GenderedText {
    * @return array
    *   The gendered text variant.
    */
-  public static function legend($text) {
+  public static function parseLegend($legend_string) {
     $legend = [];
     $legend['names'] = [];
-    preg_match("/\[\[(.*)\]\]/", $text, $legend_string);
-    if (isset($legend_string[0])) {
-      preg_match("/\[(.*)\]/", $legend_string[0], $no_brackets);
+    if ($legend_string != '') {
+      preg_match("/\[(.*)\]/", $legend_string, $no_brackets);
       preg_match_all("/\[[^\]]*\]/", $no_brackets[1], $personae);
       foreach ($personae[0] as $persona) {
         preg_match("/\[(.*)\]/", $persona, $values_no_brackets);
@@ -180,15 +191,15 @@ class GenderedText {
    *   The placeholders to check/replace.
    */
   public static function placeholders($text) {
+    $return = [];
     preg_match_all("/\{\{\s*(.*?)\s*\}\}/", $text, $placeholders);
     if (isset($placeholders[1])) {
       foreach ($placeholders[1] as $item) {
         preg_match("/(.*?)\((.*?)\)/", $item, $placholders_split);
         $return[$item] = $placholders_split;
       }
-      return $return;
     }
-    return [];
+    return $return;
   }
 
   /**
