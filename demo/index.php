@@ -1,47 +1,28 @@
 <?php
 
-/**
- * @file
- * Demonstration file of the PHP Porter 2 English stemming algorithm.
- */
-
-require '../vendor/autoload.php';
-
-use markfullmer\gendered_text\GenderedText;
-
-// Some default text.
-$text = '{{ She(Mindy) }} sells seashells
-
-
-[[Mindy:Mork:male]]';
-
-if (isset($_POST['text'])) {
-  $text = $_POST['text'];
-}
-echo '<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-</head>
-<body>';
-
-echo '
-<div class="container">
-  <form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">
+include 'header.php';
+?>
+<div class="section values">
+  <div class="container">
     <div class="row">
-      <div class="six columns">
-        <label for="text">Text to be genderized. See <a href="https://github.com/markfullmer/gendered_lit/blob/master/README.md">examples of required text elements.</a></label>
-        <textarea class="u-full-width textbox" placeholder="Place words here..." name="text">' . $text . '</textarea>
+      <div class="one-third column value">
+        <h3 class="value-multiplier">Prepare</h3>
+        <p class="value-heading">Replace gender markers in a standard text with placeholders to be used by the generator.</p>
+        <a class="button button-primary" href="prepare.php">Prepare</a>
       </div>
-      <div class="six columns"><input type="submit" name="json" value="Genderize" />';
-if (isset($_POST['text'])) {
-  echo '<p>' . nl2br(GenderedText::process($text)) . '</p>';
-}
-echo '
+      <div class="one-third column value">
+        <h3 class="value-multiplier">Test</h3>
+        <p class="value-description">Input a parameterized text, with a <a href="https://github.com/markfullmer/gendered_text">legend that defines each persona's gender</a>, and review the gendered output.</p>
+        <a class="button button-primary" href="test.php">Test</a>
+      </div>
+      <div class="one-third column value">
+        <h3 class="value-multiplier">Read</h3>
+        <p class="value-description">Choose from a list of prepared texts and dynamically select the gender for each character.</p>
+        <a class="button button-primary" href="read.php">Read</a>
       </div>
     </div>
-  </form>
+  </div>
 </div>
-</body>
-</html>';
+
+<?php
+include 'footer.php';

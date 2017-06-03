@@ -94,8 +94,9 @@ class GenderedText {
    */
   public static function addPlaceholders($text) {
     foreach (array_keys(self::$replacements) as $replacement) {
-      $text = preg_replace("/\s(" . $replacement . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
-      $text = preg_replace("/\s(" . ucfirst($replacement) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
+
+      $text = preg_replace("/\s(" . preg_quote($replacement) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
+      $text = preg_replace("/\s(" . ucfirst(preg_quote($replacement)) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
     }
     return $text;
   }
