@@ -129,7 +129,7 @@ class GenderedText {
     'hir' => ['gender' => 'trans', 'pos' => 'object'],
     'hisd' => ['gender' => 'male', 'pos' => 'determiner', 'output' => 'his'],
     'herd' => ['gender' => 'female', 'pos' => 'determiner', 'output' => 'her'],
-    'hir' => ['gender' => 'trans', 'pos' => 'determiner'],
+    'hird' => ['gender' => 'trans', 'pos' => 'determiner'],
     'his' => ['gender' => 'male', 'pos' => 'possessive'],
     'hers' => ['gender' => 'female', 'pos' => 'possessive'],
     'hirs' => ['gender' => 'trans', 'pos' => 'possessive'],
@@ -151,18 +151,23 @@ class GenderedText {
     'man' => ['gender' => 'male', 'pos' => 'gender'],
     'woman' => ['gender' => 'female', 'pos' => 'gender'],
     'person' => ['gender' => 'trans', 'pos' => 'gender'],
+
     'boy' => ['gender' => 'male', 'pos' => 'child'],
     'girl' => ['gender' => 'female', 'pos' => 'child'],
     'child' => ['gender' => 'trans', 'pos' => 'child'],
+
     'son' => ['gender' => 'male', 'pos' => 'offspring'],
     'daughter' => ['gender' => 'female', 'pos' => 'offspring'],
     'youth' => ['gender' => 'trans', 'pos' => 'offspring'],
+
     'prince' => ['gender' => 'male', 'pos' => 'sovereign'],
     'princess' => ['gender' => 'female', 'pos' => 'sovereign'],
     'sovereign' => ['gender' => 'trans', 'pos' => 'sovereign'],
+
     'king' => ['gender' => 'male', 'pos' => 'ruler'],
     'queen' => ['gender' => 'female', 'pos' => 'ruler'],
     'ruler' => ['gender' => 'trans', 'pos' => 'ruler'],
+
     'father' => ['gender' => 'male', 'pos' => 'parent'],
     'mother' => ['gender' => 'female', 'pos' => 'parent'],
     'parent' => ['gender' => 'trans', 'pos' => 'parent'],

@@ -1,6 +1,4 @@
-Ernest Hemingway, Hills Like White Elephants
-
-[[Jig/Jim/Jym:female][Man/Woman/Partner:male][Waitress/Waiter/Steward:female]]
+<h3>Ernest Hemingway, Hills Like White Elephants</h3>
 The hills across the valley of the Ebro were long and white. On this side there was no shade and no trees and the station was between two lines of rails in the sun. Close against the side of the station there was the warm shadow of the building and a curtain, made of strings of bamboo beads, hung across the open door into the bar, to keep out flies. The American and the {{ girl(Jig) }} with {{ him(Man) }} sat at a table in the shade, outside the building. It was very hot and the express from Barcelona would come in forty minutes. It stopped at this junction for two minutes and went to Madrid.
 
 ‘What should we drink?’ the {{ girl(Jig) }} asked. {{ She(Jig) }} had taken off {{ herd(Jig) }} hat and put it on the table.
@@ -99,7 +97,7 @@ The {{ girl(Jig) }} stood up and walked to the end of the station. Across, on th
 ‘All right. But you’ve got to realize – ‘
 ‘I realize,’ the {{ girl(Jig) }} said. ‘Can’t we maybe stop talking?’
 
-They sat down at the table and the {{ girl(Jig) }} looked across at the hills on the dry side of the valley and the {{ man(Man) }} looked at {{ her(Jig) }} and at the table.
+They sat down at the table and the {{ girl(Jig) }} looked across at the hills on the dry side of the valley and the {{ man(Man) }} looked at {{ herd(Jig) }} and at the table.
 
 ‘You’ve got to realize,’ {{ he(Man) }} said, ‘ that I don’t want you to do it if you don’t want to. I’m perfectly willing to go through with it if it means anything to you.’
 ‘Doesn’t it mean anything to you? We could get along.’
@@ -124,3 +122,4 @@ The {{ girl(Jig) }} smiled brightly at the {{ woman(Waitress) }}, to thank {{ he
 
 ‘Do you feel better?’ {{ he(Man) }} asked.
 ‘I feel fine,’ {{ she(Jig) }} said. ‘There’s nothing wrong with me. I feel fine.’
+[[Jig/Jim/Jym:female][Man/Woman/Partner:male][Waitress/Waiter/Steward:female]]
