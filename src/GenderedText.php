@@ -102,6 +102,20 @@ class GenderedText {
   }
 
   /**
+   * Given an array of character names => gender, construct the legend string.
+   *
+   * @return string
+   *   A standard legend string format [[character:gender][character:gender]].
+   */
+  public static function buildLegend($POST) {
+    $legend = '';
+    foreach ($POST as $character => $gender) {
+      $legend .= '[' . $character . ':' . $gender . ']';
+    }
+    return '[' . $legend . ']';
+  }
+
+  /**
    * Machine-first mapping of all words.
    *
    * @var replacements
@@ -137,6 +151,21 @@ class GenderedText {
     'man' => ['gender' => 'male', 'pos' => 'gender'],
     'woman' => ['gender' => 'female', 'pos' => 'gender'],
     'person' => ['gender' => 'trans', 'pos' => 'gender'],
+    'boy' => ['gender' => 'male', 'pos' => 'child'],
+    'girl' => ['gender' => 'female', 'pos' => 'child'],
+    'child' => ['gender' => 'trans', 'pos' => 'child'],
+    'son' => ['gender' => 'male', 'pos' => 'offspring'],
+    'daughter' => ['gender' => 'female', 'pos' => 'offspring'],
+    'youth' => ['gender' => 'trans', 'pos' => 'offspring'],
+    'prince' => ['gender' => 'male', 'pos' => 'sovereign'],
+    'princess' => ['gender' => 'female', 'pos' => 'sovereign'],
+    'sovereign' => ['gender' => 'trans', 'pos' => 'sovereign'],
+    'king' => ['gender' => 'male', 'pos' => 'ruler'],
+    'queen' => ['gender' => 'female', 'pos' => 'ruler'],
+    'ruler' => ['gender' => 'trans', 'pos' => 'ruler'],
+    'father' => ['gender' => 'male', 'pos' => 'parent'],
+    'mother' => ['gender' => 'female', 'pos' => 'parent'],
+    'parent' => ['gender' => 'trans', 'pos' => 'parent'],
   ];
 
   /**

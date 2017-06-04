@@ -21,7 +21,7 @@
     <div class="container">
       <div class="row">
         <div class="two-thirds column">
-          <h1 class="hero-heading">Gendered Text Generator</h1>
+          <h1 class="hero-heading">Gendered Text Project</h1>
         </div>
         <div class="one-third column">
           <a class="button" href="//<?php echo $_SERVER['SERVER_NAME']; ?>/demo/">Home</a>&nbsp;&nbsp;<a class="button" href="https://github.com/markfullmer/gendered_text">Source</a>
