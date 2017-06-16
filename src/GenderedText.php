@@ -158,7 +158,7 @@ class GenderedText {
 
     'son' => ['gender' => 'male', 'pos' => 'offspring'],
     'daughter' => ['gender' => 'female', 'pos' => 'offspring'],
-    'youth' => ['gender' => 'trans', 'pos' => 'offspring'],
+    'child' => ['gender' => 'trans', 'pos' => 'offspring'],
 
     'prince' => ['gender' => 'male', 'pos' => 'sovereign'],
     'princess' => ['gender' => 'female', 'pos' => 'sovereign'],
@@ -167,10 +167,88 @@ class GenderedText {
     'king' => ['gender' => 'male', 'pos' => 'ruler'],
     'queen' => ['gender' => 'female', 'pos' => 'ruler'],
     'ruler' => ['gender' => 'trans', 'pos' => 'ruler'],
+    
+    'nephew' => ['gender' => 'male', 'pos' => 'child'],
+    'niece' => ['gender' => 'female', 'pos' => 'child'],
+    'siblings child' => ['gender' => 'trans', 'pos' => 'child'],
 
     'father' => ['gender' => 'male', 'pos' => 'parent'],
     'mother' => ['gender' => 'female', 'pos' => 'parent'],
     'parent' => ['gender' => 'trans', 'pos' => 'parent'],
+    
+    'footman' => ['gender' => 'male', 'pos' => 'servant'],
+    'maid' => ['gender' => 'female', 'pos' => 'servant'],
+    'servant' => ['gender' => 'trans', 'pos' => 'servant'],
+    
+    'barber shop' => ['gender' => 'male', 'pos' => 'hair salon'],
+    'beauty parlor' => ['gender' => 'female', 'pos' => 'hair salon'],
+    'hair salon' => ['gender' => 'trans', 'pos' => 'hair salon'],
+    
+     'butler' => ['gender' => 'male', 'pos' => 'servant'],
+    'housekeeper' => ['gender' => 'female', 'pos' => 'servant'],
+    'servant' => ['gender' => 'trans', 'pos' => 'servant'],
+    
+    'sir' => ['gender' => 'male', 'pos' => 'Honorific'],
+    'ma-am' => ['gender' => 'female', 'pos' => 'Honorific'],
+    'your honor' => ['gender' => 'trans', 'pos' => 'Honorific'],
+    'lord' => ['gender' => 'male', 'pos' => 'Honorific'],
+    'lady' => ['gender' => 'female', 'pos' => 'Honorific'],
+    'your honor' => ['gender' => 'trans', 'pos' => 'Honorific'],
+    'Duke' => ['gender' => 'male', 'pos' => 'Honorific'],
+    'Duchess' => ['gender' => 'female', 'pos' => 'Honorific'],
+    'your honor' => ['gender' => 'trans', 'pos' => 'Honorific'],
+    
+    'trousers' => ['gender' => 'male', 'pos' => 'clothes'],
+    'skirt' => ['gender' => 'female', 'pos' => 'clothes'],
+    'trousers' => ['gender' => 'trans', 'pos' => 'clothes'],
+    'suit' => ['gender' => 'male', 'pos' => 'clothes'],
+    'dress' => ['gender' => 'female', 'pos' => 'clothes'],
+    'suit' => ['gender' => 'trans', 'pos' => 'clothes'],
+    'tuxedo' => ['gender' => 'male', 'pos' => 'clothes'],
+    'gown' => ['gender' => 'female', 'pos' => 'clothes'],
+    'outfit' => ['gender' => 'trans', 'pos' => 'clothes'],
+    
+     'lad' => ['gender' => 'male', 'pos' => 'kid'],
+    'lass' => ['gender' => 'female', 'pos' => 'kid'],
+    'kid' => ['gender' => 'trans', 'pos' => 'kid'],
+    
+     'sonny' => ['gender' => 'male', 'pos' => 'affectionate'],
+    'sweetie' => ['gender' => 'female', 'pos' => 'affectionate'],
+    'dear' => ['gender' => 'trans', 'pos' => 'affectionate'],
+    
+     'tenor' => ['gender' => 'male', 'pos' => 'high voice'],
+    'soprano' => ['gender' => 'female', 'pos' => 'high voice'],
+    'high pitched voice' => ['gender' => 'trans', 'pos' => 'voice'],
+      'baritone' => ['gender' => 'male', 'pos' => 'med voice'],
+    'contralto' => ['gender' => 'female', 'pos' => 'med voice'],
+    'medium pitched voice' => ['gender' => 'trans', 'pos' => 'voice'],
+      'bass' => ['gender' => 'male', 'pos' => 'low voice'],
+    'alto' => ['gender' => 'female', 'pos' => 'low voice'],
+    'low pitched voice' => ['gender' => 'trans', 'pos' => 'low voice'],
+    
+     'men' => ['gender' => 'male', 'pos' => 'plural'],
+    'women' => ['gender' => 'female', 'pos' => 'plural'],
+    'men and women' => ['gender' => 'trans', 'pos' => 'plural'],
+    
+    'gentlemen' => ['gender' => 'male', 'pos' => 'formal plural'],
+    'ladies' => ['gender' => 'female', 'pos' => 'formal plural'],
+    'ladies and gentlemen' => ['gender' => 'trans', 'pos' => 'formal plural'],
+    
+       'male' => ['gender' => 'male', 'pos' => 'sex'],
+    'female' => ['gender' => 'female', 'pos' => 'sex'],
+    'nonbinary' => ['gender' => 'trans', 'pos' => 'sex'],
+    
+    
+       'fellow' => ['gender' => 'male', 'pos' => 'pal'],
+    'dame' => ['gender' => 'female', 'pos' => 'pal'],
+    'pal' => ['gender' => 'trans', 'pos' => 'pal'],
+    
+     'Wild Bill Hickock' => ['gender' => 'male', 'pos' => 'Wild Card'],
+    'Calamity Jane' => ['gender' => 'female', 'pos' => 'Wild Card'],
+    'Wild Card' => ['gender' => 'trans', 'pos' => 'Wild Card'],
+    
+    
+   // 
   ];
 
   /**
