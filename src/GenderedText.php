@@ -113,6 +113,9 @@ class GenderedText {
   public static function buildLegend($POST) {
     $legend = '';
     foreach ($POST as $character => $gender) {
+      if ($gender == 'random') {
+        $gender = array_rand(array_flip(['male', 'female', 'trans']));
+      }
       $legend .= '[' . $character . ':' . $gender . ']';
     }
     return '[' . $legend . ']';

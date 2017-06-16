@@ -48,6 +48,7 @@ elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
             }
             echo '>' . ucfirst($gender) . '</option>';
           }
+          echo '<option value="random">Surprise me!</option>';
           echo '</select>';
           $set[] = $list;
         }
