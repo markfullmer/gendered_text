@@ -76,23 +76,23 @@ $replacements = [
 
   'sir' => ['gender' => 'male', 'pos' => 'honorific1'],
   'ma-am' => ['gender' => 'female', 'pos' => 'honorific1'],
-  'your honor' => ['gender' => 'trans', 'pos' => 'honorific1'],
+  'your honor1' => ['gender' => 'trans', 'pos' => 'honorific1', 'output' => 'your honor'],
 
   'lord' => ['gender' => 'male', 'pos' => 'honorific2'],
   'lady' => ['gender' => 'female', 'pos' => 'honorific2'],
-  'your honor' => ['gender' => 'trans', 'pos' => 'honorific2'],
+  'your honor2' => ['gender' => 'trans', 'pos' => 'honorific2', 'output' => 'your honor'],
 
   'duke' => ['gender' => 'male', 'pos' => 'honorific3'],
   'duchess' => ['gender' => 'female', 'pos' => 'honorific3'],
-  'your honor' => ['gender' => 'trans', 'pos' => 'honorific3'],
+  'your honor3' => ['gender' => 'trans', 'pos' => 'honorific3', 'output' => 'your honor'],
 
   'trousers' => ['gender' => 'male', 'pos' => 'clothes1'],
   'skirt' => ['gender' => 'female', 'pos' => 'clothes1'],
-  'trousers' => ['gender' => 'trans', 'pos' => 'clothes1'],
+  'trousersn' => ['gender' => 'trans', 'pos' => 'clothes1', 'output' => 'trousers'],
 
   'suit' => ['gender' => 'male', 'pos' => 'clothes2'],
   'dress' => ['gender' => 'female', 'pos' => 'clothes2'],
-  'suit' => ['gender' => 'trans', 'pos' => 'clothes2'],
+  'suitn' => ['gender' => 'trans', 'pos' => 'clothes2', 'output' => 'trousers'],
 
   'tuxedo' => ['gender' => 'male', 'pos' => 'clothes3'],
   'gown' => ['gender' => 'female', 'pos' => 'clothes3'],
