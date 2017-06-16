@@ -9,11 +9,6 @@ require '../vendor/autoload.php';
 include 'header.php';
 use markfullmer\gendered_text\GenderedText;
 
-$options = [
-  'The Frog Prince',
-  'Hills Like White Elephants',
-  'Alice in Wonderland',
-];
 if (empty($_GET['text'])) {
   echo '<div class="container"><div class="six columns"><label for="text">Choose a text to read:</label>';
   $dir = __DIR__ . '/texts/';
@@ -26,55 +21,59 @@ if (empty($_GET['text'])) {
   }
   echo '</div>';
 }
-elseif (!empty($_GET['text']) && in_array($_GET['text'], $options) && empty($_POST['characters'])) {
-  $dir = __DIR__ . '/texts/';
-  $handle = @fopen($dir . $_GET['text'] . '.txt', "r");
-  $text = fread($handle, filesize($dir . $_GET['text'] . '.txt'));
-  $legend_string = GenderedText::findLegend($text);
-  $legend = GenderedText::parseLegend($legend_string);
-  $set = [];
-  $genders = ['male', 'female', 'trans'];
-  echo '<div class="container">
-  <form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">
-    <div class="row">
-      <div class="twelve columns">';
-  echo '<h4>You will be reading ' . $_GET['text'] . '</h4>';
-  foreach ($legend as $key => $values) {
-    if ($key != 'names') {
-      $list = implode('/', $values['names']);
-      if (!in_array($list, $set)) {
-        echo '<label for="characters[' . $list . ']">Gender for "' . $list . '": ';
-        echo '<select name="characters[' . $list . ']">';
-        foreach ($genders as $gender) {
-          echo '<option value="' . $gender . '"';
-          if ($gender == $values['gender']) {
-            echo ' selected="selected"';
+elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
+  $file = __DIR__ . '/texts/' . $_GET['text'] . '.txt';
+  if (file_exists($file)) {
+    $handle = @fopen($file, "r");
+    $text = fread($handle, filesize($file));
+    $legend_string = GenderedText::findLegend($text);
+    $legend = GenderedText::parseLegend($legend_string);
+    $set = [];
+    $genders = ['male', 'female', 'trans'];
+    echo '<div class="container">
+    <form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">
+      <div class="row">
+        <div class="twelve columns">';
+    echo '<h4>You will be reading ' . $_GET['text'] . '</h4>';
+    foreach ($legend as $key => $values) {
+      if ($key != 'names') {
+        $list = implode('/', $values['names']);
+        if (!in_array($list, $set)) {
+          echo '<label for="characters[' . $list . ']">Gender for "' . $list . '": ';
+          echo '<select name="characters[' . $list . ']">';
+          foreach ($genders as $gender) {
+            echo '<option value="' . $gender . '"';
+            if ($gender == $values['gender']) {
+              echo ' selected="selected"';
+            }
+            echo '>' . ucfirst($gender) . '</option>';
           }
-          echo '>' . ucfirst($gender) . '</option>';
+          echo '</select>';
+          $set[] = $list;
         }
-        echo '</select>';
-        $set[] = $list;
       }
     }
-  }
-  echo '<br /><input class="button button-primary" type="submit" name="submit" value="Read the text" />';
-  echo '
+    echo '<br /><input class="button button-primary" type="submit" name="submit" value="Read the text" />';
+    echo '
+        </div>
       </div>
-    </div>
-  </form>
-</div>';
+    </form>
+  </div>';
+  }
 
 }
-elseif (!empty($_GET['text']) && in_array($_GET['text'], $options) && !empty($_POST['characters'])) {
+elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
   $file = __DIR__ . '/texts/' . $_GET['text'] . '.txt';
-  $handle = @fopen($file, "r");
-  $text = fread($handle, filesize($file));
-  $legend_string = GenderedText::findLegend($text);
-  $text = GenderedText::removeLegend($text, $legend_string);
-  $legend = GenderedText::buildLegend($_POST['characters']);
-  echo '<div class="container">';
-  echo '<p>' . nl2br(GenderedText::process($text . $legend)) . '</p>';
-  echo '<a class="button" href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '">Back to gender selector</a>';
-  echo '</div>';
+  if (file_exists($file)) {
+    $handle = @fopen($file, "r");
+    $text = fread($handle, filesize($file));
+    $legend_string = GenderedText::findLegend($text);
+    $text = GenderedText::removeLegend($text, $legend_string);
+    $legend = GenderedText::buildLegend($_POST['characters']);
+    echo '<div class="container">';
+    echo '<a class="button" href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '">Back to gender selector</a>';
+    echo '<p>' . nl2br(GenderedText::process($text . $legend)) . '</p>';
+    echo '</div>';
+  }
 }
 include 'footer.php';

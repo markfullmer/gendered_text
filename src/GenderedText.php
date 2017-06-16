@@ -41,10 +41,12 @@ class GenderedText {
         }
         if (!empty($legend_map)) {
           $gender = $legend_map['gender'];
+          // Default to first name in legend.
+          $name = $legend_map['names']['female'];
           if (!empty($legend_map['names'][$gender])) {
             $name = $legend_map['names'][$gender];
           }
-          $text = preg_replace("/{{\s*" . $key . "\s*}}/i", $name, $text);
+          $text = preg_replace("/{{\s*" . preg_quote($key) . "\s*}}/i", $name, $text);
         }
       }
       else {
