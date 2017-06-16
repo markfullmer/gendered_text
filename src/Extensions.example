@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Extensions file.
+ *
+ * Copy this file and rename it to "Extensions.php" from "Extension.example".
+ * Using the array syntax demonstrated below, you can add custom extensions
+ * to your instance of the Gendered Text project and continue to update the
+ * original library without conflict.
+ *
+ * If you have "keys" (the leftmost item) that match those in WordMap.php,
+ * your keys in this file will take precedence.
+ *
+ * The "pos" (part-of-speech) must be unique for each triplet.
+ *
+ * Keys should be entered as lowercase. Case matching will happen automatically
+ * from the source text.
+ */
+
+$extensions = [
+  'foo' => ['gender' => 'male', 'pos' => 'foo'],
+  'baz' => ['gender' => 'female', 'pos' => 'foo'],
+  'bat' => ['gender' => 'trans', 'pos' => 'foo'],
+];
