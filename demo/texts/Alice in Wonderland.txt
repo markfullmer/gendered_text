@@ -1,0 +1,566 @@
+<h3>{{Alice}} in Wonderland</h3>
+
+ By Lewis Carroll. Published in 1916. <a href="http://www.gutenberg.org/files/19033/19033-h/19033-h.htm">Original text</a> from Project Gutenberg.
+
+
+I—DOWN THE RABBIT-HOLE
+
+{{Alice}} was beginning to get very tired of sitting by {{ herd(Alice) }} {{ sister(Sibling) }} on the bank, and of having nothing to do. Once or twice {{ she(Alice) }} had peeped into the book {{ her(Alice) }} {{ sister(Sibling) }} was reading, but it had no pictures or conversations in it, "and what is the use of a book," thought {{Alice}}, "without pictures or conversations?"
+So {{ she(Alice) }} was considering in {{ her(Alice) }} own mind (as well as {{ she(Alice) }} could, for the day made {{ her(Alice) }} feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by {{ her(Alice) }}.
+
+There was nothing so very remarkable in that, nor did {{Alice}} think it so very much out of the way to hear the Rabbit say to itself, "Oh dear! Oh dear! I shall be too late!" But when the Rabbit actually took a watch out of its pocket and looked at it and then hurried on, {{Alice}} started to {{ her(Alice) }} feet, for it flashed across {{ her(Alice) }} mind that {{ she(Alice) }} had never before seen a rabbit with either a pocket, or a watch to take out of it, and, burning with curiosity, {{ she(Alice) }} ran across the field after it and was just in time to see it pop down a large rabbit-hole, under the hedge. In another moment, down went {{Alice}} after it!
+
+The rabbit-hole went straight on like a tunnel for some way and then dipped suddenly down, so suddenly that {{Alice}} had not a moment to think about stopping {{ herself(Alice) }} before {{ she(Alice) }} found {{ herself(Alice) }} falling down what seemed to be a very deep well.
+
+Either the well was very deep, or {{ she(Alice) }} fell very slowly, for {{ she(Alice) }} had plenty of time, as {{ she(Alice) }} went down, to look about {{ her(Alice) }}. First, {{ she(Alice) }} tried to make out what {{ she(Alice) }} was coming to, but it was too dark to see anything; then {{ she(Alice) }} looked at the sides of the well and noticed that they were filled with cupboards and book-shelves; here and there {{ she(Alice) }} saw maps and pictures hung upon pegs. {{ She(Alice) }} took down a jar from one of the shelves as {{ she(Alice) }} passed. It was labeled "ORANGE MARMALADE," but, to {{ her(Alice) }} great disappointment, it was empty; {{ she(Alice) }} did not like to drop the jar, so managed to put it into one of the cupboards as {{ she(Alice) }} fell past it.
+
+Down, down, down! Would the fall never come to an end? There was nothing else to do, so {{Alice}} soon began talking to {{ herself(Alice) }}. "{{Dinah}}'ll miss me very much to-night, I should think!" ({{Dinah}} was the cat.) "I hope they'll remember {{ her(Dinah) }} saucer of milk at tea-time. {{Dinah}}, my dear, I wish you were down here with me!" {{Alice}} felt that {{ she(Alice) }} was dozing off, when suddenly, thump! thump! down {{ she(Alice) }} came upon a heap of sticks and dry leaves, and the fall was over.
+
+{{Alice}} was not a bit hurt, and {{ she(Alice) }} jumped up in a moment. {{ She(Alice) }} looked up, but it was all dark overhead; before {{ her(Alice) }} was another long passage and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost. Away went {{Alice}} like the wind and was just in time to hear it say, as it turned a corner, "Oh, my ears and whiskers, how late it's getting!" {{ She(Alice) }} was close behind it when {{ she(Alice) }} turned the corner, but the Rabbit was no longer to be seen.
+{{ She(Alice) }} found {{ herself(Alice) }} in a long, low hall, which was lit up by a row of lamps hanging from the roof. There were doors all 'round the hall, but they were all locked; and when {{Alice}} had been all the way down one side and up the other, trying every door, {{ she(Alice) }} walked sadly down the middle, wondering how {{ she(Alice) }} was ever to get out again.
+
+Suddenly {{ she(Alice) }} came upon a little table, all made of solid glass. There was nothing on it but a tiny golden key, and {{Alice}}'s first idea was that this might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but, at any rate, it would not open any of them. However, on the second time 'round, {{ she(Alice) }} came upon a low curtain {{ she(Alice) }} had not noticed before, and behind it was a little door about fifteen inches high. {{ She(Alice) }} tried the little golden key in the lock, and to {{ her(Alice) }} great delight, it fitted!
+
+{{Alice}} opened the door and found that it led into a small passage, not much larger than a rat-hole; {{ she(Alice) }} knelt down and looked along the passage into the loveliest garden you ever saw. How {{ she(Alice) }} longed to get out of that dark hall and wander about among those beds of bright flowers and those cool fountains, but {{ she(Alice) }} could not even get {{ her(Alice) }} head through the doorway. "Oh," said {{Alice}}, "how I wish I could shut up like a telescope! I think I could, if I only knew how to begin."
+
+{{Alice}} went back to the table, half hoping {{ she(Alice) }} might find another key on it, or at any rate, a book of rules for shutting people up like telescopes. This time {{ she(Alice) }} found a little bottle on it ("which certainly was not here before," said {{Alice}}), and tied 'round the neck of the bottle was a paper label, with the words "DRINK ME" beautifully printed on it in large letters.
+"No, I'll look first," {{ she(Alice) }} said, "and see whether it's marked 'poison' or not," for {{ she(Alice) }} had never forgotten that, if you drink from a bottle marked "poison," it is almost certain to disagree with you, sooner or later. However, this bottle was not marked "poison," so {{Alice}} ventured to taste it, and, finding it very nice (it had a sort of mixed flavor of cherry-tart, custard, pineapple, roast turkey, toffy and hot buttered toast), {{ she(Alice) }} very soon finished it off.
+
+"What a curious feeling!" said {{Alice}}. "I must be shutting up like a telescope!"
+And so it was indeed! {{ She(Alice) }} was now only ten inches high, and {{ her(Alice) }} face brightened up at the thought that {{ she(Alice) }} was now the right size for going through the little door into that lovely garden.
+
+After awhile, finding that nothing more happened, {{ she(Alice) }} decided on going into the garden at once; but, alas for poor {{Alice}}! When {{ she(Alice) }} got to the door, {{ she(Alice) }} found {{ she(Alice) }} had forgotten the little golden key, and when {{ she(Alice) }} went back to the table for it, {{ she(Alice) }} found {{ she(Alice) }} could not possibly reach it: {{ she(Alice) }} could see it quite plainly through the glass and {{ she(Alice) }} tried {{ her(Alice) }} best to climb up one of the legs of the table, but it was too slippery, and when {{ she(Alice) }} had tired {{ herself(Alice) }} out with trying, the poor little thing sat down and cried.
+
+"Come, there's no use in crying like that!" said {{Alice}} to {{ herself(Alice) }} rather sharply. "I advise you to leave off this minute!" {{ She(Alice) }} generally gave {{ herself(Alice) }} very good advice (though {{ she(Alice) }} very seldom followed it), and sometimes {{ she(Alice) }} scolded {{ herself(Alice) }} so severely as to bring tears into {{ her(Alice) }} eyes.
+Soon {{ her(Alice) }} eye fell on a little glass box that was lying under the table: {{ she(Alice) }} opened it and found in it a very small cake, on which the words "EAT ME" were beautifully marked in currants. "Well, I'll eat it," said {{Alice}}, "and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I'll get into the garden, and I don't care which happens!"
+{{ She(Alice) }} ate a little bit and said anxiously to {{ herself(Alice) }}, "Which way? Which way?" holding {{ her(Alice) }} hand on the top of {{ her(Alice) }} head to feel which way {{ she(Alice) }} was growing; and {{ she(Alice) }} was quite surprised to find that {{ she(person) }} remained the same size. So {{ she(Alice) }} set to work and very soon finished off the cake.
+
+
+II—THE POOL OF TEARS
+"Curiouser and curiouser!" cried {{Alice}} (she was so much surprised that for the moment {{ she(Alice) }} quite forgot how to speak good English). "Now I'm opening out like the largest telescope that ever was! Good-by, feet! Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I shall be a great deal too far off to trouble myself about you."
+
+Just at this moment {{ her(Alice) }} head struck against the roof of the hall; in fact, {{ she(Alice) }} was now rather more than nine feet high, and {{ she(Alice) }} at once took up the little golden key and hurried off to the garden door.
+
+Poor {{Alice}}! It was as much as {{ she(Alice) }} could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever. {{ She(Alice) }} sat down and began to cry again.
+
+{{ She(Alice) }} went on shedding gallons of tears, until there was a large pool all 'round {{ her(Alice) }} and reaching half down the hall.
+
+After a time, {{ she(Alice) }} heard a little pattering of feet in the distance and {{ she(Alice) }} hastily dried {{ her(Alice) }} eyes to see what was coming. It was the White Rabbit returning, splendidly dressed, with a pair of white kid-gloves in one hand and a large fan in the other. {{ He(Rabbit) }} came trotting along in a great hurry, muttering to {{ himself(Rabbit) }}, "Oh! the {{Duchess}}, the {{Duchess}}! Oh! won't {{ she(Duchess) }} be savage if I've kept {{ her(Duchess) }} waiting!"
+
+When the Rabbit came near {{ her(Alice ) }}, {{Alice}} began, in a low, timid voice, "If you please, {{sir(Rabbit)}}—" The Rabbit started violently, dropped the white kid-gloves and the fan and scurried away into the darkness as hard as {{ he(Rabbit) }} could go.
+
+{{Alice}} took up the fan and gloves and {{ she(Alice) }} kept fanning {{ herself(Alice) }} all the time {{ she(Alice) }} went on talking. "Dear, dear! How queer everything is to-day! And yesterday things went on just as usual. Was I the same when I got up this morning? But if I'm not the same, the next question is, 'Who in the world am I?' Ah, that's the great puzzle!"
+As {{ she(Alice) }} said this, {{ she(Alice) }} looked down at {{ her(Alice) }} hands and was surprised to see that {{ she(Alice) }} had put on one of the Rabbit's little white kid-gloves while {{ she(Alice) }} was talking. "How can I have done that?" {{ she(Alice) }} thought. "I must be growing small again." {{ She(Alice) }} got up and went to the table to measure {{ herself(Alice) }} by it and found that {{ she(Alice) }} was now about two feet high and was going on shrinking rapidly. {{ She(Alice) }} soon found out that the cause of this was the fan {{ she(Alice) }} was holding and {{ she(Alice) }} dropped it hastily, just in time to save {{ herself(Alice) }} from shrinking away altogether.
+
+"That was a narrow escape!" said {{Alice}}, a good deal frightened at the sudden change, but very glad to find {{ herself(Alice) }} still in existence. "And now for the garden!" And {{ she(Alice) }} ran with all speed back to the little door; but, alas! the little door was shut again and the little golden key was lying on the glass table as before. "Things are worse than ever," thought the poor {{ child(Alice) }}, "for I never was so small as this before, never!"
+
+As {{ she(Alice) }} said these words, {{ her(Alice) }} foot slipped, and in another moment, splash! {{ she(Alice) }} was up to {{ her(Alice) }} chin in salt-water. {{ Her(Alice) }} first idea was that {{ she(Alice) }} had somehow fallen into the sea. However, {{ she(Alice) }} soon made out that {{ she(Alice) }} was in the pool of tears which {{ she(Alice) }} had wept when {{ she(Alice) }} was nine feet high.
+
+Just then {{ she(Alice) }} heard something splashing about in the pool a little way off, and {{ she(Alice) }} swam nearer to see what it was: {{ she(Alice) }} soon made out that it was only a mouse that had slipped in like {{ herself(Alice) }}.
+
+"Would it be of any use, now," thought {{Alice}}, "to speak to this mouse? Everything is so out-of-the-way down here that I should think very likely it can talk; at any rate, there's no harm in trying." So {{ she(Alice) }} began, "O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!" The Mouse looked at {{ her(Alice) }} rather inquisitively and seemed to {{ her(Alice) }} to wink with one of its little eyes, but it said nothing.
+
+"Perhaps it doesn't understand English," thought {{Alice}}. "I dare say it's a French mouse, come over with William the Conqueror." So {{ she(Alice) }} began again: "Où est ma chatte?" which was the first sentence in {{ her(Alice) }} French lesson-book. The Mouse gave a sudden leap out of the water and seemed to quiver all over with fright. "Oh, I beg your pardon!" cried {{Alice}} hastily, afraid that {{ she(Alice) }} had hurt the poor animal's feelings. "I quite forgot you didn't like cats."
+
+"Not like cats!" cried the Mouse in a shrill, passionate voice. "Would you like cats, if you were me?"
+
+"Well, perhaps not," said {{Alice}} in a soothing tone; "don't be angry about it. And yet I wish I could show you our cat {{Dinah}}. I think you'd take a fancy to cats, if you could only see {{ her(Dinah) }}. {{ She(Dinah) }} is such a dear, quiet thing." The Mouse was bristling all over and {{ she(Alice) }} felt certain it must be really offended. "We won't talk about {{ her(Dinah) }} any more, if you'd rather not."
+"We, indeed!" cried the Mouse, who was trembling down to the end of its tail. "As if I would talk on such a subject! Our family always hated cats—nasty, low, vulgar things! Don't let me hear the name again!"
+
+"I won't indeed!" said {{Alice}}, in a great hurry to change the subject of conversation. "Are you—are you fond—of—of dogs? There is such a nice little dog near our house, I should like to show you! It kills all the rats and—oh, dear!" cried {{Alice}} in a sorrowful tone. "I'm afraid I've offended it again!" For the Mouse was swimming away from {{ her(Alice) }} as hard as it could go, and making quite a commotion in the pool as it went.
+So {{ she(Alice) }} called softly after it, "Mouse dear! Do come back again, and we won't talk about cats, or dogs either, if you don't like them!" When the Mouse heard this, it turned 'round and swam slowly back to {{ her(Alice) }}; its face was quite pale, and it said, in a low, trembling voice, "Let us get to the shore and then I'll tell you my history and you'll understand why it is I hate cats and dogs."
+
+It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it; there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. {{Alice}} led the way and the whole party swam to the shore.
+
+
+III—A CAUCUS-RACE AND A LONG TALE
+They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross and uncomfortable.
+
+The first question, of course, was how to get dry again. They had a consultation about this and after a few minutes, it seemed quite natural to {{Alice}} to find {{ herself(Alice) }} talking familiarly with them, as if {{ she(Alice) }} had known them all {{ her(Alice) }} life.
+At last the Mouse, who seemed to be a person of some authority among them, called out, "Sit down, all of you, and listen to me! I'll soon make you dry enough!" They all sat down at once, in a large ring, with the Mouse in the middle.
+
+"Ahem!" said the Mouse with an important air. "Are you all ready? This is the driest thing I know. Silence all 'round, if you please! 'William the Conqueror, whose cause was favored by the pope, was soon submitted to by the English, who wanted leaders, and had been of late much accustomed to usurpation and conquest. Edwin and Morcar, the Earls of Mercia and Northumbria'—"
+
+"Ugh!" said the Lory, with a shiver.
+
+"—'And even Stigand, the patriotic archbishop of Canterbury, found it advisable'—"
+"Found what?" said the Duck.
+
+"Found it," the Mouse replied rather crossly; "of course, you know what 'it' means."
+
+"I know what 'it' means well enough, when I find a thing," said the Duck; "it's generally a frog or a worm. The question is, what did the archbishop find?"
+
+The Mouse did not notice this question, but hurriedly went on, "'—found it advisable to go with Edgar Atheling to meet William and offer him the crown.'—How are you getting on now, my dear?" it continued, turning to {{Alice}} as it spoke.
+
+"As wet as ever," said {{Alice}} in a melancholy tone; "it doesn't seem to dry me at all."
+"In that case," said the Dodo solemnly, rising to its feet, "I move that the meeting adjourn, for the immediate adoption of more energetic remedies—"
+
+"Speak English!" said the Eaglet. "I don't know the meaning of half those long words, and, what's more, I don't believe you do either!"
+
+"What I was going to say," said the Dodo in an offended tone, "is that the best thing to get us dry would be a Caucus-race."
+
+"What is a Caucus-race?" said {{Alice}}.
+
+"Why," said the Dodo, "the best way to explain it is to do it." First it marked out a race-course, in a sort of circle, and then all the party were placed along the course, here and there. There was no "One, two, three and away!" but they began running when they liked and left off when they liked, so that it was not easy to know when the race was over. However, when they had been running half an hour or so and were quite dry again, the Dodo suddenly called out, "The race is over!" and they all crowded 'round it, panting and asking, "But who has won?"
+
+This question the Dodo could not answer without a great deal of thought. At last it said, "Everybody has won, and all must have prizes."
+
+"But who is to give the prizes?" quite a chorus of voices asked.
+
+"Why, {{ she(Alice) }}, of course," said the Dodo, pointing to {{Alice}} with one finger; and the whole party at once crowded 'round {{ her(Alice) }}, calling out, in a confused way, "Prizes! Prizes!"
+
+{{Alice}} had no idea what to do, and in despair {{ she(Alice) }} put {{ her(Alice) }} hand into {{ her(Alice) }} pocket and pulled out a box of comfits (luckily the salt-water had not got into it) and handed them 'round as prizes. There was exactly one a-piece, all 'round.
+
+The next thing was to eat the comfits; this caused some noise and confusion, as the large birds complained that they could not taste theirs, and the small ones choked and had to be patted on the back. However, it was over at last and they sat down again in a ring and begged the Mouse to tell them something more.
+"You promised to tell me your history, you know," said {{Alice}}, "and why it is you hate—C and D," {{ she(Alice) }} added in a whisper, half afraid that it would be offended again.
+
+"Mine is a long and a sad tale!" said the Mouse, turning to {{Alice}} and sighing.
+
+"It is a long tail, certainly," said {{Alice}}, looking down with wonder at the Mouse's tail, "but why do you call it sad?" And {{ she(Alice) }} kept on puzzling about it while the Mouse was speaking, so that {{ her(Alice) }} idea of the tale was something like this:
+—
+"Fury said to a mouse, That
+the met in the house, 'Let
+us both go to law: I
+will prosecute
+you.—Come, I'll
+take no denial:
+We must have
+the trial;
+For really
+this morning
+I've nothing
+To do.
+'Said the
+mouse to
+the cur
+,'Such a
+trial, dear
+sir, With
+no jury
+or judge,
+Would
+be wasting
+Our
+Breath
+.''I'll be
+Judge,
+I'll be
+Jury,'said
+Cunning
+Old
+Fury;
+'I'll
+try
+The
+Whole
+Cause,
+And
+Condemn
+you to
+Death.'"
+
+"You are not attending!" said the Mouse to {{Alice}}, severely. "What are you thinking of?"
+
+"I beg your pardon," said {{Alice}} very humbly, "you had got to the fifth bend, I think?"
+
+"You insult me by talking such nonsense!" said the Mouse, getting up and walking away.
+
+"Please come back and finish your story!" {{Alice}} called after it. And the others all joined in chorus, "Yes, please do!" But the Mouse only shook its head impatiently and walked a little quicker.
+
+"I wish I had {{Dinah}}, our cat, here!" said {{Alice}}. This caused a remarkable sensation among the party. Some of the birds hurried off at once, and a Canary called out in a trembling voice, to its children, "Come away, my dears! It's high time you were all in bed!" On various pretexts they all moved off and {{Alice}} was soon left alone.
+
+"I wish I hadn't mentioned {{Dinah}}! Nobody seems to like {{ her(Alice) }} down here and I'm sure {{ she(Alice) }}'s the best cat in the world!" Poor {{Alice}} began to cry again, for {{ she(Alice) }} felt very lonely and low-spirited. In a little while, however, {{ she(Alice) }} again heard a little pattering of footsteps in the distance and {{ she(Alice) }} looked up eagerly.
+
+
+IV—THE RABBIT SENDS IN A LITTLE {{BILL}}
+It was the White Rabbit, trotting slowly back again and looking anxiously about as it went, as if it had lost something; {{Alice}} heard it muttering to itself, "The {{Duchess}}! The {{Duchess}}! Oh, my dear paws! Oh, my fur and whiskers! {{ She(Duchess) }}'ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?" {{Alice}} guessed in a moment that it was looking for the fan and the pair of white kid-gloves and {{ she(Alice) }} very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since {{ her(Alice) }} swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.
+
+Very soon the Rabbit noticed {{Alice}}, and called to {{ her(Alice) }}, in an angry tone, "Why, Mary Ann, what are you doing out here? Run home this moment and fetch me a pair of gloves and a fan! Quick, now!"
+
+"{{He(Rabbit)}} took me for {{ his(Rabbit) }} housemaid!" said {{Alice}}, as {{ she(Alice) }} ran off. "How surprised {{ he(Rabbit) }}'ll be when {{ he(Rabbit) }} finds out who I am!" As {{ she(Alice) }} said this, {{ she(Alice) }} came upon a neat little house, on the door of which was a bright brass plate with the name "W. RABBIT" engraved upon it. {{ She(Alice) }} went in without knocking and hurried upstairs, in great fear lest {{ she(Alice) }} should meet the real Mary Ann and be turned out of the house before {{ she(Alice) }} had found the fan and gloves.
+
+By this time, {{Alice}} had found {{ her(Alice) }} way into a tidy little room with a table in the window, and on it a fan and two or three pairs of tiny white kid-gloves; {{ she(Alice) }} took up the fan and a pair of the gloves and was just going to leave the room, when {{ her(Alice) }} eyes fell upon a little bottle that stood near the looking-glass. {{ She(Alice) }} uncorked it and put it to {{ her(Alice) }} lips, saying to {{ herself(Alice) }}, "I do hope it'll make me grow large again, for, really, I'm quite tired of being such a tiny little thing!"
+
+Before {{ she(Alice) }} had drunk half the bottle, {{ she(Alice) }} found {{ her(Alice) }} head pressing against the ceiling, and had to stoop to save {{ her(Alice) }} neck from being broken. {{ She(Alice) }} hastily put down the bottle, remarking, "That's quite enough—I hope I sha'n't grow any more."
+
+Alas! It was too late to wish that! {{ She(Alice) }} went on growing and growing and very soon {{ she(Alice) }} had to kneel down on the floor. Still {{ she(Alice) }} went on growing, and, as a last resource, {{ she(Alice) }} put one arm out of the window and one foot up the chimney, and said to {{ herself(Alice) }}, "Now I can do no more, whatever happens. What will become of me?"
+
+Luckily for {{Alice}}, the little magic bottle had now had its full effect and {{ she(Alice) }} grew no larger. After a few minutes {{ she(Alice) }} heard a voice outside and stopped to listen.
+"Mary Ann! Mary Ann!" said the voice. "Fetch me my gloves this moment!" Then came a little pattering of feet on the stairs. {{Alice}} knew it was the Rabbit coming to look for {{ her(Alice) }} and {{ she(Alice) }} trembled till {{ she(Alice) }} shook the house, quite forgetting that {{ she(Alice) }} was now about a thousand times as large as the Rabbit and had no reason to be afraid of it.
+
+Presently the Rabbit came up to the door and tried to open it; but as the door opened inwards and {{Alice}}'s elbow was pressed hard against it, that attempt proved a failure. {{Alice}} heard it say to itself, "Then I'll go 'round and get in at the window."
+
+"That you won't!" thought {{Alice}}; and after waiting till {{ she(Alice) }} fancied {{ she(Alice) }} heard the Rabbit just under the window, {{ she(Alice) }} suddenly spread out {{ her(Alice) }} hand and made a snatch in the air. {{ She(Alice) }} did not get hold of anything, but {{ she(Alice) }} heard a little shriek and a fall and a crash of broken glass, from which {{ she(Alice) }} concluded that it was just possible it had fallen into a cucumber-frame or something of that sort.
+Next came an angry voice—the Rabbit's—"Pat! Pat! Where are you?" And then a voice {{ she(Alice) }} had never heard before, "Sure then, I'm here! Digging for apples, yer honor!"
+
+"Here! Come and help me out of this! Now tell me, Pat, what's that in the window?"
+
+"Sure, it's an arm, yer honor!"
+
+"Well, it's got no business there, at any rate; go and take it away!"
+
+There was a long silence after this and {{Alice}} could only hear whispers now and then, and at last {{ she(Alice) }} spread out {{ her(Alice) }} hand again and made another snatch in the air. This time there were two little shrieks and more sounds of broken glass. "I wonder what they'll do next!" thought {{Alice}}. "As for pulling me out of the window, I only wish they could!"
+
+{{ She(Alice) }} waited for some time without hearing anything more. At last came a rumbling of little cart-wheels and the sound of a good many voices all talking together. {{ She(Alice) }} made out the words: "Where's the other ladder? {{Bill}}'s got the other—{{Bill}}! Here, {{Bill}}! Will the roof bear?—Who's to go down the chimney?—Nay, I sha'n't! You do it! Here, {{Bill}}! The master says you've got to go down the chimney!"
+
+{{Alice}} drew {{ her(Alice) }} foot as far down the chimney as {{ she(Alice) }} could and waited till {{ she(Alice) }} heard a little animal scratching and scrambling about in the chimney close above {{ her(Alice) }}; then {{ she(Alice) }} gave one sharp kick and waited to see what would happen next.
+
+The first thing {{ she(Alice) }} heard was a general chorus of "There goes {{Bill}}!" then the Rabbit's voice alone—"Catch {{ him(person) }}, you by the hedge!" Then silence and then another confusion of voices—"Hold up {{ his(Pat) }} head—Brandy now—Don't choke {{ him(Pat) }}—What happened to you?"
+Last came a little feeble, squeaking voice, "Well, I hardly know—No more, thank ye. I'm better now—all I know is, something comes at me like a Jack-in-the-box and up I goes like a sky-rocket!"
+
+After a minute or two of silence, they began moving about again, and Alice heard the Rabbit say, "A barrowful will do, to begin with."
+
+"A barrowful of what?" thought Alice. But {{ she(Alice) }} had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window and some of them hit {{ her(Alice) }} in the face. {{Alice}} noticed, with some surprise, that the pebbles were all turning into little cakes as they lay on the floor and a bright idea came into {{ her(Alice) }} head. "If I eat one of these cakes," {{ she(Alice) }} thought, "it's sure to make some change in my size."
+So {{ she(Alice) }} swallowed one of the cakes and was delighted to find that {{ she(Alice) }} began shrinking directly. As soon as {{ she(Alice) }} was small enough to get through the door, {{ she(Alice) }} ran out of the house and found quite a crowd of little animals and birds waiting outside. They all made a rush at {{Alice}} the moment {{ she(Alice) }} appeared, but {{ she(Alice) }} ran off as hard as {{ she(Alice) }} could and soon found {{ herself(Alice) }} safe in a thick wood.
+
+"The first thing I've got to do," said {{Alice}} to {{ herself(Alice) }}, as {{ she(Alice) }} wandered about in the wood, "is to grow to my right size again; and the second thing is to find my way into that lovely garden. I suppose I ought to eat or drink something or other, but the great question is 'What?'"
+
+{{Alice}} looked all around {{ her(Alice) }} at the flowers and the blades of grass, but {{ she(Alice) }} could not see anything that looked like the right thing to eat or drink under the circumstances. There was a large mushroom growing near {{ her(Alice) }}, about the same height as {{ herself(Alice) }}. {{ She(Alice) }} stretched {{ herself(Alice) }} up on tiptoe and peeped over the edge and {{ her(Alice) }} eyes immediately met those of a large blue caterpillar, that was sitting on the top, with its arms folded, quietly smoking a long hookah and taking not the smallest notice of {{ her(Alice) }} or of anything else.
+
+
+V—ADVICE FROM A CATERPILLAR
+At last the Caterpillar took the hookah out of its mouth and addressed {{Alice}} in a languid, sleepy voice.
+
+"Who are you?" said the Caterpillar.
+
+{{Alice replied}}, rather shyly, "I—I hardly know, {{sir(Caterpillar)}}, just at present—at least I know who I was when I got up this morning, but I think I must have changed several times since then."
+
+"What do you mean by that?" said the Caterpillar, sternly. "Explain yourself!"
+"I can't explain myself, I'm afraid, {{sir(Caterpillar)}}," said Alice, "because I'm not myself, you see—being so many different sizes in a day is very confusing." {{ She(Alice) }} drew {{ herself(Alice) }} up and said very gravely, "I think you ought to tell me who you are, first."
+
+"Why?" said the Caterpillar.
+As {{Alice}} could not think of any good reason and the Caterpillar seemed to be in a very unpleasant state of mind, {{ she(Alice) }} turned away.
+
+"Come back!" the Caterpillar called after {{ her(Alice) }}. "I've something important to say!" Alice turned and came back again.
+
+"Keep your temper," said the Caterpillar.
+
+"Is that all?" said {{Alice}}, swallowing down {{ her(Alice) }} anger as well as {{ she(Alice) }} could.
+
+"No," said the Caterpillar.
+
+It unfolded its arms, took the hookah out of its mouth again, and said, "So you think you're changed, do you?"
+
+"I'm afraid, I am, {{sir(Caterpillar)}}," said {{Alice}}. "I can't remember things as I used—and I don't keep the same size for ten minutes together!"
+
+"What size do you want to be?" asked the Caterpillar.
+
+"Oh, I'm not particular as to size," {{Alice}} hastily replied, "only one doesn't like changing so often, you know. I should like to be a little larger, sir, if you wouldn't mind," said {{Alice}}. "Three inches is such a wretched height to be."
+
+"It is a very good height indeed!" said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high).
+
+In a minute or two, the Caterpillar got down off the mushroom and crawled away into the grass, merely remarking, as it went, "One side will make you grow taller, and the other side will make you grow shorter."
+
+"One side of what? The other side of what?" thought {{Alice}} to {{ herself(Alice) }}.
+
+"Of the mushroom," said the Caterpillar, just as if {{ she(Alice) }} had asked it aloud; and in another moment, it was out of sight.
+
+{{Alice}} remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it. At last {{ she(Alice) }} stretched {{ her(Alice) }} arms 'round it as far as they would go, and broke off a bit of the edge with each hand.
+"And now which is which?" {{ she(perAliceson) }} said to {{ herself(Alice) }}, and nibbled a little of the right-hand bit to try the effect. The next moment {{ she(Alice) }} felt a violent blow underneath {{ her(Alice) }} chin—it had struck {{ her(Alice) }} foot!
+
+
+{{ She(Alice) }} was a good deal frightened by this very sudden change, as {{ she(Alice) }} was shrinking rapidly; so {{ she(Alice) }} set to work at once to eat some of the other bit. {{ Her(Alice) }} chin was pressed so closely against {{ her(peAlicerson) }} foot that there was hardly room to open {{ her(Alice) }} mouth; but {{ she(Alice) }} did it at last and managed to swallow a morsel of the left-hand bit....
+
+"Come, my head's free at last!" said {{Alice}}; but all {{ she(Alice) }} could see, when {{ she(Alice) }} looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below {{ her(Alice) }}.
+
+"Where have my shoulders got to? And oh, my poor hands, how is it I can't see you?" {{ She(Alice) }} was delighted to find that {{ her(Alice) }} neck would bend about easily in any direction, like a serpent. {{ She(Alice) }} had just succeeded in curving it down into a graceful zigzag and was going to dive in among the leaves, when a sharp hiss made {{ her(Alice) }} draw back in a hurry—a large pigeon had flown into {{ her(Alice) }} face and was beating {{ her(Alice) }} violently with its wings.
+
+"Serpent!" cried the Pigeon.
+
+"I'm not a serpent!" said {{Alice}} indignantly. "Let me alone!"
+
+"I've tried the roots of trees, and I've tried banks, and I've tried hedges," the Pigeon went on, "but those serpents! There's no pleasing them!"
+
+{{Alice}} was more and more puzzled.
+
+"As if it wasn't trouble enough hatching the eggs," said the Pigeon, "but I must be on the look-out for serpents, night and day! And just as I'd taken the highest tree in the wood," continued the Pigeon, raising its voice to a shriek, "and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!"
+
+"But I'm not a serpent, I tell you!" said {{Alice}}. "I'm a—I'm a—I'm a little {{ girl(Alice) }}," {{ she(Alice) }} added rather doubtfully, as {{ she(Alice) }} remembered the number of changes {{ she(Alice) }} had gone through that day.
+
+"You're looking for eggs, I know that well enough," said the Pigeon; "and what does it matter to me whether you're a little {{ girl(Alice) }} or a serpent?"
+
+"It matters a good deal to me," said {{Alice}} hastily; "but I'm not looking for eggs, as it happens, and if I was, I shouldn't want yours—I don't like them raw."
+
+"Well, be off, then!" said the Pigeon in a sulky tone, as it settled down again into its nest. {{Alice}} crouched down among the trees as well as {{ she(Alice) }} could, for {{ her(Alice) }} neck kept getting entangled among the branches, and every now and then {{ she(Alice) }} had to stop and untwist it. After awhile {{ she(Alice) }} remembered that {{ she(Alice) }} still held the pieces of mushroom in {{ her(Alice) }} hands, and {{ she(Alice) }} set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until {{ she(Alice) }} had succeeded in bringing {{ herself(Alice) }} down to {{ her(Alice) }} usual height.
+
+It was so long since {{ she(Alice) }} had been anything near the right size that it felt quite strange at first. "The next thing is to get into that beautiful garden—how is that to be done, I wonder?" As {{ she(Alice) }} said this, {{ she(Alice) }} came suddenly upon an open place, with a little house in it about four feet high. "Whoever lives there," thought {{Alice}}, "it'll never do to come upon them this size; why, I should frighten them out of their wits!" {{ She(Alice) }} did not venture to go near the house till {{ she(Alice) }} had brought {{ herself(Alice) }} down to nine inches high.
+
+VI—PIG AND PEPPER
+For a minute or two {{ she(Alice) }} stood looking at the house, when suddenly a {{footman(Fish)}} in livery came running out of the wood (judging by {{ his(Fish) }} face only, {{ she(Alice) }} would have called {{ him(Fish) }} a fish)—and rapped loudly at the door with {{ his(Fish) }} knuckles. It was opened by another footman in livery, with a round face and large eyes like a frog.
+
+The Fish- {{footman(Fish)}} began by producing from under {{ his(Fish) }} arm a great letter, and this {{ he(Fish) }} handed over to the other, saying, in a solemn tone, "For the {{Duchess}}. An invitation from the {{ Queen(Queen) }} to play croquet." The Frog-{{footman(Frog)}} repeated, in the same solemn tone, "From the {{ Queen(Queen) }}. An invitation for the {{Duchess}} to play croquet." Then they both bowed low and their curls got entangled together.
+
+When {{Alice}} next peeped out, the Fish-{{footman(Frog)}} was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky. {{Alice}} went timidly up to the door and knocked.
+
+"There's no sort of use in knocking," said the {{footman(Fish)}}, "and that for two reasons. First, because I'm on the same side of the door as you are; secondly, because they're making such a noise inside, no one could possibly hear you." And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces.
+
+"How am I to get in?" asked {{Alice}}.
+
+"Are you to get in at all?" said the {{footman(Fish)}}. "That's the first question, you know."
+
+{{Alice}} opened the door and went in. The door led right into a large kitchen, which was full of smoke from one end to the other; the {{Duchess}} was sitting on a three-legged stool in the middle, rocking a baby; the cook was leaning over the fire, stirring a large caldron which seemed to be full of soup.
+
+"There's certainly too much pepper in that soup!" {{Alice}} said to {{ herself(Alice) }}, as well as {{ she(Alice) }} could for sneezing. Even the {{Duchess}} sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment's pause. The only two creatures in the kitchen that did not sneeze were the cook and a large cat, which was grinning from ear to ear.
+
+"Please would you tell me," said {{Alice}}, a little timidly, "why your cat grins like that?"
+
+"It's a Cheshire-Cat," said the {{Duchess}}, "and that's why."
+
+"I didn't know that Cheshire-Cats always grinned; in fact, I didn't know that cats could grin," said {{Alice}}.
+
+"You don't know much," said the {{Duchess}}, "and that's a fact."
+
+Just then the cook took the caldron of soup off the fire, and at once set to work throwing everything within {{ her(cook) }} reach at the {{Duchess}} and the baby—the fire-irons came first; then followed a shower of saucepans, plates and dishes. The {{Duchess}} took no notice of them, even when they hit {{ her(Duchess) }}, and the baby was howling so much already that it was quite impossible to say whether the blows hurt it or not.
+
+"Oh, please mind what you're doing!" cried {{Alice}}, jumping up and down in an agony of terror.
+
+"Here! You may nurse it a bit, if you like!" the {{Duchess }}said to {{Alice}}, flinging the baby at {{ her(Alice) }} as {{ she(Duchess) }} spoke. "I must go and get ready to play croquet with the {{ Queen(Queen) }}," and {{ she(Duchess) }} hurried out of the room.
+
+{{Alice}} caught the baby with some difficulty, as it was a queer-shaped little creature and held out its arms and legs in all directions. "If I don't take this child away with me," thought {{Alice}}, "they're sure to kill it in a day or two. Wouldn't it be murder to leave it behind?" {{ She(Alice) }} said the last words out loud and the little thing grunted in reply.
+
+"If you're going to turn into a pig, my dear," said {{Alice}}, "I'll have nothing more to do with you. Mind now!"
+
+{{Alice}} was just beginning to think to {{ herself(Alice) }}, "Now, what am I to do with this creature, when I get it home?" when it grunted again so violently that {{Alice}} looked down into its face in some alarm. This time there could be no mistake about it—it was neither more nor less than a pig; so {{ she(Alice) }} set the little creature down and felt quite relieved to see it trot away quietly into the wood.
+
+{{Alice}} was a little startled by seeing the Cheshire-Cat sitting on a bough of a tree a few yards off. The Cat only grinned when it saw {{ her(Alice) }}. "Cheshire-Puss," began {{Alice}}, rather timidly, "would you please tell me which way I ought to go from here?"
+
+"In that direction," the Cat said, waving the right paw 'round, "lives a Hatter; and in that direction," waving the other paw, "lives a March Hare. Visit either you like; they're both mad."
+
+"But I don't want to go among mad people," {{Alice}} remarked.
+
+"Oh, you can't help that," said the Cat; "we're all mad here. Do you play croquet with the {{ Queen(Queen) }} to-day?"
+
+"I should like it very much," said {{Alice}}, "but I haven't been invited yet."
+
+"You'll see me there," said the Cat, and vanished.
+
+{{Alice}} had not gone much farther before {{ she(Alice) }} came in sight of the house of the March Hare; it was so large a house that {{ she(Alice) }} did not like to go near till {{ she(Alice) }} had nibbled some more of the left-hand bit of mushroom.
+
+VII—A MAD TEA-PARTY
+There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it; a Dormouse was sitting between them, fast asleep.
+
+The table was a large one, but the three were all crowded together at one corner of it. "No room! No room!" they cried out when they saw {{Alice}} coming. "There's plenty of room!" said {{Alice}} indignantly, and {{ she(Alice) }} sat down in a large arm-chair at one end of the table.
+
+The Hatter opened {{ his(Hatter) }} eyes very wide on hearing this, but all {{ he(Hatter) }} said was "Why is a raven like a writing-desk?"
+
+"I'm glad they've begun asking riddles—I believe I can guess that," {{ she(Alice) }} added aloud.
+
+"Do you mean that you think you can find out the answer to it?" said the March Hare.
+
+"Exactly so," said {{Alice}}.
+
+"Then you should say what you mean," the March Hare went on.
+
+"I do," {{Alice}} hastily replied; "at least—at least I mean what I say—that's the same thing, you know."
+"You might just as well say," added the Dormouse, which seemed to be talking in its sleep, "that 'I breathe when I sleep' is the same thing as 'I sleep when I breathe!'”
+
+"It is the same thing with you," said the Hatter, and {{ he(Hatter) }} poured a little hot tea upon its nose. The Dormouse shook its head impatiently and said, without opening its eyes, "Of course, of course; just what I was going to remark myself."
+
+"Have you guessed the riddle yet?" the Hatter said, turning to {{Alice}} again.
+
+"No, I give it up," {{Alice}} replied. "What's the answer?"
+
+"I haven't the slightest idea," said the Hatter.
+
+"Nor I," said the March Hare.
+
+{{Alice}} gave a weary sigh. "I think you might do something better with the time," {{ she(Alice) }} said, "than wasting it in asking riddles that have no answers."
+
+"Take some more tea," the March Hare said to {{Alice}}, very earnestly.
+
+"I've had nothing yet," {{Alice}} replied in an offended tone, "so I can't take more."
+
+"You mean you can't take less," said the Hatter; "it's very easy to take more than nothing."
+
+At this, {{Alice}} got up and walked off. The Dormouse fell asleep instantly and neither of the others took the least notice of {{ her(Alice) }} going, though {{ she(Alice) }} looked back once or twice; the last time {{ she(Alice) }} saw them, they were trying to put the Dormouse into the tea-pot.
+
+"At any rate, I'll never go there again!" said {{Alice}}, as {{ she(Alice) }} picked {{ her(Alice) }} way through the wood. "It's the stupidest tea-party I ever was at in all my life!" Just as {{ she(Alice) }} said this, {{ she(Alice) }} noticed that one of the trees had a door leading right into it. "That's very curious!" {{ she(Alice) }} thought. "I think I may as well go in at once." And in {{ she(Alice) }} went.
+
+Once more {{ she(Alice) }} found {{ herself(Alice) }} in the long hall and close to the little glass table. Taking the little golden key, {{ she(Alice) }} unlocked the door that led into the garden. Then {{ she(Alice) }} set to work nibbling at the mushroom (she had kept a piece of it in {{ her(Alice) }} pocket) till {{ she(Alice) }} was about a foot high; then {{ she(Alice) }} walked down the little passage; and then—she found {{ herself(Alice) }} at last in the beautiful garden, among the bright flower-beds and the cool fountains.
+
+VIII—THE QUEEN'S CROQUET GROUND
+A large rose-tree stood near the entrance of the garden; the roses growing on it were white, but there were three gardeners at it, busily painting them red. Suddenly their eyes chanced to fall upon {{Alice}}, as {{ she(Alice) }} stood watching them. "Would you tell me, please," said {{Alice}}, a little timidly, "why you are painting those roses?"
+
+Five and Seven said nothing, but looked at Two. Two began, in a low voice, "Why, the fact is, you see, {{lass(Alice)}}, this here ought to have been a red rose-tree, and we put a white one in by mistake; and, if the {{ Queen(Queen) }} was to find it out, we should all have our heads cut off, you know. So you see, {{lass(Alice)}}, we're doing our best, afore {{ she(Queen) }} comes, to—"
+
+At this moment, Five, who had been anxiously looking across the garden, called out, "The {{ Queen(Queen) }}! The {{ Queen(Queen) }}!" and the three gardeners instantly threw themselves flat upon their faces. There was a sound of many footsteps and {{Alice}} looked 'round, eager to see the {{ Queen(Queen) }}.
+
+First came ten soldiers carrying clubs, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds. After these came the royal children; there were ten of them, all ornamented with hearts. Next came the guests, mostly Kings and Queens, and among them {{Alice}} recognized the White Rabbit. Then followed the Knave of Hearts, carrying the {{ King(King) }}'s crown on a crimson velvet cushion; and last of all this grand procession came THE {{KING}} AND THE {{QUEEN}} OF HEARTS.
+
+When the procession came opposite to {{Alice}}, they all stopped and looked at {{ her(Alice) }}, and the {{ Queen(Queen) }} said severely, "Who is this?" {{ She(Queen) }} said it to the Knave of Hearts, who only bowed and smiled in reply.
+
+"My name is {{Alice}}, so please Your Majesty," said {{Alice}} very politely; but {{ she(Alice) }} added to {{ herself(Alice) }}, "Why, they're only a pack of cards, after all!"
+
+"Can you play croquet?" shouted the {{ Queen(Queen) }}. The question was evidently meant for {{Alice}}.
+
+"Yes!" said {{Alice}} loudly.
+
+"Come on, then!" roared the {{ Queen(Queen) }}.
+
+"It's—it's a very fine day!" said a timid voice to {{Alice}}. {{ She(Alice) }} was walking by the White Rabbit, who was peeping anxiously into {{ her(Alice) }} face.
+
+"Very," said {{Alice}}. "Where's the {{Duchess}}?"
+
+"Hush! Hush!" said the Rabbit. "{{She(Duchess)}}'s under sentence of execution."
+
+"What for?" said {{Alice}}.
+
+"She boxed the {{ Queen(Queen) }}'s ears—" the Rabbit began.
+
+"Get to your places!" shouted the {{ Queen(Queen) }} in a voice of thunder, and people began running about in all directions, tumbling up against each other. However, they got settled down in a minute or two, and the game began.
+
+{{Alice}} thought {{ she(Alice) }} had never seen such a curious croquet-ground in {{ her(Alice) }} life; it was all ridges and furrows. The croquet balls were live hedgehogs, and the mallets live flamingos and the soldiers had to double themselves up and stand on their hands and feet, to make the arches.
+
+The players all played at once, without waiting for turns, quarrelling all the while and fighting for the hedgehogs; and in a very short time, the {{Queen(Queen) }} was in a furious passion and went stamping about and shouting, "Off with  his head!" or "Off with her head!" about once in a minute.
+
+"They're dreadfully fond of beheading people here," thought {{Alice}}; "the great wonder is that there's anyone left alive!"
+
+{{ She(Alice) }} was looking about for some way of escape, when {{ she(Alice) }} noticed a curious appearance in the air.
+
+ "It's the Cheshire-Cat," {{ she(Alice) }} said to {{ herself(Alice) }}; "now I shall have somebody to talk to."
+
+"How are you getting on?" said the Cat.
+
+"I don't think they play at all fairly," {{Alice}} said, in a rather complaining tone; "and they all quarrel so dreadfully one can't hear oneself speak—and they don't seem to have any rules in particular."
+
+"How do you like the {{ Queen(Queen) }}?" said the Cat in a low voice.
+
+"Not at all," said {{Alice}}.
+
+{{Alice}} thought {{ she(Alice) }} might as well go back and see how the game was going on. So {{ she(Alice) }} went off in search of {{ her(Alice) }} hedgehog. The hedgehog was engaged in a fight with another hedgehog, which seemed to {{Alice}} an excellent opportunity for croqueting one of them with the other; the only difficulty was that {{ her(Alice) }} flamingo was gone across to the other side of the garden, where {{Alice}} could see it trying, in a helpless sort of way, to fly up into a tree. {{ She(Alice) }} caught the flamingo and tucked it away under {{ her(Alice) }} arm, that it might not escape again.
+
+Just then {{Alice}} ran across the {{Duchess}} (who was now out of prison). {{ She(Duchess) }} tucked {{ her(Duchess) }} arm affectionately into {{Alice}}'s and they walked off together. {{Alice}} was very glad to find {{ her(Duchess) }} in such a pleasant temper. {{ She(Alice) }} was a little startled, however, when {{ she(Alice) }} heard the voice of the {{Duchess}} close to {{ her(Alice) }} ear. "You're thinking about something, my dear, and that makes you forget to talk."
+
+"The game's going on rather better now," {{Alice}} said, by way of keeping up the conversation a little.
+
+"'Tis so," said the {{Duchess}}; "and the moral of that is—'Oh, 'tis love, 'tis love that makes the world go 'round!'"
+
+"Somebody said," {{Alice}} whispered, "that it's done by everybody minding their own business!"
+
+"Ah, well! It means much the same thing," said the {{Duchess}}, digging {{ her(Duchess) }} sharp little chin into {{Alice}}'s shoulder, as {{ she(Duchess) }} added "and the moral of that is—'Take care of the sense and the sounds will take care of themselves.'"
+
+To {{Alice}}'s great surprise, the {{Duchess}}'s arm that was linked into {{ hers(Alice) }} began to tremble. {{Alice}} looked up and there stood the {{ Queen(Queen) }} in front of them, with {{ her(Queen) }} arms folded, frowning like a thunderstorm!
+
+"Now, I give you fair warning," shouted the {{ Queen(Queen) }}, stamping on the ground as {{ she(Queen) }} spoke, "either you or your head must be off, and that in about half no time. Take your choice!" The {{Duchess}} took {{ her(Duchess) }} choice, and was gone in a moment.
+
+"Let's go on with the game," the {{ Queen(Queen) }} said to {{Alice}}; and {{Alice}} was too much frightened to say a word, but slowly followed {{ her(Alice) }} back to the croquet-ground.
+
+All the time they were playing, the {{ Queen(Queen) }} never left off quarreling with the other players and shouting, "Off with his head!" or "Off with her head!" By the end of half an hour or so, all the players, except the {{ King(King) }}, the {{ Queen(Queen) }} and {{Alice}}, were in custody of the soldiers and under sentence of execution.
+
+Then the {{ Queen(Queen) }} left off, quite out of breath, and walked away with {{Alice}}.
+Alice heard the {{ King(King) }} say in a low voice to the company generally, "You are all pardoned."
+
+Suddenly the cry "The Trial's beginning!" was heard in the distance, and {{Alice}} ran along with the others.
+
+IX—WHO STOLE THE TARTS?
+The {{ King(King) }} and {{ Queen(Queen) }} of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the {{ King(King) }} was the White Rabbit, with a trumpet in one hand and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it. "I wish they'd get the trial done," {{Alice}} thought, "and hand 'round the refreshments!"
+
+The judge, by the way, was the {{ King(King) }} and {{ he(King) }} wore {{ his(King) }} crown over {{ his(King) }} great wig. "That's the jury-box," thought {{Alice}}; "and those twelve creatures (some were animals and some were birds) I suppose they are the jurors."
+
+Just then the White Rabbit cried out "Silence in the court!"
+
+"Herald, read the accusation!" said the {{ King(King) }}.
+
+On this, the White Rabbit blew three blasts on the trumpet, then unrolled the parchment-scroll and read as follows:
+
+"The {{ Queen(Queen) }} of Hearts, {{ she(Queen) }} made some tarts,All on a summer day;The Knave of Hearts, he stole those tarts And took them quite away!"
+
+"Call the first witness," said the {{ King(King) }}; and the White Rabbit blew three blasts on the trumpet and called out, "First witness!"
+
+The first witness was the Hatter. {{ He(Hatter) }} came in with a teacup in one hand and a piece of bread and butter in the other.
+
+"You ought to have finished," said the {{ King(King) }}. "When did you begin?"
+
+The Hatter looked at the March Hare, who had followed {{ him(Hatter) }} into the court, arm in arm with the Dormouse. "Fourteenth of March, I think it was," {{ he(Hatter) }} said.
+
+"Give your evidence," said the {{ King(King) }}, "and don't be nervous, or I'll have you executed on the spot."
+
+This did not seem to encourage the witness at all; {{ he(Hatter) }} kept shifting from one foot to the other, looking uneasily at the {{ Queen(peQueenrson) }}, and, in {{ his(Hatter) }} confusion, {{ he(Hatter) }} bit a large piece out of {{ his(Hatter) }} teacup instead of the bread and butter.
+
+Just at this moment {{Alice}} felt a very curious sensation—{{she(Alice)}} was beginning to grow larger again.
+
+The miserable Hatter dropped {{ his(Hatter) }} teacup and bread and butter and went down on one knee. "I'm a poor {{ man(Hatter) }}, Your Majesty," {{ he(Hatter) }} began.
+
+"You're a very poor speaker," said the {{ King(King) }}.
+
+"You may go," said the {{ King(King) }}, and the Hatter hurriedly left the court.
+
+"Call the next witness!" said the {{ King(King) }}.
+
+The next witness was the {{Duchess}}'s cook. {{ She(cook) }} carried the pepper-box in {{ her(cook)}} hand and the people near the door began sneezing all at once.
+
+"Give your evidence," said the {{ King(King) }}.
+
+"Sha'n't," said the cook.
+
+The {{ King(King) }} looked anxiously at the White Rabbit, who said, in a low voice, "Your Majesty must cross-examine this witness."
+
+"Well, if I must, I must," the {{ King(King) }} said. "What are tarts made of?"
+
+"Pepper, mostly," said the cook.
+
+For some minutes the whole court was in confusion and by the time they had settled down again, the cook had disappeared.
+
+"Never mind!" said the {{ King(King) }}, "call the next witness."
+
+{{Alice}} watched the White Rabbit as {{ he(Rabbit) }} fumbled over the list. Imagine {{ her(Alice) }} surprise when {{ he(Rabbit) }} read out, at the top of {{ his(Rabbit) }} shrill little voice, the name "{{Alice}}!"
+
+X—{{ALICE}}'S EVIDENCE
+"Here!" cried {{Alice}}. {{ She(Alice) }} jumped up in such a hurry that {{ she(Alice) }} tipped over the jury-box, upsetting all the jurymen on to the heads of the crowd below.
+
+"Oh, I beg your pardon!" {{ she(Alice) }} exclaimed in a tone of great dismay.
+
+"The trial cannot proceed," said the {{ King(King) }}, "until all the jury are back in their proper places—all," {{ he(King) }} repeated with great emphasis, looking hard at {{Alice}}.
+
+"What do you know about this business?" the {{ King(King) }} said to {{Alice}}.
+
+"Nothing whatever," said {{Alice}}.
+
+The {{ King(King) }} then read from {{ his(King) }} book: "Rule forty-two. All persons more than a mile high to leave the court."
+
+"I'm not a mile high," said {{Alice}}.
+
+"Nearly two miles high," said the {{ Queen(Queen) }}.
+
+"Well, I sha'n't go, at any rate," said {{Alice}}.
+
+The {{ King(King) }} turned pale and shut {{ his(King) }} note-book hastily. "Consider your verdict," {{ he(King) }} said to the jury, in a low, trembling voice.
+
+"There's more evidence to come yet, please Your Majesty," said the White Rabbit, jumping up in a great hurry. "This paper has just been picked up. It seems to be a letter written by the prisoner to—to somebody." {{ He(Rabbit) }} unfolded the paper as {{ he(Rabbit) }} spoke and added, "It isn't a letter, after all; it's a set of verses."
+
+"Please, Your Majesty," said the Knave, "I didn't write it and they can't prove that I did; there's no name signed at the end."
+
+"You must have meant some mischief, or else you'd have signed your name like an honest person," said the {{ King(King) }}. There was a general clapping of hands at this.
+
+"Read them," {{ he(King) }} added, turning to the White Rabbit.
+
+There was dead silence in the court whilst the White Rabbit read out the verses.
+
+"That's the most important piece of evidence we've heard yet," said the {{ King(King) }}.
+
+"I don't believe there's an atom of meaning in it," ventured {{Alice}}.
+
+"If there's no meaning in it," said the {{ King(King) }}, "that saves a world of trouble, you know, as we needn't try to find any. Let the jury consider their verdict."
+
+"No, no!" said the {{ Queen(Queen) }}. "Sentence first—verdict afterwards."
+
+"Stuff and nonsense!" said {{Alice}} loudly. "The idea of having the sentence first!"
+
+"Hold your tongue!" said the {{ Queen(Queen) }}, turning purple.
+
+"I won't!" said {{Alice}}.
+
+"Off with {{ her(Alice) }} head!" the {{ Queen(Queen) }} shouted at the top of {{ her(Queen) }} voice. Nobody moved.
+
+"Who cares for you?" said {{Alice}} (she had grown to {{ her(Alice) }} full size by this time). "You're nothing but a pack of cards!"
+
+At this, the whole pack rose up in the air and came flying down upon {{ her(Alice) }}; {{ she(Alice) }} gave a little scream, half of fright and half of anger, and tried to beat them off, and found {{ herself(Alice) }} lying on the bank, with {{ her(Alice) }} head in the lap of {{ her(Alice) }} {{ sister(Sibling) }}, who was gently brushing away some dead leaves that had fluttered down from the trees upon {{ her(Alice) }} face.
+
+"Wake up, {{Alice}} dear!" said {{ her(Alice) }} {{ sister(Sibling) }}. "Why, what a long sleep you've had!"
+
+"Oh, I've had such a curious dream!" said {{Alice}}. And {{ she(Alice) }} told {{ her(Alice) }} {{ sister(Sibling)}}, as well as {{ she(Alice) }} could remember them, all these strange adventures of {{ hers(Alice) }} that you have just been reading about. {{Alice}} got up and ran off, thinking while {{ she(Alice) }} ran, as well {{ she(Alice) }} might, what a wonderful dream it had been.
+
+
+
+[[Alice/Alan/Alyx:female][Sibling/Sibling/Sibling:female][David/Dinah/Dana:female][Rabbit/Rabbit/Rabbit:male][Duke/Duchess/Regent:female][Pat/Pat/Pat:male][Bill/Bonnie/Bobbie:male][Caterpillar/Caterpillar/Caterpillar:male][Fish/Fish/Fish:male][King/Queen/Sovereign:female][cook/cook/cook:female][Hatter/Hatter/Hatter:male][King/Queen/Ruler:male]]
+
