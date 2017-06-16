@@ -9,7 +9,11 @@ require '../vendor/autoload.php';
 include 'header.php';
 use markfullmer\gendered_text\GenderedText;
 
-$options = ['The Frog Prince', 'Hills Like White Elephants'];
+$options = [
+  'The Frog Prince',
+  'Hills Like White Elephants',
+  'Alice in Wonderland',
+];
 if (empty($_GET['text'])) {
   echo '<div class="container"><div class="six columns"><label for="text">Choose a text to read:</label>';
   $dir = __DIR__ . '/texts/';

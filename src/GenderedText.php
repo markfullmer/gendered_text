@@ -178,7 +178,9 @@ class GenderedText {
         }
         foreach ($names as $key => $value) {
           $legend[$value]['names']['female'] = $names[0];
-          $legend[$value]['names']['male'] = $names[1];
+          if (isset($names[1])) {
+            $legend[$value]['names']['male'] = $names[1];
+          }
           if (isset($names[2])) {
             $legend[$value]['names']['trans'] = $names[2];
           }
