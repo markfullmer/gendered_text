@@ -7,7 +7,7 @@ Dynamically rewrite the gender of personae in texts
 
 ![Screenshot of Conversion](https://github.com/markfullmer/gendered_text/raw/master/demo/demo.png)
 
-## Background
+## Purpose
 Given a text with properly parameterized gender placeholders, this library will
 generate an alternate version of the text based on user preference of gender. Gabriel García Márquez' first sentence,
 
@@ -19,7 +19,15 @@ would become
 > Many years later, as she faced the firing squad, Colonel Aureliana Buendía was
 > to remember that distant afternoon when her father took her to discover ice.
 
-## Basic Usage
+## Try the Demo
+Visit [https://gendered-text.markfullmer.com/demo/](https://gendered-text.markfullmer.com/demo/) to see a demonstration.
+
+## Creating your own texts
+
+### 0. The Word Map
+Review the full list of [currently available gender mappings in the code](https://github.com/markfullmer/gendered_text/blob/master/src/WordMap.php)
+
+### 1. Add Placeholders
 Text must have personae gender indicators entered as placeholder text, as well
 as a legend that instructs the code which gender should be used for each
 persona.
@@ -45,7 +53,7 @@ In order to render as male-gendered, the text could be entered as:
 ** Note the use of "herd" to differentiate determiner & object. See **Callouts**,
 below.
 
-## Texts with multiple personae.
+### 1a. Texts with multiple personae
 The sentence from D.H Lawrence's *Sons and Lovers*, "He kept her because he never satisfied her", illustrates two personae
 working in tandem. The text would be parameterized as:
 
@@ -62,7 +70,7 @@ and ```[[Paulina/Paul:male][Clara/Clark:male]]``` would generate:
 
 > He kept him because he never satisfied him.
 
-### The Legend
+### 2. Create the Legend
 Text to be processed must include a legend, wrapped in double square brackets,
 which may appear anywhere in the text. An example legend:
 
@@ -78,7 +86,7 @@ look for a character named "Charlize" or "Charles" and render the character as
 "Charlize" with the female pronoun set. It will look for a character named "Kate,"
 "Ken" or "Kan," and render the character as "Kan" with a transgender pronoun.
 
-### The Text
+### Expected results
 Text to be manipulated must include parameterized persona placeholders, wrapped
 in double curly brackets. Examples:
 
