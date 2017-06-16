@@ -53,8 +53,9 @@ class GenderedText {
         $replacement = $placeholder[1];
         $identifier = strtolower($placeholder[1]);
         $persona = $placeholder[2];
-        if (in_array($identifier, array_keys(self::$replacements)) && in_array($persona, array_keys($legend))) {
-          $pos = self::$replacements[$identifier]['pos'];
+        if (in_array($identifier, array_keys(self::replacements())) && in_array($persona, array_keys($legend))) {
+          $replacements = self::replacements();
+          $pos = $replacements[$identifier]['pos'];
           $legend_item = $legend[$persona];
           $gender = $legend_item['gender'];
           // The real action: find which replacement should be used.
@@ -77,7 +78,7 @@ class GenderedText {
    */
   public static function transform_replacements() {
     $map = [];
-    foreach (self::$replacements as $id => $attributes) {
+    foreach (self::replacements() as $id => $attributes) {
       $pos = $attributes['pos'];
       $gender = $attributes['gender'];
       $output = !empty($attributes['output']) ? $attributes['output'] : $id;
@@ -93,7 +94,7 @@ class GenderedText {
    *   A traversable array of parts of speech.
    */
   public static function addPlaceholders($text) {
-    foreach (array_keys(self::$replacements) as $replacement) {
+    foreach (array_keys(self::replacements()) as $replacement) {
 
       $text = preg_replace("/\s(" . preg_quote($replacement) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
       $text = preg_replace("/\s(" . ucfirst(preg_quote($replacement)) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
@@ -118,60 +119,19 @@ class GenderedText {
   /**
    * Machine-first mapping of all words.
    *
-   * @var replacements
+   * @return array
+   *   The built list of all word mapping replacements.
    */
-  public static $replacements = [
-    'he' => ['gender' => 'male', 'pos' => 'subject'],
-    'she' => ['gender' => 'female', 'pos' => 'subject'],
-    'ze' => ['gender' => 'trans', 'pos' => 'subject'],
-    'him' => ['gender' => 'male', 'pos' => 'object'],
-    'her' => ['gender' => 'female', 'pos' => 'object'],
-    'hir' => ['gender' => 'trans', 'pos' => 'object'],
-    'hisd' => ['gender' => 'male', 'pos' => 'determiner', 'output' => 'his'],
-    'herd' => ['gender' => 'female', 'pos' => 'determiner', 'output' => 'her'],
-    'hird' => ['gender' => 'trans', 'pos' => 'determiner'],
-    'his' => ['gender' => 'male', 'pos' => 'possessive'],
-    'hers' => ['gender' => 'female', 'pos' => 'possessive'],
-    'hirs' => ['gender' => 'trans', 'pos' => 'possessive'],
-    'herself' => ['gender' => 'female', 'pos' => 'reflexive'],
-    'himself' => ['gender' => 'male', 'pos' => 'reflexive'],
-    'hirself' => ['gender' => 'trans', 'pos' => 'reflexive'],
-    'mr.' => ['gender' => 'male', 'pos' => 'title'],
-    'ms.' => ['gender' => 'female', 'pos' => 'title'],
-    'm.' => ['gender' => 'trans', 'pos' => 'title'],
-    'bastard' => ['gender' => 'male', 'pos' => 'insult'],
-    'bitch' => ['gender' => 'female', 'pos' => 'insult'],
-    'asshole' => ['gender' => 'trans', 'pos' => 'insult'],
-    'brother' => ['gender' => 'male', 'pos' => 'sibling'],
-    'sister' => ['gender' => 'female', 'pos' => 'sibling'],
-    'sibling' => ['gender' => 'trans', 'pos' => 'sibling'],
-    'husband' => ['gender' => 'male', 'pos' => 'spouse'],
-    'wife' => ['gender' => 'female', 'pos' => 'spouse'],
-    'spouse' => ['gender' => 'trans', 'pos' => 'spouse'],
-    'man' => ['gender' => 'male', 'pos' => 'gender'],
-    'woman' => ['gender' => 'female', 'pos' => 'gender'],
-    'person' => ['gender' => 'trans', 'pos' => 'gender'],
-
-    'boy' => ['gender' => 'male', 'pos' => 'child'],
-    'girl' => ['gender' => 'female', 'pos' => 'child'],
-    'child' => ['gender' => 'trans', 'pos' => 'child'],
-
-    'son' => ['gender' => 'male', 'pos' => 'offspring'],
-    'daughter' => ['gender' => 'female', 'pos' => 'offspring'],
-    'youth' => ['gender' => 'trans', 'pos' => 'offspring'],
-
-    'prince' => ['gender' => 'male', 'pos' => 'sovereign'],
-    'princess' => ['gender' => 'female', 'pos' => 'sovereign'],
-    'sovereign' => ['gender' => 'trans', 'pos' => 'sovereign'],
-
-    'king' => ['gender' => 'male', 'pos' => 'ruler'],
-    'queen' => ['gender' => 'female', 'pos' => 'ruler'],
-    'ruler' => ['gender' => 'trans', 'pos' => 'ruler'],
-
-    'father' => ['gender' => 'male', 'pos' => 'parent'],
-    'mother' => ['gender' => 'female', 'pos' => 'parent'],
-    'parent' => ['gender' => 'trans', 'pos' => 'parent'],
-  ];
+  public static function replacements() {
+    $path = dirname(__FILE__) . '/WordMap.php';
+    include $path;
+    // Local development configuration.
+    if (file_exists(dirname(__FILE__) . '/Extensions.php')) {
+      include dirname(__FILE__) . '/Extensions.php';
+      $replacements = array_merge($replacements, $extensions);
+    }
+    return $replacements;
+  }
 
   /**
    * Clean up: remove the legend string from the original text.
