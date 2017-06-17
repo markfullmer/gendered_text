@@ -57,6 +57,10 @@ $replacements = [
   'nephew' => ['gender' => 'male', 'pos' => 'cousin'],
   'niece' => ['gender' => 'female', 'pos' => 'cousin'],
   'siblings child' => ['gender' => 'trans', 'pos' => 'cousin'],
+  
+  'uncle' => ['gender' => 'male', 'pos' => 'parentsib'],
+  'aunt' => ['gender' => 'female', 'pos' => 'parentsib'],
+  'parents sibling' => ['gender' => 'trans', 'pos' => 'parentsib'],
 
   'footman' => ['gender' => 'male', 'pos' => 'servant'],
   'maid' => ['gender' => 'female', 'pos' => 'servant'],
@@ -73,6 +77,10 @@ $replacements = [
   'bastard' => ['gender' => 'male', 'pos' => 'insult'],
   'bitch' => ['gender' => 'female', 'pos' => 'insult'],
   'asshole' => ['gender' => 'trans', 'pos' => 'insult'],
+  
+  'beard' => ['gender' => 'male', 'pos' => 'facial hair'],
+  'tressess' => ['gender' => 'female', 'pos' => 'facial hair'],
+  'tressess' => ['gender' => 'trans', 'pos' => 'facial hair'],
 
   'sir' => ['gender' => 'male', 'pos' => 'honorific1'],
   'ma-am' => ['gender' => 'female', 'pos' => 'honorific1'],
@@ -85,6 +93,10 @@ $replacements = [
   'duke' => ['gender' => 'male', 'pos' => 'honorific3'],
   'duchess' => ['gender' => 'female', 'pos' => 'honorific3'],
   'your honor3' => ['gender' => 'trans', 'pos' => 'honorific3', 'output' => 'your honor'],
+  
+   'god' => ['gender' => 'male', 'pos' => 'diety'],
+  'goddess' => ['gender' => 'female', 'pos' => 'diety'],
+  'god' => ['gender' => 'trans', 'pos' => 'diety'],
 
   'trousers' => ['gender' => 'male', 'pos' => 'clothes1'],
   'skirt' => ['gender' => 'female', 'pos' => 'clothes1'],
@@ -93,6 +105,11 @@ $replacements = [
   'suit' => ['gender' => 'male', 'pos' => 'clothes2'],
   'dress' => ['gender' => 'female', 'pos' => 'clothes2'],
   'suitn' => ['gender' => 'trans', 'pos' => 'clothes2', 'output' => 'trousers'],
+  
+  
+  'chest' => ['gender' => 'male', 'pos' => 'chest'],
+  'breasts' => ['gender' => 'female', 'pos' => 'chest'],
+  'chest' => ['gender' => 'trans', 'pos' => 'chest'],
 
   'tuxedo' => ['gender' => 'male', 'pos' => 'clothes3'],
   'gown' => ['gender' => 'female', 'pos' => 'clothes3'],
@@ -100,7 +117,7 @@ $replacements = [
 
   'sonny' => ['gender' => 'male', 'pos' => 'affectionate'],
   'sweetie' => ['gender' => 'female', 'pos' => 'affectionate'],
-  'dear' => ['gender' => 'trans', 'pos' => 'affectionate'],
+  'kiddo' => ['gender' => 'trans', 'pos' => 'affectionate'],
 
   'tenor' => ['gender' => 'male', 'pos' => 'high voice'],
   'soprano' => ['gender' => 'female', 'pos' => 'high voice'],
