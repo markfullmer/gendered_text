@@ -1,2 +1,5 @@
 .DS_Store
 /vendor/
+credentials/client_secret.json
+credentials/credentials.json
+src/Extensions.php

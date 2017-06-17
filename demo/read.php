@@ -8,66 +8,71 @@
 require '../vendor/autoload.php';
 include 'header.php';
 use markfullmer\gendered_text\GenderedText;
+use markfullmer\gendered_text\Texts;
 
 if (empty($_GET['text'])) {
-  echo '<div class="container"><div class="six columns"><label for="text">Choose a text to read:</label>';
-  $dir = __DIR__ . '/texts/';
-  $files = scandir($dir);
-  foreach ($files as $file) {
-    if (strpos($file, '.txt') !== FALSE) {
-      $filename = str_replace('.txt', '', $file);
-      echo '<a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $filename . '" class="button button-primary">' . $filename . '</a><br />';
-    }
+  // Retrieve and display a list of available texts.
+  echo '<div class="container"><div class="six columns"><label for="text">Choose a text:</label>';
+  $texts = new Texts();
+  $contents = $texts->getFolder('0BxeFmOHdUjWRbHBqM1kzLU9ES1k');
+  asort($contents);
+  foreach ($contents as $id => $title) {
+    echo '<a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $id . '" class="button button-primary">' . $title . '</a><br />';
   }
   echo '</div>';
 }
 elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
-  $file = __DIR__ . '/texts/' . $_GET['text'] . '.txt';
-  if (file_exists($file)) {
-    $handle = @fopen($file, "r");
-    $text = fread($handle, filesize($file));
+  // Allow the user to assign genders.
+  $texts = new Texts();
+  $text = $texts->getText($_GET['text']);
+  if ($text) {
     $legend_string = GenderedText::findLegend($text);
     $legend = GenderedText::parseLegend($legend_string);
-    $set = [];
-    $genders = ['male', 'female', 'trans'];
-    echo '<div class="container">
-    <form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">
-      <div class="row">
-        <div class="twelve columns">';
-    echo '<h4>You will be reading ' . $_GET['text'] . '</h4>';
-    foreach ($legend as $key => $values) {
-      if ($key != 'names') {
-        $list = implode('/', $values['names']);
-        if (!in_array($list, $set)) {
-          echo '<label for="characters[' . $list . ']">Gender for "' . $list . '": ';
-          echo '<select name="characters[' . $list . ']">';
-          foreach ($genders as $gender) {
-            echo '<option value="' . $gender . '"';
-            if ($gender == $values['gender']) {
-              echo ' selected="selected"';
+    if (empty($legend)) {
+      echo '<h4>This text does not appear to have a character legend. The code
+      cannot proceed.</h4>';
+    }
+    else {
+      $set = [];
+      echo '<div class="container">
+      <form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">
+        <div class="row">
+          <div class="twelve columns">';
+      $genders = ['male', 'female', 'trans'];
+      foreach ($legend as $key => $values) {
+        if ($key != 'names') {
+          $list = implode('/', $values['names']);
+          if (!in_array($list, $set)) {
+            echo '<label for="characters[' . $list . ']">Gender for "' . $list . '": ';
+            echo '<select name="characters[' . $list . ']">';
+            foreach ($genders as $gender) {
+              echo '<option value="' . $gender . '"';
+              if ($gender == $values['gender']) {
+                echo ' selected="selected"';
+              }
+              echo '>' . ucfirst($gender) . '</option>';
             }
-            echo '>' . ucfirst($gender) . '</option>';
+            echo '<option value="random">Surprise me!</option>';
+            echo '</select>';
+            $set[] = $list;
           }
-          echo '<option value="random">Surprise me!</option>';
-          echo '</select>';
-          $set[] = $list;
         }
       }
+      echo '<br /><input class="button button-primary" type="submit" name="submit" value="Read the text" />';
+      echo '
+            </div>
+          </div>
+        </form>
+      </div>';
     }
-    echo '<br /><input class="button button-primary" type="submit" name="submit" value="Read the text" />';
-    echo '
-        </div>
-      </div>
-    </form>
-  </div>';
   }
 
 }
 elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
-  $file = __DIR__ . '/texts/' . $_GET['text'] . '.txt';
-  if (file_exists($file)) {
-    $handle = @fopen($file, "r");
-    $text = fread($handle, filesize($file));
+  // Display the text!
+  $texts = new Texts();
+  $text = $texts->getText($_GET['text']);
+  if ($text) {
     $legend_string = GenderedText::findLegend($text);
     $text = GenderedText::removeLegend($text, $legend_string);
     $legend = GenderedText::buildLegend($_POST['characters']);
