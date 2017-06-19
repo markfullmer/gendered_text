@@ -3,11 +3,11 @@
 namespace markfullmer\gendered_text;
 
 define('APPLICATION_NAME', 'Drive API PHP Quickstart');
-define('CREDENTIALS_PATH', '../credentials/credentials.json');
-define('CLIENT_SECRET_PATH', '../credentials/client_secret.json');
+define('CREDENTIALS_PATH', './credentials/credentials.json');
+define('CLIENT_SECRET_PATH', './credentials/client_secret.json');
 // If modifying these scopes, the previously saved credentials must be deleted
 // and rebuilt.
-define('SCOPES', implode(' ', ['https://www.googleapis.com/auth/drive.readonly']
+define('SCOPES', implode(' ', [\Google_Service_Drive::DRIVE_READONLY]
 ));
 
 /**
