@@ -22,7 +22,7 @@ class Texts extends GoogleDriveBase {
     $optParams = array(
       'q' => "'" . $folder_id . "' in parents",
       'pageSize' => $limit,
-      'fields' => 'nextPageToken, files(id, name, parents)',
+      'fields' => 'nextPageToken, files(id, name, parents, mimeType)',
     );
     $results = $service->files->listFiles($optParams);
     $output = [];
@@ -31,9 +31,12 @@ class Texts extends GoogleDriveBase {
     }
     else {
       foreach ($results->getFiles() as $file) {
-        $name = $file->getName();
-        $id = $file->getId();
-        $output[$id] = $name;
+        $type = $file->getMimeType();
+        if (strpos($type, 'document') !== FALSE) {
+          $name = $file->getName();
+          $id = $file->getId();
+          $output[$id] = $name;
+        }
       }
       return $output;
     }
