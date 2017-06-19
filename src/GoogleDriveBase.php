@@ -2,8 +2,6 @@
 
 namespace markfullmer\gendered_text;
 
-require_once '../vendor/autoload.php';
-
 define('APPLICATION_NAME', 'Drive API PHP Quickstart');
 define('CREDENTIALS_PATH', '../credentials/credentials.json');
 define('CLIENT_SECRET_PATH', '../credentials/client_secret.json');
