@@ -7,7 +7,7 @@ define('CREDENTIALS_PATH', '../credentials/credentials.json');
 define('CLIENT_SECRET_PATH', '../credentials/client_secret.json');
 // If modifying these scopes, the previously saved credentials must be deleted
 // and rebuilt.
-define('SCOPES', implode(' ', [\Google_Service_Drive::DRIVE_READONLY]
+define('SCOPES', implode(' ', ['https://www.googleapis.com/auth/drive.readonly']
 ));
 
 /**
