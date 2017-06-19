@@ -26,7 +26,7 @@ class GenderedText {
     $placeholders = self::placeholders($text);
 
     // Retrieve the replacement map.
-    $replacements = WordMap::get('1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI');
+    $replacements = WordMap::get($sheet_id);
 
     $map = self::transform_replacements($replacements);
     // Strip the legend from the output.

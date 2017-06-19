@@ -78,7 +78,7 @@ elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
     $legend = GenderedText::buildLegend($_POST['characters']);
     echo '<div class="container">';
     echo '<a class="button" href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '">Back to gender selector</a>';
-    echo '<p>' . nl2br(GenderedText::process($text . $legend)) . '</p>';
+    echo '<p>' . nl2br(GenderedText::process($text . $legend, '1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI')) . '</p>';
     echo '</div>';
   }
 }
