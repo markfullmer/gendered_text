@@ -10,18 +10,29 @@ class GenderedText {
   /**
    * Main function for dynamically altering the gender of a text.
    *
+   * @param string $text
+   *   The text to be altered (must include the legend).
+   * @param string $sheet_id
+   *   The Google Sheet UUID to be used as the word map.
+   *   Example: 1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI .
+   *
    * @return string
    *   The gendered text variant.
    */
-  public static function process($text) {
+  public static function process($text, $sheet_id = '') {
+
     $legend_string = self::findLegend($text);
     $legend = self::parseLegend($legend_string);
     $placeholders = self::placeholders($text);
-    $map = self::transform_replacements();
+
+    // Retrieve the replacement map.
+    $replacements = WordMap::get('1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI');
+
+    $map = self::transform_replacements($replacements);
     // Strip the legend from the output.
     $text = self::removeLegend($text, $legend_string);
     // Perform text replacements.
-    $modified = self::replace($text, $placeholders, $legend, $map);
+    $modified = self::replace($text, $placeholders, $legend, $map, $replacements);
     return $modified;
   }
 
@@ -31,7 +42,7 @@ class GenderedText {
    * @return string
    *   The string-replaced text.
    */
-  public static function replace($text, $placeholders, $legend, $map) {
+  public static function replace($text, $placeholders, $legend, $map, $replacements) {
     foreach ($placeholders as $key => $placeholder) {
       if (empty($placeholder)) {
         // The placeholder only contains the name. Replace it with the
@@ -55,8 +66,7 @@ class GenderedText {
         $replacement = $placeholder[1];
         $identifier = strtolower($placeholder[1]);
         $persona = $placeholder[2];
-        if (in_array($identifier, array_keys(self::replacements())) && in_array($persona, array_keys($legend))) {
-          $replacements = self::replacements();
+        if (in_array($identifier, array_keys($replacements)) && in_array($persona, array_keys($legend))) {
           $pos = $replacements[$identifier]['pos'];
           $legend_item = $legend[$persona];
           $gender = $legend_item['gender'];
@@ -73,14 +83,14 @@ class GenderedText {
   }
 
   /**
-   * Create a mapping from self::$replacements.
+   * Create a mapping from $replacements.
    *
    * @return array
    *   A traversable array of parts of speech.
    */
-  public static function transform_replacements() {
+  public static function transform_replacements($replacements) {
     $map = [];
-    foreach (self::replacements() as $id => $attributes) {
+    foreach ($replacements as $id => $attributes) {
       $pos = $attributes['pos'];
       $gender = $attributes['gender'];
       $output = !empty($attributes['output']) ? $attributes['output'] : $id;
@@ -95,8 +105,9 @@ class GenderedText {
    * @return array
    *   A traversable array of parts of speech.
    */
-  public static function addPlaceholders($text) {
-    foreach (array_keys(self::replacements()) as $replacement) {
+  public static function addPlaceholders($text, $sheet_id = '') {
+    $replacements = WordMap::get('1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI');
+    foreach (array_keys($replacements) as $replacement) {
 
       $text = preg_replace("/\s(" . preg_quote($replacement) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
       $text = preg_replace("/\s(" . ucfirst(preg_quote($replacement)) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
@@ -127,15 +138,34 @@ class GenderedText {
    * @return array
    *   The built list of all word mapping replacements.
    */
-  public static function replacements() {
+  public static function getDefaultReplacements() {
     $path = dirname(__FILE__) . '/WordMap.php';
     include $path;
-    // Local development configuration.
-    if (file_exists(dirname(__FILE__) . '/Extensions.php')) {
-      include dirname(__FILE__) . '/Extensions.php';
-      $replacements = array_merge($replacements, $extensions);
+    // Make human-friendly structure machine-friendly.
+    foreach ($replacements as $key => $values) {
+      if (isset($values['female'])) {
+        $female = $values['female'];
+        $keys[$female] = ['gender' => 'female', 'pos' => $key];
+        if (isset($values['female_display'])) {
+          $keys[$female]['output'] = $values['female_display'];
+        }
+      }
+      if (isset($values['male'])) {
+        $male = $values['male'];
+        $keys[$male] = ['gender' => 'male', 'pos' => $key];
+        if (isset($values['male_display'])) {
+          $keys[$male]['output'] = $values['male_display'];
+        }
+      }
+      if (isset($values['trans'])) {
+        $trans = $values['trans'];
+        $keys[$trans] = ['gender' => 'trans', 'pos' => $key];
+        if (isset($values['trans_display'])) {
+          $keys[$trans]['output'] = $values['trans_display'];
+        }
+      }
     }
-    return $replacements;
+    return $keys;
   }
 
   /**
