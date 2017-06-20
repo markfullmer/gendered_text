@@ -7,6 +7,7 @@
 
 require '../vendor/autoload.php';
 include 'header.php';
+require_once 'config.php';
 use markfullmer\gendered_text\GenderedText;
 
 // Some default text.
