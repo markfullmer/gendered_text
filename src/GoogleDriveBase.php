@@ -2,14 +2,6 @@
 
 namespace markfullmer\gendered_text;
 
-define('APPLICATION_NAME', 'Drive API PHP Quickstart');
-define('CREDENTIALS_PATH', '../credentials/credentials.json');
-define('CLIENT_SECRET_PATH', '../credentials/client_secret.json');
-// If modifying these scopes, the previously saved credentials must be deleted
-// and rebuilt.
-define('SCOPES', implode(' ', [\Google_Service_Drive::DRIVE_READONLY]
-));
-
 /**
  * Base Class to retrieve data from Google Drive.
  */
@@ -22,16 +14,25 @@ class GoogleDriveBase {
    *    The authorized client object.
    */
   protected static function getClient() {
+    // If modifying these scopes, the previously saved credentials must be
+    // deleted and rebuilt.
+    $scopes = implode(' ', [\Google_Service_Drive::DRIVE_READONLY]);
     $client = new \Google_Client();
     $client->setApplicationName(APPLICATION_NAME);
-    $client->setScopes(SCOPES);
+    $client->setScopes($scopes);
+
+    if (!file_exists(CLIENT_SECRET_PATH)) {
+      file_put_contents(CLIENT_SECRET_PATH, GOOGLE_CLIENT);
+    }
+
     $client->setAuthConfig(CLIENT_SECRET_PATH);
     $client->setAccessType('offline');
 
-    // Load previously authorized credentials from a file.
-    $credentialsPath = self::expandHomeDirectory(CREDENTIALS_PATH);
-    if (file_exists($credentialsPath)) {
-      $accessToken = json_decode(file_get_contents($credentialsPath), TRUE);
+    if (file_exists(CREDENTIALS_PATH)) {
+      $accessToken = json_decode(file_get_contents(CREDENTIALS_PATH), TRUE);
+    }
+    elseif (!empty(GOOGLE_CREDENTIAL)) {
+      $accessToken = (array) json_decode(GOOGLE_CREDENTIAL);
     }
     else {
       return FALSE;
@@ -41,26 +42,9 @@ class GoogleDriveBase {
     // Refresh the token if it's expired.
     if ($client->isAccessTokenExpired()) {
       $client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());
-      file_put_contents($credentialsPath, json_encode($client->getAccessToken()));
+      file_put_contents(CREDENTIALS_PATH, json_encode($client->getAccessToken()));
     }
     return $client;
-  }
-
-  /**
-   * Expands the home directory alias '~' to the full path.
-   *
-   * @param string $path
-   *    The path to expand.
-   *
-   * @return string
-   *    The expanded path.
-   */
-  protected static function expandHomeDirectory($path) {
-    $homeDirectory = getenv('HOME');
-    if (empty($homeDirectory)) {
-      $homeDirectory = getenv('HOMEDRIVE') . getenv('HOMEPATH');
-    }
-    return str_replace('~', realpath($homeDirectory), $path);
   }
 
   /**

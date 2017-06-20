@@ -41,7 +41,7 @@ class Basic1Test extends TestCase {
    */
   public function testBasicGoogle($text, $expected) {
     // Run tests using the Google Spreadsheet backend.
-    $result = GenderedText::process($text, '1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI');
+    $result = GenderedText::process($text, WORDMAP_SHEET_ID);
     $this->assertEquals($expected, $result);
   }
 

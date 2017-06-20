@@ -6,6 +6,8 @@
  */
 
 require '../vendor/autoload.php';
+require_once 'config.php';
+
 include 'header.php';
 use markfullmer\gendered_text\GenderedText;
 use markfullmer\gendered_text\Texts;
@@ -14,7 +16,7 @@ if (empty($_GET['text'])) {
   // Retrieve and display a list of available texts.
   echo '<div class="container"><div class="six columns"><label for="text">Choose a text:</label>';
   $texts = new Texts();
-  $contents = $texts->getFolder('0BxeFmOHdUjWRbHBqM1kzLU9ES1k');
+  $contents = $texts->getFolder(DRIVE_FOLDER);
   asort($contents);
   foreach ($contents as $id => $title) {
     echo '<a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $id . '" class="button button-primary">' . $title . '</a><br />';
@@ -78,7 +80,7 @@ elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
     $legend = GenderedText::buildLegend($_POST['characters']);
     echo '<div class="container">';
     echo '<a class="button" href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '">Back to gender selector</a>';
-    echo '<p>' . nl2br(GenderedText::process($text . $legend, '1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI')) . '</p>';
+    echo '<p>' . nl2br(GenderedText::process($text . $legend, WORDMAP_SHEET_ID)) . '</p>';
     echo '</div>';
   }
 }
