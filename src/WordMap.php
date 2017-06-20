@@ -1,143 +1,138 @@
 <?php
 
+namespace markfullmer\gendered_text;
+
 /**
- * @file
- * Gendered word map.
+ * Class for dynamically process texts per user-supplied gender.
  */
+class WordMap extends GoogleDriveBase {
 
-$replacements = [
-  'male' => ['gender' => 'male', 'pos' => 'sex'],
-  'female' => ['gender' => 'female', 'pos' => 'sex'],
-  'nonbinary' => ['gender' => 'trans', 'pos' => 'sex'],
+  /**
+   * Return a wordmap, either from a Google Sheet, or the default.
+   *
+   * @param string $sheet_id
+   *    The Google Sheet UUID.
+   *
+   * @return array
+   *    A machine-prepared word map.
+   */
+  public static function get($sheet_id = '') {
+    if (!empty($sheet_id)) {
+      $values = self::getFromGoogle($sheet_id);
+    }
+    else {
+      $data = self::$defaultWordMap;
+      foreach ($data as $key => $output) {
+        $vals = array_values($output);
+        array_unshift($vals, $key);
+        $values[] = $vals;
+      }
+    }
+    return self::parseOriginal($values);
+  }
 
-  'man' => ['gender' => 'male', 'pos' => 'gender'],
-  'woman' => ['gender' => 'female', 'pos' => 'gender'],
-  'person' => ['gender' => 'trans', 'pos' => 'gender'],
+  /**
+   * Retrieve a Google Sheet that matches the structure of a Gendered Text map.
+   *
+   * @param string $id
+   *    A Google Sheet UUID.
+   *
+   * @return array
+   *    A machine-prepared word map.
+   */
+  public static function getFromGoogle($id) {
+    $client = self::getClient();
+    $service = new \Google_Service_Sheets($client);
+    // The 'range' (parameter 2) is hardcoded because the following preparation
+    // requires a specific spreadsheet structure.
+    $response = $service->spreadsheets_values->get($id, 'A5:G');
+    return $response->getValues();
+  }
 
-  'men' => ['gender' => 'male', 'pos' => 'plural'],
-  'women' => ['gender' => 'female', 'pos' => 'plural'],
-  'men and women' => ['gender' => 'trans', 'pos' => 'plural'],
+  /**
+   * Juggle the original array to match what is expected by GenderedText.
+   *
+   * @param array $values
+   *    The original array.
+   *    Example: https://docs.google.com/spreadsheets/d/1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI/edit#gid=0 .
+   *
+   * @return array
+   *    The juggled array.
+   */
+  public static function parseOriginal(array $values) {
+    $output = [];
+    foreach ($values as $key => $contents) {
+      $data = array_values($contents);
+      $pos = $data[0];
+      // Get female word (column "1" & "4").
+      if (isset($data[1])) {
+        $female_word = $data[1];
+        $output[$female_word] = ['gender' => 'female', 'pos' => $pos];
+        if (isset($data[4])) {
+          $output[$female_word]['output'] = $data[4];
+        }
+      }
+      // Get male word (column "2" & "5").
+      if (isset($data[2])) {
+        $male_word = $data[2];
+        $output[$male_word] = ['gender' => 'male', 'pos' => $pos];
+        if (isset($data[5])) {
+          $output[$male_word]['output'] = $data[5];
+        }
+      }
+      // Get trans word (columns "3" & "6").
+      if (isset($data[3])) {
+        $trans_word = $data[3];
+        $output[$trans_word] = ['gender' => 'trans', 'pos' => $pos];
+        if (isset($data[6])) {
+          $output[$trans_word]['output'] = $data[6];
+        }
+      }
 
-  'gentlemen' => ['gender' => 'male', 'pos' => 'formal plural'],
-  'ladies' => ['gender' => 'female', 'pos' => 'formal plural'],
-  'ladies and gentlemen' => ['gender' => 'trans', 'pos' => 'formal plural'],
+    }
+    return $output;
+  }
 
-  'father' => ['gender' => 'male', 'pos' => 'parent'],
-  'mother' => ['gender' => 'female', 'pos' => 'parent'],
-  'parent' => ['gender' => 'trans', 'pos' => 'parent'],
+  /**
+   * The default.
+   *
+   * @var array
+   */
+  public static $defaultWordMap = [
+    'sex' => ['female' => 'she', 'male' => 'he', 'trans' => 'ze'],
+    'gender' => ['female' => 'her', 'male' => 'him', 'trans' => 'hir'],
+    'plural' => ['female' => 'herd', 'male' => 'hisd', 'trans' => 'hird', 'female_display' => 'her', 'male_display' => 'his', 'trans_display' => 'hir'],
+    'formal plural' => ['female' => 'hers', 'male' => 'his', 'trans' => 'hirs'],
+    'parent' => ['female' => 'herself', 'male' => 'himself', 'trans' => 'hirself'],
+    'spouse' => ['female' => 'female', 'male' => 'male', 'trans' => 'nonbinary'],
+    'child' => ['female' => 'woman', 'male' => 'man', 'trans' => 'person'],
+    'offspring' => ['female' => 'women', 'male' => 'men', 'trans' => 'men and women'],
+    'kid' => ['female' => 'ladies', 'male' => 'gentlemen', 'trans' => 'ladies and gentlemen'],
+    'sibling' => ['female' => 'mother', 'male' => 'father', 'trans' => 'parent'],
+    'sovereign' => ['female' => 'wife', 'male' => 'husband', 'trans' => 'spouse'],
+    'ruler' => ['female' => 'girl', 'male' => 'boy', 'trans' => 'youngster'],
+    'cousin' => ['female' => 'daughter', 'male' => 'son', 'trans' => 'child'],
+    'servant' => ['female' => 'lass', 'male' => 'lad', 'trans' => 'kid'],
+    'hair salon' => ['female' => 'sister', 'male' => 'brother', 'trans' => 'sibling'],
+    'insult' => ['female' => 'princess', 'male' => 'prince', 'trans' => 'sovereign'],
+    'honorific1' => ['female' => 'queen', 'male' => 'king', 'trans' => 'ruler'],
+    'honorific2' => ['female' => 'niece', 'male' => 'nephew', 'trans' => 'siblings child'],
+    'honorific3' => ['female' => 'housekeeper', 'male' => 'butler', 'trans' => 'servant'],
+    'clothes1' => ['female' => 'beauty parlor', 'male' => 'barber shop', 'trans' => 'hair salon'],
+    'clothes2' => ['female' => 'bitch', 'male' => 'bastard', 'trans' => 'asshole'],
+    'clothes3' => ['female' => 'ma-am', 'male' => 'sir', 'trans' => 'your honor1', 'trans_display' => 'your honor'],
+    'affectionate' => ['female' => 'lady', 'male' => 'lord', 'trans' => 'your honor2', 'trans_display' => 'your honor'],
+    'high voice' => ['female' => 'duchess', 'male' => 'duke', 'trans' => 'your honor3', 'trans_display' => 'your honor'],
+    'med voice' => ['female' => 'skirt', 'male' => 'trousers', 'trans' => 'trousersn', 'trans_display' => 'trousers'],
+    'low voice' => ['female' => 'dress', 'male' => 'suit', 'trans' => 'suitn', 'trans_display' => 'suit'],
+    'pal' => ['female' => 'gown', 'male' => 'tuxedo', 'trans' => 'outfit'],
+    'Wild Card' => ['female' => 'sweetie', 'male' => 'sonny', 'trans' => 'dear'],
+    'subject' => ['female' => 'soprano', 'male' => 'tenor', 'trans' => 'high pitched voice'],
+    'object' => ['female' => 'contralto', 'male' => 'baritone', 'trans' => 'medium pitched voice'],
+    'determiner' => ['female' => 'alto', 'male' => 'bass', 'trans' => 'low pitched voice'],
+    'possessive' => ['female' => 'dame', 'male' => 'fellow', 'trans' => 'pal'],
+    'reflexive' => ['female' => 'calamity jane', 'male' => 'wild bill hickock', 'trans' => 'wild card'],
+    'title' => ['female' => 'ms.', 'male' => 'mr.', 'trans' => 'm.'],
+  ];
 
-  'husband' => ['gender' => 'male', 'pos' => 'spouse'],
-  'wife' => ['gender' => 'female', 'pos' => 'spouse'],
-  'spouse' => ['gender' => 'trans', 'pos' => 'spouse'],
-
-  'boy' => ['gender' => 'male', 'pos' => 'child'],
-  'girl' => ['gender' => 'female', 'pos' => 'child'],
-  'child' => ['gender' => 'trans', 'pos' => 'child'],
-
-  'lad' => ['gender' => 'male', 'pos' => 'kid'],
-  'lass' => ['gender' => 'female', 'pos' => 'kid'],
-  'kid' => ['gender' => 'trans', 'pos' => 'kid'],
-
-  'brother' => ['gender' => 'male', 'pos' => 'sibling'],
-  'sister' => ['gender' => 'female', 'pos' => 'sibling'],
-  'sibling' => ['gender' => 'trans', 'pos' => 'sibling'],
-
-  'son' => ['gender' => 'male', 'pos' => 'offspring'],
-  'daughter' => ['gender' => 'female', 'pos' => 'offspring'],
-  'child' => ['gender' => 'trans', 'pos' => 'offspring'],
-
-  'prince' => ['gender' => 'male', 'pos' => 'sovereign'],
-  'princess' => ['gender' => 'female', 'pos' => 'sovereign'],
-  'sovereign' => ['gender' => 'trans', 'pos' => 'sovereign'],
-
-  'king' => ['gender' => 'male', 'pos' => 'ruler'],
-  'queen' => ['gender' => 'female', 'pos' => 'ruler'],
-  'ruler' => ['gender' => 'trans', 'pos' => 'ruler'],
-
-  'nephew' => ['gender' => 'male', 'pos' => 'cousin'],
-  'niece' => ['gender' => 'female', 'pos' => 'cousin'],
-  'siblings child' => ['gender' => 'trans', 'pos' => 'cousin'],
-
-  'footman' => ['gender' => 'male', 'pos' => 'servant'],
-  'maid' => ['gender' => 'female', 'pos' => 'servant'],
-  'servant' => ['gender' => 'trans', 'pos' => 'servant'],
-
-  'barber shop' => ['gender' => 'male', 'pos' => 'hair salon'],
-  'beauty parlor' => ['gender' => 'female', 'pos' => 'hair salon'],
-  'hair salon' => ['gender' => 'trans', 'pos' => 'hair salon'],
-
-  'butler' => ['gender' => 'male', 'pos' => 'servant'],
-  'housekeeper' => ['gender' => 'female', 'pos' => 'servant'],
-  'servant' => ['gender' => 'trans', 'pos' => 'servant'],
-
-  'bastard' => ['gender' => 'male', 'pos' => 'insult'],
-  'bitch' => ['gender' => 'female', 'pos' => 'insult'],
-  'asshole' => ['gender' => 'trans', 'pos' => 'insult'],
-
-  'sir' => ['gender' => 'male', 'pos' => 'honorific1'],
-  'ma-am' => ['gender' => 'female', 'pos' => 'honorific1'],
-  'your honor1' => ['gender' => 'trans', 'pos' => 'honorific1', 'output' => 'your honor'],
-
-  'lord' => ['gender' => 'male', 'pos' => 'honorific2'],
-  'lady' => ['gender' => 'female', 'pos' => 'honorific2'],
-  'your honor2' => ['gender' => 'trans', 'pos' => 'honorific2', 'output' => 'your honor'],
-
-  'duke' => ['gender' => 'male', 'pos' => 'honorific3'],
-  'duchess' => ['gender' => 'female', 'pos' => 'honorific3'],
-  'your honor3' => ['gender' => 'trans', 'pos' => 'honorific3', 'output' => 'your honor'],
-
-  'trousers' => ['gender' => 'male', 'pos' => 'clothes1'],
-  'skirt' => ['gender' => 'female', 'pos' => 'clothes1'],
-  'trousersn' => ['gender' => 'trans', 'pos' => 'clothes1', 'output' => 'trousers'],
-
-  'suit' => ['gender' => 'male', 'pos' => 'clothes2'],
-  'dress' => ['gender' => 'female', 'pos' => 'clothes2'],
-  'suitn' => ['gender' => 'trans', 'pos' => 'clothes2', 'output' => 'trousers'],
-
-  'tuxedo' => ['gender' => 'male', 'pos' => 'clothes3'],
-  'gown' => ['gender' => 'female', 'pos' => 'clothes3'],
-  'outfit' => ['gender' => 'trans', 'pos' => 'clothes3'],
-
-  'sonny' => ['gender' => 'male', 'pos' => 'affectionate'],
-  'sweetie' => ['gender' => 'female', 'pos' => 'affectionate'],
-  'dear' => ['gender' => 'trans', 'pos' => 'affectionate'],
-
-  'tenor' => ['gender' => 'male', 'pos' => 'high voice'],
-  'soprano' => ['gender' => 'female', 'pos' => 'high voice'],
-  'high pitched voice' => ['gender' => 'trans', 'pos' => 'high voice'],
-
-  'baritone' => ['gender' => 'male', 'pos' => 'med voice'],
-  'contralto' => ['gender' => 'female', 'pos' => 'med voice'],
-  'medium pitched voice' => ['gender' => 'trans', 'pos' => 'med voice'],
-
-  'bass' => ['gender' => 'male', 'pos' => 'low voice'],
-  'alto' => ['gender' => 'female', 'pos' => 'low voice'],
-  'low pitched voice' => ['gender' => 'trans', 'pos' => 'low voice'],
-
-  'fellow' => ['gender' => 'male', 'pos' => 'pal'],
-  'dame' => ['gender' => 'female', 'pos' => 'pal'],
-  'pal' => ['gender' => 'trans', 'pos' => 'pal'],
-
-  'wild bill hickock' => ['gender' => 'male', 'pos' => 'Wild Card'],
-  'calamity jane' => ['gender' => 'female', 'pos' => 'Wild Card'],
-  'wild card' => ['gender' => 'trans', 'pos' => 'Wild Card'],
-
-  'he' => ['gender' => 'male', 'pos' => 'subject'],
-  'she' => ['gender' => 'female', 'pos' => 'subject'],
-  'ze' => ['gender' => 'trans', 'pos' => 'subject'],
-  'him' => ['gender' => 'male', 'pos' => 'object'],
-  'her' => ['gender' => 'female', 'pos' => 'object'],
-  'hir' => ['gender' => 'trans', 'pos' => 'object'],
-  'hisd' => ['gender' => 'male', 'pos' => 'determiner', 'output' => 'his'],
-  'herd' => ['gender' => 'female', 'pos' => 'determiner', 'output' => 'her'],
-  'hird' => ['gender' => 'trans', 'pos' => 'determiner'],
-  'his' => ['gender' => 'male', 'pos' => 'possessive'],
-  'hers' => ['gender' => 'female', 'pos' => 'possessive'],
-  'hirs' => ['gender' => 'trans', 'pos' => 'possessive'],
-  'herself' => ['gender' => 'female', 'pos' => 'reflexive'],
-  'himself' => ['gender' => 'male', 'pos' => 'reflexive'],
-  'hirself' => ['gender' => 'trans', 'pos' => 'reflexive'],
-  'mr.' => ['gender' => 'male', 'pos' => 'title'],
-  'ms.' => ['gender' => 'female', 'pos' => 'title'],
-  'm.' => ['gender' => 'trans', 'pos' => 'title'],
-];
+}

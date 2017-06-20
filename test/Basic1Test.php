@@ -29,8 +29,19 @@ class Basic1Test extends TestCase {
    *
    * @dataProvider basicDataProvider
    */
-  public function testBasic1($text, $expected) {
+  public function testBasicLocal($text, $expected) {
     $result = GenderedText::process($text);
+    $this->assertEquals($expected, $result);
+  }
+
+  /**
+   * Test assertions.
+   *
+   * @dataProvider basicDataProvider
+   */
+  public function testBasicGoogle($text, $expected) {
+    // Run tests using the Google Spreadsheet backend.
+    $result = GenderedText::process($text, WORDMAP_SHEET_ID);
     $this->assertEquals($expected, $result);
   }
 

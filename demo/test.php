@@ -6,6 +6,7 @@
  */
 
 require '../vendor/autoload.php';
+require_once 'config.php';
 include 'header.php';
 use markfullmer\gendered_text\GenderedText;
 
@@ -28,7 +29,7 @@ echo '
       </div>
       <div class="six columns"><input type="submit" name="json" value="Genderize" />';
 if (isset($_POST['text'])) {
-  echo '<p>' . nl2br(GenderedText::process($text)) . '</p>';
+  echo '<p>' . nl2br(GenderedText::process($text, WORDMAP_SHEET_ID)) . '</p>';
   echo '<div class="panel"><p>The legend allows manual switching of genders. Now let the reader choose!</p><a href="read.php" class="button button-primary">Read ></a>';
 }
 echo '

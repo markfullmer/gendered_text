@@ -4,6 +4,11 @@ machine:
   php:
     version: 7.1.0
 
+dependencies:
+  pre:
+  post:
+    - mkdir ../credentials
+    - chmod -R 777 ../credentials
 test:
   override:
     - phpunit

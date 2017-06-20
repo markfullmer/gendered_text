@@ -7,6 +7,9 @@
 * 12/29/2014
 */
 
+h1.hero-heading {
+  font-size:2.5rem;
+}
 .panel {
   background-color:#EEE;
   padding:10px;
