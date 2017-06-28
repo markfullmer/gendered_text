@@ -57,7 +57,7 @@ class GenderedText {
           if (!empty($legend_map['names'][$gender])) {
             $name = $legend_map['names'][$gender];
           }
-          $text = preg_replace("/{{\s*" . preg_quote($key) . "\s*}}/i", $name, $text);
+          $text = preg_replace("|{{\s*" . preg_quote($key) . "\s*}}|i", $name, $text);
         }
       }
       else {
@@ -76,7 +76,7 @@ class GenderedText {
         if (self::is_capitalized($placeholder[1])) {
           $replacement = ucfirst($replacement);
         }
-        $text = preg_replace("/{{\s*" . preg_quote($placeholder[0]) . "\s*}}/", $replacement, $text);
+        $text = preg_replace("|{{\s*" . preg_quote($placeholder[0]) . "\s*}}|", $replacement, $text);
       }
     }
     return $text;
@@ -109,8 +109,8 @@ class GenderedText {
     $replacements = WordMap::get('1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI');
     foreach (array_keys($replacements) as $replacement) {
 
-      $text = preg_replace("/\s(" . preg_quote($replacement) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
-      $text = preg_replace("/\s(" . ucfirst(preg_quote($replacement)) . ")([^a-zA-Z])(s*)/", " {{ $1(person) }}$2$3", $text);
+      $text = preg_replace("|\s(" . preg_quote($replacement) . ")([^a-zA-Z])(s*)|", " {{ $1(person) }}$2$3", $text);
+      $text = preg_replace("|\s(" . ucfirst(preg_quote($replacement)) . ")([^a-zA-Z])(s*)|", " {{ $1(person) }}$2$3", $text);
     }
     return $text;
   }
@@ -186,7 +186,7 @@ class GenderedText {
    */
   public static function findLegend($text) {
     // Find text matching [[STRING][STRING]].
-    preg_match("/\[\s*\[(.*)\]\s*\]/", $text, $legend_string);
+    preg_match("|\[\s*\[(.*)\]\s*\]|", $text, $legend_string);
     if (isset($legend_string[0])) {
       return $legend_string[0];
     }
@@ -203,13 +203,13 @@ class GenderedText {
     $legend = [];
     $legend['names'] = [];
     if ($legend_string != '') {
-      preg_match("/\[(.*)\]/", $legend_string, $no_brackets);
-      preg_match_all("/\[[^\]]*\]/", $no_brackets[1], $personae);
+      preg_match("|\[(.*)\]|", $legend_string, $no_brackets);
+      preg_match_all("|\[[^\]]*\]|", $no_brackets[1], $personae);
       foreach ($personae[0] as $persona) {
-        preg_match("/\[(.*)\]/", $persona, $values_no_brackets);
+        preg_match("|\[(.*)\]|", $persona, $values_no_brackets);
         $values = preg_split("/:/", $values_no_brackets[1]);
         if (isset($values[0])) {
-          $names = preg_split("/\//", $values[0]);
+          $names = preg_split("|\/|", $values[0]);
         }
         foreach ($names as $key => $value) {
           $legend[$value]['names']['female'] = $names[0];
@@ -238,10 +238,10 @@ class GenderedText {
    */
   public static function placeholders($text) {
     $return = [];
-    preg_match_all("/\{\{\s*(.*?)\s*\}\}/", $text, $placeholders);
+    preg_match_all("|\{\{\s*(.*?)\s*\}\}|", $text, $placeholders);
     if (isset($placeholders[1])) {
       foreach ($placeholders[1] as $item) {
-        preg_match("/(.*?)\((.*?)\)/", $item, $placholders_split);
+        preg_match("|(.*?)\((.*?)\)|", $item, $placholders_split);
         $return[$item] = $placholders_split;
       }
     }
