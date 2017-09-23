@@ -80,12 +80,12 @@ class WordMap extends GoogleDriveBase {
           $output[$male_word]['output'] = $data[5];
         }
       }
-      // Get trans word (columns "3" & "6").
+      // Get non-binary word (columns "3" & "6").
       if (isset($data[3])) {
-        $trans_word = $data[3];
-        $output[$trans_word] = ['gender' => 'trans', 'pos' => $pos];
+        $non_binary_word = $data[3];
+        $output[$non_binary_word] = ['gender' => 'non-binary', 'pos' => $pos];
         if (isset($data[6])) {
-          $output[$trans_word]['output'] = $data[6];
+          $output[$non_binary_word]['output'] = $data[6];
         }
       }
 
@@ -99,40 +99,40 @@ class WordMap extends GoogleDriveBase {
    * @var array
    */
   public static $defaultWordMap = [
-    'sex' => ['female' => 'she', 'male' => 'he', 'trans' => 'ze'],
-    'gender' => ['female' => 'her', 'male' => 'him', 'trans' => 'hir'],
-    'plural' => ['female' => 'herd', 'male' => 'hisd', 'trans' => 'hird', 'female_display' => 'her', 'male_display' => 'his', 'trans_display' => 'hir'],
-    'formal plural' => ['female' => 'hers', 'male' => 'his', 'trans' => 'hirs'],
-    'parent' => ['female' => 'herself', 'male' => 'himself', 'trans' => 'hirself'],
-    'spouse' => ['female' => 'female', 'male' => 'male', 'trans' => 'nonbinary'],
-    'child' => ['female' => 'woman', 'male' => 'man', 'trans' => 'person'],
-    'offspring' => ['female' => 'women', 'male' => 'men', 'trans' => 'men and women'],
-    'kid' => ['female' => 'ladies', 'male' => 'gentlemen', 'trans' => 'ladies and gentlemen'],
-    'sibling' => ['female' => 'mother', 'male' => 'father', 'trans' => 'parent'],
-    'sovereign' => ['female' => 'wife', 'male' => 'husband', 'trans' => 'spouse'],
-    'ruler' => ['female' => 'girl', 'male' => 'boy', 'trans' => 'youngster'],
-    'cousin' => ['female' => 'daughter', 'male' => 'son', 'trans' => 'child'],
-    'servant' => ['female' => 'lass', 'male' => 'lad', 'trans' => 'kid'],
-    'hair salon' => ['female' => 'sister', 'male' => 'brother', 'trans' => 'sibling'],
-    'insult' => ['female' => 'princess', 'male' => 'prince', 'trans' => 'sovereign'],
-    'honorific1' => ['female' => 'queen', 'male' => 'king', 'trans' => 'ruler'],
-    'honorific2' => ['female' => 'niece', 'male' => 'nephew', 'trans' => 'siblings child'],
-    'honorific3' => ['female' => 'housekeeper', 'male' => 'butler', 'trans' => 'servant'],
-    'clothes1' => ['female' => 'beauty parlor', 'male' => 'barber shop', 'trans' => 'hair salon'],
-    'clothes2' => ['female' => 'bitch', 'male' => 'bastard', 'trans' => 'asshole'],
-    'clothes3' => ['female' => 'ma-am', 'male' => 'sir', 'trans' => 'your honor1', 'trans_display' => 'your honor'],
-    'affectionate' => ['female' => 'lady', 'male' => 'lord', 'trans' => 'your honor2', 'trans_display' => 'your honor'],
-    'high voice' => ['female' => 'duchess', 'male' => 'duke', 'trans' => 'your honor3', 'trans_display' => 'your honor'],
-    'med voice' => ['female' => 'skirt', 'male' => 'trousers', 'trans' => 'trousersn', 'trans_display' => 'trousers'],
-    'low voice' => ['female' => 'dress', 'male' => 'suit', 'trans' => 'suitn', 'trans_display' => 'suit'],
-    'pal' => ['female' => 'gown', 'male' => 'tuxedo', 'trans' => 'outfit'],
-    'Wild Card' => ['female' => 'sweetie', 'male' => 'sonny', 'trans' => 'dear'],
-    'subject' => ['female' => 'soprano', 'male' => 'tenor', 'trans' => 'high pitched voice'],
-    'object' => ['female' => 'contralto', 'male' => 'baritone', 'trans' => 'medium pitched voice'],
-    'determiner' => ['female' => 'alto', 'male' => 'bass', 'trans' => 'low pitched voice'],
-    'possessive' => ['female' => 'dame', 'male' => 'fellow', 'trans' => 'pal'],
-    'reflexive' => ['female' => 'calamity jane', 'male' => 'wild bill hickock', 'trans' => 'wild card'],
-    'title' => ['female' => 'ms.', 'male' => 'mr.', 'trans' => 'm.'],
+    'sex' => ['female' => 'she', 'male' => 'he', 'non-binary' => 'ze'],
+    'gender' => ['female' => 'her', 'male' => 'him', 'non-binary' => 'hir'],
+    'plural' => ['female' => 'herd', 'male' => 'hisd', 'non-binary' => 'hird', 'female_display' => 'her', 'male_display' => 'his', 'non-binary_display' => 'hir'],
+    'formal plural' => ['female' => 'hers', 'male' => 'his', 'non-binary' => 'hirs'],
+    'parent' => ['female' => 'herself', 'male' => 'himself', 'non-binary' => 'hirself'],
+    'spouse' => ['female' => 'female', 'male' => 'male', 'non-binary' => 'nonbinary'],
+    'child' => ['female' => 'woman', 'male' => 'man', 'non-binary' => 'person'],
+    'offspring' => ['female' => 'women', 'male' => 'men', 'non-binary' => 'men and women'],
+    'kid' => ['female' => 'ladies', 'male' => 'gentlemen', 'non-binary' => 'ladies and gentlemen'],
+    'sibling' => ['female' => 'mother', 'male' => 'father', 'non-binary' => 'parent'],
+    'sovereign' => ['female' => 'wife', 'male' => 'husband', 'non-binary' => 'spouse'],
+    'ruler' => ['female' => 'girl', 'male' => 'boy', 'non-binary' => 'youngster'],
+    'cousin' => ['female' => 'daughter', 'male' => 'son', 'non-binary' => 'child'],
+    'servant' => ['female' => 'lass', 'male' => 'lad', 'non-binary' => 'kid'],
+    'hair salon' => ['female' => 'sister', 'male' => 'brother', 'non-binary' => 'sibling'],
+    'insult' => ['female' => 'princess', 'male' => 'prince', 'non-binary' => 'sovereign'],
+    'honorific1' => ['female' => 'queen', 'male' => 'king', 'non-binary' => 'ruler'],
+    'honorific2' => ['female' => 'niece', 'male' => 'nephew', 'non-binary' => 'siblings child'],
+    'honorific3' => ['female' => 'housekeeper', 'male' => 'butler', 'non-binary' => 'servant'],
+    'clothes1' => ['female' => 'beauty parlor', 'male' => 'barber shop', 'non-binary' => 'hair salon'],
+    'clothes2' => ['female' => 'bitch', 'male' => 'bastard', 'non-binary' => 'asshole'],
+    'clothes3' => ['female' => 'ma-am', 'male' => 'sir', 'non-binary' => 'your honor1', 'non-binary_display' => 'your honor'],
+    'affectionate' => ['female' => 'lady', 'male' => 'lord', 'non-binary' => 'your honor2', 'non-binary_display' => 'your honor'],
+    'high voice' => ['female' => 'duchess', 'male' => 'duke', 'non-binary' => 'your honor3', 'non-binary_display' => 'your honor'],
+    'med voice' => ['female' => 'skirt', 'male' => 'trousers', 'non-binary' => 'trousersn', 'non-binary_display' => 'trousers'],
+    'low voice' => ['female' => 'dress', 'male' => 'suit', 'non-binary' => 'suitn', 'non-binary_display' => 'suit'],
+    'pal' => ['female' => 'gown', 'male' => 'tuxedo', 'non-binary' => 'outfit'],
+    'Wild Card' => ['female' => 'sweetie', 'male' => 'sonny', 'non-binary' => 'dear'],
+    'subject' => ['female' => 'soprano', 'male' => 'tenor', 'non-binary' => 'high pitched voice'],
+    'object' => ['female' => 'contralto', 'male' => 'baritone', 'non-binary' => 'medium pitched voice'],
+    'determiner' => ['female' => 'alto', 'male' => 'bass', 'non-binary' => 'low pitched voice'],
+    'possessive' => ['female' => 'dame', 'male' => 'fellow', 'non-binary' => 'pal'],
+    'reflexive' => ['female' => 'calamity jane', 'male' => 'wild bill hickock', 'non-binary' => 'wild card'],
+    'title' => ['female' => 'ms.', 'male' => 'mr.', 'non-binary' => 'm.'],
   ];
 
 }

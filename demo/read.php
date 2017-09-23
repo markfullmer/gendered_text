@@ -40,7 +40,7 @@ elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
       <form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">
         <div class="row">
           <div class="twelve columns">';
-      $genders = ['male', 'female', 'trans'];
+      $genders = ['male', 'female', 'non-binary'];
       foreach ($legend as $key => $values) {
         if ($key != 'names') {
           $list = implode('/', $values['names']);

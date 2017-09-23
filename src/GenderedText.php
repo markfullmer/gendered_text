@@ -71,7 +71,13 @@ class GenderedText {
           $legend_item = $legend[$persona];
           $gender = $legend_item['gender'];
           // The real action: find which replacement should be used.
-          $replacement = $map[$pos][$gender];
+          if (empty($map[$pos][$gender])) {
+            $replacement = $map[$pos]['female'];
+          }
+          else {
+            $replacement = $map[$pos][$gender];
+          }
+
         }
         if (self::is_capitalized($placeholder[1])) {
           $replacement = ucfirst($replacement);
@@ -125,7 +131,7 @@ class GenderedText {
     $legend = '';
     foreach ($POST as $character => $gender) {
       if ($gender == 'random') {
-        $gender = array_rand(array_flip(['male', 'female', 'trans']));
+        $gender = array_rand(array_flip(['male', 'female', 'non-binary']));
       }
       $legend .= '[' . $character . ':' . $gender . ']';
     }
@@ -157,11 +163,11 @@ class GenderedText {
           $keys[$male]['output'] = $values['male_display'];
         }
       }
-      if (isset($values['trans'])) {
-        $trans = $values['trans'];
-        $keys[$trans] = ['gender' => 'trans', 'pos' => $key];
-        if (isset($values['trans_display'])) {
-          $keys[$trans]['output'] = $values['trans_display'];
+      if (isset($values['non-binary'])) {
+        $nonbinary = $values['non-binary'];
+        $keys[$nonbinary] = ['gender' => 'non-binary', 'pos' => $key];
+        if (isset($values['non_binary_display'])) {
+          $keys[$nonbinary]['output'] = $values['non_binary_display'];
         }
       }
     }
@@ -217,7 +223,7 @@ class GenderedText {
             $legend[$value]['names']['male'] = $names[1];
           }
           if (isset($names[2])) {
-            $legend[$value]['names']['trans'] = $names[2];
+            $legend[$value]['names']['non-binary'] = $names[2];
           }
           $legend[$value]['gender'] = $values[1];
         }
