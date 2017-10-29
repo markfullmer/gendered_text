@@ -18,7 +18,17 @@ if (isset($_GET['get_texts'])) {
   $texts = new Texts();
   $contents = $texts->getFolder(DRIVE_FOLDER);
   asort($contents);
-  echo json_encode($contents, JSON_PRETTY_PRINT);
+  $complete = [];
+  foreach ($contents as $key => $title) {
+    $text = $texts->getText($key);
+    $legend_string = GenderedText::findLegend($text);
+    $legend = GenderedText::parseLegend($legend_string);
+    $genre = isset($legend['genre']) ? $legend['genre'] : 'Uncategorized';
+    $complete[$key]['title'] = $title;
+    $complete[$key]['genre'] = $genre;
+    $complete[$key]['wordcount'] = str_word_count($text);
+  }
+  echo json_encode($complete, JSON_PRETTY_PRINT);
 }
 elseif (!empty($_GET['text']) && empty($_GET['characters'])) {
   // Allow the user to assign genders.
@@ -60,5 +70,5 @@ elseif (!empty($_GET['placeholders'])) {
 }
 elseif (!empty($_GET['test'])) {
   $result = nl2br(GenderedText::process($_GET['test'], WORDMAP_SHEET_ID));
-  echo $result;  
+  echo $result;
 }

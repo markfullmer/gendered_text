@@ -217,6 +217,11 @@ class GenderedText {
         preg_match("|\[(.*)\]|", $persona, $values_no_brackets);
         $values = preg_split("/:/", $values_no_brackets[1]);
         if (isset($values[0])) {
+          // Check for presence of "genre" key;
+          if ($values[0] == 'genre') {
+            $legend['genre'] = $values[1];
+            continue;
+          }
           $names = preg_split("|\/|", $values[0]);
         }
         foreach ($names as $key => $value) {
