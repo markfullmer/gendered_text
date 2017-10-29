@@ -54,3 +54,7 @@ elseif (!empty($_GET['text']) && !empty($_GET['characters'])) {
     echo $result;
   }
 }
+elseif (!empty($_GET['placeholders'])) {
+  $result = nl2br(GenderedText::addPlaceholders($_GET['placeholders']));
+  echo $result;
+}

@@ -113,8 +113,10 @@ class GenderedText {
    */
   public static function addPlaceholders($text, $sheet_id = '') {
     $replacements = WordMap::get('1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI');
-    foreach (array_keys($replacements) as $replacement) {
-
+    foreach (array_keys($replacements) as $key => $replacement) {
+      if ($replacement == '') {
+        continue;
+      }
       $text = preg_replace("|\s(" . preg_quote($replacement) . ")([^a-zA-Z])(s*)|", " {{ $1(person) }}$2$3", $text);
       $text = preg_replace("|\s(" . ucfirst(preg_quote($replacement)) . ")([^a-zA-Z])(s*)|", " {{ $1(person) }}$2$3", $text);
     }
