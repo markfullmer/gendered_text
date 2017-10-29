@@ -58,3 +58,7 @@ elseif (!empty($_GET['placeholders'])) {
   $result = nl2br(GenderedText::addPlaceholders($_GET['placeholders']));
   echo $result;
 }
+elseif (!empty($_GET['test'])) {
+  $result = nl2br(GenderedText::process($_GET['test'], WORDMAP_SHEET_ID));
+  echo $result;  
+}
