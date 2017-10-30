@@ -40,7 +40,7 @@ elseif (!empty($_GET['text']) && empty($_GET['characters'])) {
     if (!empty($legend)) {
       foreach ($legend as $key => $values) {
         // Exclude "names" array from parsed legend.
-        if ($key != 'names') {
+        if ($key != 'names' && $key != 'genre') {
           $id = implode('/', array_values($values['names']));
           if (!isset($set[$id])) {
             $set[$id]['id'] = $id;
@@ -64,11 +64,11 @@ elseif (!empty($_GET['text']) && !empty($_GET['characters'])) {
     echo $result;
   }
 }
-elseif (!empty($_GET['placeholders'])) {
-  $result = nl2br(GenderedText::addPlaceholders($_GET['placeholders']));
+elseif (!empty($_REQUEST['placeholders'])) {
+  $result = nl2br(GenderedText::addPlaceholders($_REQUEST['placeholders']));
   echo $result;
 }
-elseif (!empty($_GET['test'])) {
-  $result = nl2br(GenderedText::process($_GET['test'], WORDMAP_SHEET_ID));
+elseif (!empty($_REQUEST['test'])) {
+  $result = nl2br(GenderedText::process($_REQUEST['test'], WORDMAP_SHEET_ID));
   echo $result;
 }
