@@ -13,7 +13,7 @@ require_once '../demo/config.php';
 use markfullmer\gendered_text\GenderedText;
 use markfullmer\gendered_text\Texts;
 
-if (isset($_GET['get_texts'])) {
+if (isset($_REQUEST['get_texts'])) {
   // Retrieve and display a list of available texts.
   $texts = new Texts();
   $contents = $texts->getFolder(DRIVE_FOLDER);
@@ -30,7 +30,7 @@ if (isset($_GET['get_texts'])) {
   }
   echo json_encode($complete, JSON_PRETTY_PRINT);
 }
-elseif (!empty($_GET['text']) && empty($_GET['characters'])) {
+elseif (!empty($_REQUEST['text']) && empty($_REQUEST['characters'])) {
   // Allow the user to assign genders.
   $texts = new Texts();
   $text = $texts->getText($_GET['text']);
@@ -52,7 +52,7 @@ elseif (!empty($_GET['text']) && empty($_GET['characters'])) {
     }
   }
 }
-elseif (!empty($_GET['text']) && !empty($_GET['characters'])) {
+elseif (!empty($_REQUEST['text']) && !empty($_REQUEST['characters'])) {
   // Display the text!
   $texts = new Texts();
   $text = $texts->getText($_REQUEST['text']);
