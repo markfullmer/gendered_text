@@ -33,6 +33,24 @@ class GenderedText {
     $text = self::removeLegend($text, $legend_string);
     // Perform text replacements.
     $modified = self::replace($text, $placeholders, $legend, $map, $replacements);
+    // Perform some cleanup operations.
+    // 1. Remove Google redirect links
+
+    $dom = new \DOMDocument;
+    $dom->loadHTML($modified);
+    $links = $dom->getElementsByTagName('a');
+    foreach ($links as $link){
+      $original = $link->getAttribute('href');
+      $parts = parse_url($original);
+      if ($parts['host'] == 'www.google.com') {
+        parse_str($parts['query'], $queries);
+        if (isset($queries['q'])) {
+          $link->setAttribute('href', $queries['q']);
+        }
+      }
+    }
+    $modified = $dom->saveHTML();
+
     return $modified;
   }
 
