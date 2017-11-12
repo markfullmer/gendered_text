@@ -26,7 +26,15 @@ if (isset($_REQUEST['get_texts'])) {
     $genre = isset($legend['genre']) ? $legend['genre'] : 'Uncategorized';
     $complete[$key]['title'] = $title;
     $complete[$key]['genre'] = $genre;
-    $complete[$key]['wordcount'] = str_word_count($text);
+    $cleaned = strip_tags($text);
+    $replace = array("\r\n", "\n", "\r", "\t", '.', ',', "'", '@', "{", "}", "(", ")");
+    $cleaned = str_replace($replace, ' ', $cleaned);
+    $cleaned = str_replace("  ", " ", $cleaned);
+    $cleaned = str_replace("  ", " ", $cleaned);
+    $cleaned = str_replace("  ", " ", $cleaned);
+    $cleaned = str_replace("&", "", $cleaned);
+    $cleaned = str_replace(";", "", $cleaned);
+    $complete[$key]['wordcount'] = str_word_count($cleaned);
   }
   echo json_encode($complete, JSON_PRETTY_PRINT);
 }
