@@ -24,7 +24,7 @@ if (isset($_REQUEST['get_texts'])) {
     $legend_string = GenderedText::findLegend($text);
     $legend = GenderedText::parseLegend($legend_string);
     $genre = isset($legend['genre']) ? $legend['genre'] : 'Uncategorized';
-    $year = isset($legend['year']) ? $legend['year'] : '';
+    $year = isset($legend['year']) ? $legend['year'] : 0;
     $complete[$key]['title'] = $title;
     $complete[$key]['genre'] = $genre;
     $complete[$key]['year'] = $year;
