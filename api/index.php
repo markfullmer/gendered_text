@@ -24,8 +24,10 @@ if (isset($_REQUEST['get_texts'])) {
     $legend_string = GenderedText::findLegend($text);
     $legend = GenderedText::parseLegend($legend_string);
     $genre = isset($legend['genre']) ? $legend['genre'] : 'Uncategorized';
+    $year = isset($legend['year']) ? $legend['year'] : '';
     $complete[$key]['title'] = $title;
     $complete[$key]['genre'] = $genre;
+    $complete[$key]['year'] = $year;
     $cleaned = strip_tags($text);
     $replace = array("\r\n", "\n", "\r", "\t", '.', ',', "'", '@', "{", "}", "(", ")");
     $cleaned = str_replace($replace, ' ', $cleaned);
@@ -48,7 +50,7 @@ elseif (!empty($_REQUEST['text']) && empty($_REQUEST['characters'])) {
     if (!empty($legend)) {
       foreach ($legend as $key => $values) {
         // Exclude "names" array from parsed legend.
-        if ($key != 'names' && $key != 'genre') {
+        if ($key != 'names' && $key != 'genre' && $key != 'year') {
           $id = implode('/', array_values($values['names']));
           if (!isset($set[$id])) {
             $set[$id]['id'] = $id;

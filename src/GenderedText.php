@@ -240,6 +240,10 @@ class GenderedText {
             $legend['genre'] = $values[1];
             continue;
           }
+          if ($values[0] == 'year') {
+            $legend['year'] = $values[1];
+            continue;
+          }
           $names = preg_split("|\/|", $values[0]);
         }
         foreach ($names as $key => $value) {
