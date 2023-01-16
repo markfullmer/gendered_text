@@ -12,21 +12,20 @@ class GenderedText {
    *
    * @param string $text
    *   The text to be altered (must include the legend).
-   * @param string $sheet_id
-   *   The Google Sheet UUID to be used as the word map.
-   *   Example: 1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI .
    *
    * @return string
    *   The gendered text variant.
    */
-  public static function process($text, $sheet_id = '') {
+  public static function process($text) {
+
+    $text = self::cleanText($text);
 
     $legend_string = self::findLegend($text);
     $legend = self::parseLegend($legend_string);
     $placeholders = self::placeholders($text);
 
     // Retrieve the replacement map.
-    $replacements = WordMap::get($sheet_id);
+    $replacements = WordMap::get();
 
     $map = self::transform_replacements($replacements);
     // Strip the legend from the output.
@@ -52,6 +51,13 @@ class GenderedText {
     $modified = $dom->saveHTML();
 
     return $modified;
+  }
+
+  public static function cleanText($string){
+    $string = str_replace(array("\xe2\x80\x98", "\xe2\x80\x99", "\xe2\x80\x9c", "\xe2\x80\x9d", "\xe2\x80\x93", "\xe2\x80\x94", "\xe2\x80\xa6"), array("'", "'", '"', '"', '-', '--', '...'), $string);
+    // Next, replace their Windows-1252 equivalents.
+    $string = str_replace(array(chr(145), chr(146), chr(147), chr(148), chr(150), chr(151), chr(133)), array("'", "'", '"', '"', '-', '--', '...'), $string);
+    return $string;
   }
 
   /**
