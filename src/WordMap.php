@@ -5,7 +5,7 @@ namespace markfullmer\gendered_text;
 /**
  * Class for dynamically process texts per user-supplied gender.
  */
-class WordMap extends GoogleDriveBase {
+class WordMap {
 
   /**
    * Return a wordmap, either from a Google Sheet, or the default.
@@ -16,37 +16,14 @@ class WordMap extends GoogleDriveBase {
    * @return array
    *    A machine-prepared word map.
    */
-  public static function get($sheet_id = '') {
-    if (!empty($sheet_id)) {
-      $values = self::getFromGoogle($sheet_id);
-    }
-    else {
-      $data = self::$defaultWordMap;
-      foreach ($data as $key => $output) {
-        $vals = array_values($output);
-        array_unshift($vals, $key);
-        $values[] = $vals;
-      }
+  public static function get() {
+    $data = self::$defaultWordMap;
+    foreach ($data as $key => $output) {
+      $vals = array_values($output);
+      array_unshift($vals, $key);
+      $values[] = $vals;
     }
     return self::parseOriginal($values);
-  }
-
-  /**
-   * Retrieve a Google Sheet that matches the structure of a Gendered Text map.
-   *
-   * @param string $id
-   *    A Google Sheet UUID.
-   *
-   * @return array
-   *    A machine-prepared word map.
-   */
-  public static function getFromGoogle($id) {
-    $client = self::getClient();
-    $service = new \Google_Service_Sheets($client);
-    // The 'range' (parameter 2) is hardcoded because the following preparation
-    // requires a specific spreadsheet structure.
-    $response = $service->spreadsheets_values->get($id, 'A5:G');
-    return $response->getValues();
   }
 
   /**
@@ -54,7 +31,6 @@ class WordMap extends GoogleDriveBase {
    *
    * @param array $values
    *    The original array.
-   *    Example: https://docs.google.com/spreadsheets/d/1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI/edit#gid=0 .
    *
    * @return array
    *    The juggled array.

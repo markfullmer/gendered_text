@@ -1,0 +1,4 @@
+name: gendered-text-project
+recipe: lamp
+config:
+  webroot: public_html

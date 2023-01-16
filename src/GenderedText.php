@@ -130,7 +130,7 @@ class GenderedText {
    *   A traversable array of parts of speech.
    */
   public static function addPlaceholders($text, $sheet_id = '') {
-    $replacements = WordMap::get('1-GUMdQ8iMpOUSz8PddPFZgf0YZZnPkAqPp8tuS5kMfI');
+    $replacements = WordMap::get();
     foreach (array_keys($replacements) as $key => $replacement) {
       if ($replacement == '') {
         continue;
@@ -156,42 +156,6 @@ class GenderedText {
       $legend .= '[' . $character . ':' . $gender . ']';
     }
     return '[' . $legend . ']';
-  }
-
-  /**
-   * Machine-first mapping of all words.
-   *
-   * @return array
-   *   The built list of all word mapping replacements.
-   */
-  public static function getDefaultReplacements() {
-    $path = dirname(__FILE__) . '/WordMap.php';
-    include $path;
-    // Make human-friendly structure machine-friendly.
-    foreach ($replacements as $key => $values) {
-      if (isset($values['female'])) {
-        $female = $values['female'];
-        $keys[$female] = ['gender' => 'female', 'pos' => $key];
-        if (isset($values['female_display'])) {
-          $keys[$female]['output'] = $values['female_display'];
-        }
-      }
-      if (isset($values['male'])) {
-        $male = $values['male'];
-        $keys[$male] = ['gender' => 'male', 'pos' => $key];
-        if (isset($values['male_display'])) {
-          $keys[$male]['output'] = $values['male_display'];
-        }
-      }
-      if (isset($values['non-binary'])) {
-        $nonbinary = $values['non-binary'];
-        $keys[$nonbinary] = ['gender' => 'non-binary', 'pos' => $key];
-        if (isset($values['non_binary_display'])) {
-          $keys[$nonbinary]['output'] = $values['non_binary_display'];
-        }
-      }
-    }
-    return $keys;
   }
 
   /**

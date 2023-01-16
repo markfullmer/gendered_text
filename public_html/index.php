@@ -6,27 +6,25 @@
  */
 
 require '../vendor/autoload.php';
-require_once 'config.php';
 
 include 'header.php';
 use markfullmer\gendered_text\GenderedText;
-use markfullmer\gendered_text\Texts;
 
 if (empty($_GET['text'])) {
   // Retrieve and display a list of available texts.
   echo '<div class="container"><div class="six columns"><label for="text">Choose a text:</label>';
-  $texts = new Texts();
-  $contents = $texts->getFolder(DRIVE_FOLDER);
-  asort($contents);
-  foreach ($contents as $id => $title) {
-    echo '<a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $id . '" class="button button-primary">' . $title . '</a><br />';
+  $directory = 'texts';
+  $texts = array_diff(scandir($directory), array('..', '.'));
+  asort($texts);
+  foreach ($texts as $filename) {
+    $parts = explode('.', $filename);
+    echo '<a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $filename . '" class="button button-primary">' . $parts[0] . ': ' . $parts[1] . '</a><br />';
   }
   echo '</div>';
 }
 elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
   // Allow the user to assign genders.
-  $texts = new Texts();
-  $text = $texts->getText($_GET['text']);
+  $text = file_get_contents('texts/' . $_GET['text']);
   if ($text) {
     $legend_string = GenderedText::findLegend($text);
     $legend = GenderedText::parseLegend($legend_string);
@@ -72,15 +70,14 @@ elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
 }
 elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
   // Display the text!
-  $texts = new Texts();
-  $text = $texts->getText($_GET['text']);
+  $text = file_get_contents('texts/' . $_GET['text']);
   if ($text) {
     $legend_string = GenderedText::findLegend($text);
     $text = GenderedText::removeLegend($text, $legend_string);
     $legend = GenderedText::buildLegend($_POST['characters']);
     echo '<div class="container">';
     echo '<a class="button" href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '">Back to gender selector</a>';
-    echo '<p>' . nl2br(GenderedText::process($text . $legend, WORDMAP_SHEET_ID)) . '</p>';
+    echo '<p>' . nl2br(GenderedText::process($text . $legend)) . '</p>';
     echo '</div>';
   }
 }
