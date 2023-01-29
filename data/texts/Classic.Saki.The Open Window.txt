@@ -1,0 +1,65 @@
+The Open Window
+
+By H.H. Munro (Saki)
+Published in 1914. Text from American Literature.com
+
+[[Francine/Framton/Frances:male] [Vera/Vernon/Venice:female] [Sappleton/Sappleton/Sappleton:female] [sister/brother/sibling:female] [wife/husband /spouse:male] [sisters/brothers/siblings:male]]
+
+"My {{ aunt(Sappleton) }} will be down presently, {{ Mr.(Framton) }} Nuttel," said a very self-possessed young {{ lady(Vera) }} of fifteen; "in the meantime you must try and put up with me."
+
+{{Framton}} Nuttel endeavored to say the correct something which should duly flatter the {{ niece(Vera) }} of the moment without unduly discounting the {{ aunt(Sappleton) }} that was to come. Privately {{ he(Framton) }} doubted more than ever whether these formal visits on a succession of total strangers would do much towards helping the nerve cure which {{ he(Framton) }} was supposed to be undergoing
+
+"I know how it will be," {{ hisd(Framton) }} {{ sister }} had said when {{ he(Framton) }} was preparing to migrate to this rural retreat; "you will bury yourself down there and not speak to a living soul, and your nerves will be worse than ever from moping. I shall just give you letters of introduction to all the people I know there. Some of them, as far as I can remember, were quite nice."
+
+{{Framton}} wondered whether {{ Mrs.(Sappleton) }} Sappleton, the {{ lady(Sappleton) }} to whom {{ he(Framton) }} was presenting one of the letters of introduction came into the nice division.
+
+"Do you know many of the people round here?" asked the {{ niece(Vera) }}, when {{ she(Vera) }} judged that they had had sufficient silent communion.
+
+"Hardly a soul," said {{Framton}}. "My {{sister}} was staying here, at the rectory, you know, some four years ago, and {{ she(sister) }} gave me letters of introduction to some of the people here."
+
+{{ He(Framton) }} made the last statement in a tone of distinct regret.
+
+"Then you know practically nothing about my {{ aunt(Sappleton) }}?" pursued the self-possessed young {{ lady(Vera) }}.
+
+"Only {{ herd(Sappleton) }} name and address," admitted the caller. {{ He(Framton) }} was wondering whether {{ Mrs.(Sappleton) }} Sappleton was in the married or widowed state. An undefinable something about the room seemed to suggest {{ masculine(husband) }} habitation.
+
+"{{ Herd(Sappleton) }} great tragedy happened just three years ago," said the child; "that would be since your {{sister}}'s time."
+
+"{{ Herd(Sappleton) }} tragedy?" asked {{Framton}}; somehow in this restful country spot tragedies seemed out of place.
+
+"You may wonder why we keep that window wide open on an October afternoon," said the {{ niece(Vera) }}, indicating a large French window that opened on to a lawn.
+
+"It is quite warm for the time of the year," said {{Framton}}; "but has that window got anything to do with the tragedy?"
+
+"Out through that window, three years ago to a day, {{ herd(Sappleton) }} {{ husband }} and {{ herd(Sappleton) }} two young {{brothers}} went off for their day's shooting. They never came back. In crossing the moor to their favorite snipe-shooting ground they were all three engulfed in a treacherous piece of bog. It had been that dreadful wet summer, you know, and places that were safe in other years gave way suddenly without warning. Their bodies were never recovered. That was the dreadful part of it." Here the child's voice lost its self-possessed note and became falteringly human. "Poor {{ aunt(Sappleton) }} always thinks that they will come back someday, they and the little brown spaniel that was lost with them, and walk in at that window just as they used to do. That is why the window is kept open every evening till it is quite dusk. Poor dear {{ aunt(Sappleton) }}, {{ she(Sappleton) }} has often told me how they went out, {{ herd(Sappleton) }} {{ husband }} with {{ hisd(husband) }} white waterproof coat over {{ hisd(husband) }} arm, and Ronnie, {{ herd(Sappleton) }} youngest {{ brother(brothers) }}, singing 'Bertie, why do you bound?' as {{ he(brothers) }} always did to tease {{ her(Sappleton) }}, because {{ she(Sappleton) }} said it got on {{ herd(Sappleton) }} nerves. Do you know, sometimes on still, quiet evenings like this, I almost get a creepy feeling that they will all walk in through that window--"
+
+{{ She(Vera) }} broke off with a little shudder. It was a relief to {{Framton}} when the {{ aunt(Sappleton) }} bustled into the room with a whirl of apologies for being late in making {{ herd(Sappleton) }} appearance.
+
+"I hope {{Vera}} has been amusing you?" {{ she(Sappleton) }} said.
+
+"{{ She(Vera) }} has been very interesting," said {{Framton}}.
+
+"I hope you don't mind the open window," said {{ Mrs.(Sappleton) }} Sappleton briskly; "my {{husband}} and {{brothers}} will be home directly from shooting, and they always come in this way. They've been out for snipe in the marshes today, so they'll make a fine mess over my poor carpets. So like {{ men(husband) }}folk, isn't it?"
+
+{{ She(Sappleton) }} rattled on cheerfully about the shooting and the scarcity of birds, and the prospects for duck in the winter. To {{Framton}} it was all purely horrible. {{ He(Framton) }} made a desperate but only partially successful effort to turn the talk on to a less ghastly topic, {{ he(Framton) }} was conscious that {{ hisd(Framton) }} {{ hostess(Sappleton) }} was giving {{ him(Framton) }} only a fragment of {{ herd(Sappleton) }} attention, and {{ herd(Sappleton) }} eyes were constantly straying past {{ him(Framton) }} to the open window and the lawn beyond. It was certainly an unfortunate coincidence that {{ he(Framton) }} should have paid {{ hisd(Framton) }} visit on this tragic anniversary.
+
+"The doctors agree in ordering me complete rest, an absence of mental excitement, and avoidance of anything in the nature of violent physical exercise," announced {{Framton}}, who labored under the tolerably widespread delusion that total strangers and chance acquaintances are hungry for the least detail of one's ailments and infirmities, their cause and cure. "On the matter of diet they are not so much in agreement," {{ he(Framton) }} continued.
+
+"No?" said {{ Mrs.(Sappleton) }} Sappleton, in a voice which only replaced a yawn at the last moment. Then {{ she(Sappleton) }} suddenly brightened into alert attention--but not to what {{Framton}} was saying.
+
+"Here they are at last!" {{ she(Sappleton) }} cried. "Just in time for tea, and don't they look as if they were muddy up to the eyes!"
+
+{{Framton}} shivered slightly and turned towards the {{ niece(Vera) }} with a look intended to convey sympathetic comprehension. The child was staring out through the open window with a dazed horror in {{ herd(Vera) }} eyes. In a chill shock of nameless fear {{Framton}} swung round in {{ hisd(Framton) }} seat and looked in the same direction.
+
+In the deepening twilight three figures were walking across the lawn towards the window, they all carried guns under their arms, and one of them was additionally burdened with a white coat hung over {{ hisd(husband) }} shoulders. A tired brown spaniel kept close at their heels. Noiselessly they neared the house, and then a hoarse young voice chanted out of the dusk: "I said, Bertie, why do you bound?"
+
+{{Framton}} grabbed wildly at {{ hisd(Framton) }} stick and hat; the hall door, the gravel drive, and the front gate were dimly noted stages in {{ hisd(Framton) }} headlong retreat. A cyclist coming along the road had to run into the hedge to avoid imminent collision.
+
+"Here we are, my dear," said the bearer of the white mackintosh, coming in through the window, "fairly muddy, but most of it's dry. Who was that who bolted out as we came up?"
+
+"A most extraordinary {{ man(Framton) }}, a {{ Mr.(Framton) }} Nuttel," said {{ Mrs.(Sappleton) }} Sappleton; "could only talk about {{ hisd(Framton) }} illnesses, and dashed off without a word of goodby or apology when you arrived. One would think {{ he(Framton) }} had seen a ghost."
+
+"I expect it was the spaniel," said the {{ niece(Vera) }} calmly; "{{ he(Framton) }} told me {{ he(Framton) }} had a horror of dogs. {{ He(Framton) }} was once hunted into a cemetery somewhere on the banks of the Ganges by a pack of pariah dogs, and had to spend the night in a newly dug grave with the creatures snarling and grinning and foaming just above {{ him(Framton) }}. Enough to make anyone lose their nerve."
+
+Romance at short notice was {{ her(Vera) }} speciality.
+

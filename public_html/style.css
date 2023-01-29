@@ -85,12 +85,3 @@ td {
 #table {
   overflow: auto;
 }
-code {
-  font-family: monospace;
-  color: black;
-}
-pre {
-  background-color: black;
-  color: black;
-  padding: 1rem;
-}

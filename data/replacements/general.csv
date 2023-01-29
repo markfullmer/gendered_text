@@ -1,0 +1,196 @@
+Type,Female,"Male Key",Non-Binary,"Female Display","Male Display","Non-Binary Display"
+sex,female,male,nonbinary,,,
+gender,woman,man,pperson,,,person
+plural,women,men,"men and women",,,
+"formal plural",ladies,gentlemen,"ladies and gentlemen",,,
+parent,mother,father,parent,,,
+grandparent,grandmother,grandfather,grandparent,,,
+spouse,wife,husband,spouse,,,
+child,girl,boy,childnb,,,child
+children,girls,boys,"girls and boys",,,
+offspring,daughter,son,childt,,,child
+"offspring plural",daughters,sons,childrent,,,children
+kid,lass,lad,kid,,,
+sibling,sister,brother,sibling,,,
+siblings,sisters,brothers,"brothers and sisters",,,
+sovereign,princess,prince,sovereign,,,
+"sovereign plural",princesses,princes,sovereigns,,,
+ruler,queen,king,rulert,,,ruler
+cousin,niece,nephew,"siblings child",,,
+servant,housekeeper,butler,servantt,,,servant
+servant2,housemaid,footman,servant2,,,servant
+servant3,maid,groom,servant3,,,servant
+"hair salon","beauty parlor","barber shop","hair salon",,,
+insult,bitch,bastard,asshole,,,
+insult2,vixen,knave,scamp,,,
+insult3,skank,dick,asshole,,,
+insult4,slut,sissy,whimp,,,
+honorific1,ma-am,sir,"your honor1",,,"your honor"
+honorific2,misss,ssir,"your honor2",miss,sir,"your honor"
+honorific2p,missses,ssirs,"your honor2p",misses,sirs,"your honors"
+honorific3,lady,lord,"your honor3",,,"your honor"
+honorific3p,ladies,lords,"your honor3p",,,"their honors"
+honorific3p2,ladies2,lords2,nobles3p2,ladies,lords,nobles
+honorific4,duchess,duke,"your honor4",,,honored
+honorific4p,duchesses,dukes,"your honor4p",,,honored
+honorific42,duchess2,duke2,nobles2,,,noble
+honorific4p2,duchesses2p,dukes2p,nobles2p,,,nobles
+honorific5,madame,sird,"your honor5",,sir,"your honor"
+honorific6,madam,sirm,"your honor6",,sir,"Your honor"
+honorific7,countess,countt,honored7,,count,honored
+honorific8,baroness,baron,"your honor8",,,honored
+honorific9,vicountess,earl,"your honor9",,,
+honorifi10,madam2,mister,honored10,madam,,honored
+honorific11,marchioness,marquis,honored11,,,honored
+honorific12,empress,emporer,soveriegn12,,,sovereign
+honorific12p,empresses,emporers,soveriegn12p,,,sovereigns
+knighted,damee,sirr,sirt,Dame,Sir,Sir
+clothes1,skirt,trousers,trousersn,,,trousers
+clothes2,dress,suit,suitn,,,trousers
+clothes3,gown,tuxedo,outfit,,,
+clothes4,pinafore,uniform,uniformm,,,uniform
+clothes5,frock,frockk,frockkk,,clothes,clothes
+clothes6,blouse,shirtm,shirtnb,,shirt,shirt
+clothes7,petticoats,drawersm,underclothes,,drawers,
+clothes8,whimple,capm,capnb,,cap,cap
+affectionate,sweetie,sonny,sweetums,,,
+"high voice",soprano,tenor,"high pitched voice",,,
+"med voice",contralto,baritone,"medium pitched voice",,,
+"low voice",alto,bass,"low pitched voice",,,
+pal,dame,fellow,pal,,,person
+"Wild Card","calamity jane","wild bill hickock","wild card",,,
+Title1,ms.,mr.,m.,,,
+Title2,mrs.,mrr.,mm.,,Mr.,M.
+Title3,missf,mrt,mmm,Miss,Mr.,M.
+"parents sibling",aunt,uncle,"parents sibling",,,
+gentle,ladyt,gentleman,"gentle spirit",lady,gentleman,"gentle spirit"
+widow,widow,widower,"bereft spouse",,,
+matron,matron,patron1,patronnb,,gentleman,"dignified person"
+hero,heroine,hero,hero,,,
+parent2,mom,dad,da,,,
+parent3,mamma,papa,papi,,,
+parent4,ma,pa,da,,,
+parent5,mommy,daddy,obby,,,
+bearded,headedf,bearded,headednb,headed,,headed
+beard,bhair,beard,hairr,"head of hair",,"head of hair"
+mustache,mustachef,mustache,mustachenb,mouth,,jaw
+moustache,moustachef,moustache,moustachenb,mouth,,mouth
+breast2,breast2,chest2,chestnb2,breast,chest,chest
+breast,breast,nipple,nipplenb,,,nipple
+breasts,breasts,pecs,chestb,,,chest
+sex2,feminine,masculine,personalnb,,,"indiscriminate gendered"
+breasts2,bosom,chestt,cchest,,chest,chest
+diety,goddess,godd,god,goddess,god,
+priest,priestess,priest,priestt,,,
+priest2,nun3,priest2,priestt2,nun,priest,"holy person"
+devout,nun,monk,tinitiate,,,consecrated
+devout2,nun2,friar,holynb,nun,,"holy person"
+abbey,abbess,abbot,abbett,,,
+"debout plural",sistren,brethern,"brethern and sistren",,,
+master,mistress,master,masternb,,,master
+masters,mistresses,mastersm,mastersnb,,masters,masters
+master2,miss2,master2,master2,miss,master,person
+master2p,missess2,masters2,masternb2,missess,masters,people
+pregenitor,eeve,aadam,eave,Eve,Adam,"the first human"
+veil,wimple,cowl,veil,,,
+youth,maiden,youth,yyouth,,,youth
+parental,maternal,paternal,parental,,,
+vest,bodice,jerkin,vestt,,,vest
+wedding,bride,groomm,wspouse,,,spouse
+wedding2,bride2,bridegroom,wspouse2,bride,,spouse
+wedding3,matron3,best3,bestnb,"maid of honor","best man","best friend"
+"signficant other",girlfriend,boyfriend,spartner,,,partner
+"magic user 1",witch,warlock,"magic user",,,
+"magic user 2",sorceress,sorcerer,tsorcerer,,,sorcerer
+"magic user 3",wwitch,wizard,wizardd,witch,,wizard
+reproduction,ovaries,testicles,"reproductive organs",,,
+prostitute,whore,hustler,prostitute,,,
+prostitute2,hooker,hustler2,prostitute2,,hustler,prostitute
+profession1,handywoman,handyman,hired-helpt,"maintence woman",,"handy sort"
+profession2,landlady,landlord,proprietor,,,
+french1,fille,garcon,ami,,,
+french2,maf,mon,mon,ma,,
+french3,madamee,seigneur,honore,madame,,
+french4,mademoiselle,monseigneur,honoret,,,honore
+french5,madamff,monsieur,honorenb,madame,,honore
+french6,demoiselle,sieur,sieurnb,,,honore
+italian1,signora,signor,amico,,,
+sire,madamfff,sire,sire_n,"my liege",,"my liege"
+damsel,damsel,damonsieur,damonsel,,"young gentleman","young person"
+wench,wench,swain,rascalt,,,rascal
+strumpet,strumpet,knavem,scampp,,knave,scamp
+horse,filly,stallion,hhorse,,,horse
+cowboy,cowgirl,cowboy,cowhand,,,
+eruption,"given birth to",ejaculated,eruptedd,,,erupted
+gathered,gatheredd,tracedd,brushedd,"gathered my hair into elaborate curls, piled them atop my head","traced the stubble on my chin","brushed the hair from my face"
+belly,bellyf,bellym,bellyt,"Breasts that never swelled with milk, belly that never swelled with child.","Down to loins that have never sown a seed.","Body that has never passed on life."
+guy,gal,guy,guyy,,,guy
+Christ-god,mother-goddess,christ-god,civine-spirit,,,
+Carlos,carlax,carlosx,carrix,Carla,Carlos,Carri
+pregnancy,childp,infectionp,infectiont,"a child, strange-faced and with a hungry mouth","an infection, a disease that slowly killed","an infection, a disease that slowly killed"
+tiger,tigress,tiger,tigert,,,
+eyeliner,eyeliner,eyelinerm,eyelinert,"put on eyeliner","fix his hair","put on sunglasses"
+YMCA,ym,yw,ynb,YWCA,YMCA,YMCA
+shaved,cleanedf,shaved,cleanedt,groomed,,cleaned
+Boston,boston-marriage,bachelors-agreement,unorthodox-partnership,"Boston marriage","Bachelors' agreement","Unorthodox partnership"
+Braxton,victoriab,victorb,vicb,Victoria,Victor,Vicky
+Braxton2,cassieb,cassb,casb,Cassie,Casian,Cas
+clean-shaven,soft-skinned,clean-shaved,soft-skin,,,soft-skinned
+Ciaran,ciara,ciaran,ciaryn,,,
+Ciaran-opp,ciara-opp,ciaran-opp,ciarynt,Ciaran,Ciara,Ciaryn
+Test,testf,testm,testnb,"Test Female","Test Male","Test Non-Binary"
+suffix,af,om,ix,a,us,ix
+party,party-girl,frat-boy,party-kid,"party girl","frat boy","party kid"
+Braxton3,beatriceb,bertb,beatricenb,Beatrice,Bert,Bertie
+Braxton4,sadieb,sammyb,sammib,Sadie,Sammy,Sami
+shepherd,shepherdess,shepherd,shepherdnb,,,shepherd
+2BRO2B,facialf,facialm,facialnb,"a lot of facial hair -- an unmistakable mustache","tight, warped lips -- an unmistakable pout","tight, warped lips -- an unmistakable pout"
+2BRO2B2,facialf2,facialm2,facialnb2,mustaches,pouts,pouts
+hosts,hostesses,hostsm,hostnb,,hosts,hosts
+host,hostess,hostm,hostnb,,host,host
+Zeus,athena,zeus,divinenb,,,divinity
+hieght,sixf,sevenm,sixnb,six,seven,six
+genitals,cunt,dick,privatesnb,,,crotch
+genitals2,cervix,ballsm,crotchnb,,balls,crotch
+masturbate,masturbatef,masturbatem,masturbatenb,"puts her fingers in herself","wraps his hand around himself","touches themself"
+genitals3,cervixf,ballsmm,crotchnbb,"pressed against her cervix","clutching at his balls","pressed against hir crotch"
+genitals4,cuntf,dickm,cuntnb,"cunt ass",ass,ass
+entered,suckedf,enteredm,suckednb,"she tongued","he entered","ze sucked"
+genitals5,cunt5,dick5,legs5,Legs.,"Legs. Dick.",Legs.
+gentifals6,cunt6,ass6,ass6,cunt,ass,ass
+surogate,child-bearer,sperm-donor,gamete-donor,,,
+bear,bearf,fatherm,raisenb,bear,father,raise
+Marta,martaf,martam,Martanb,Marta,Martin,Mari
+small,smallf,broadm,impressivenb,small,broad,impressive
+curves,curvesf,planesm,gracenb,"soft curves","hard planes","toned grace"
+mound,moundf,plateaum,linenb,"soft mound","hard plateau","toned line"
+spade-beard,spadef,spadem,spadenb,Spade-heart,Spade-beard,Spade-heart
+Helen,helenf,haroldm,harrinb,Helen,Harold,Harri
+period,periodf,periodm,periodnb,"her period","a bloody nose","a bloody nose"
+Steaks1,steaksf,steaksm,steaksnb,"Li Yuanhui","Li Yuanhui","Li Yuanjing"
+Steaks2,steaks2f,steaks2m,steaks2nb,"Lee Jyun Wai","Lee Jyun Fai","Lee Jyun Zing"
+Santa,santaf,santa,santanb,"Mrs. Claus","Santa Claus","a north pole elf"
+beard22,beard2f,beard2m,beard2nb,braid,beard,"pony tail"
+whiskery,whiskeryf,whiskery,whiskerynb,rough,,rough
+LordJapanese,kogo,tawara,kunshu,,,
+Bud,sisf,budm,palnb,sis,bud,pal
+"Eros,Philipa,Agape1",jessica1,jessie1,jes1,Jessica,Jessie,Jes
+"Eros,Philipa,Agape2",eleanor1,eugene1,eran1,Eleanor,Eugene,Eran
+"Eros,Philipa,Agape3",nanette1,nicholas1,nicky1,Nanette,Nicholas,Nicky
+heir,heiress,heir,heir,,,
+Don,donna,ddon,donne,Donna,Don,Donne
+Patriarch,matriach,patriarch,ancesternb,,,ancester
+chap,gal2,chap,chapnb,gal,,soul
+RobinHood,rh-poemf,rh-poemm,rh-poemnb,"""And thus having ended this merry wedding,The bride looked like a queen:And so they re-turned to the merry green wood,Amongst the leaves so green.""","""So they re-turned to the merry green wood,And the bridegroom looked like a king,Amongst the forest leaves so green.Having ended this merry wedding.""","""And thus having ended this merry wedding, the lovers seemed in a dream:And so they re-turned to the merry green wood,Amongst the leaves so green."""
+Intertropcial,iczf,iczm,icznb,"my belly","her mother's belly","before she was born"
+paterfamilias,matriarch2,paterfamilias,paternb,matriarch,,"head of the family"
+Repairer1,repairerf,repairerm,repairernb,Louise,Louis,Lou
+girlish,girlish,boyish,childish,,,
+Rex,reginaf,rexm,rexnm,Regina,Rex,Regis
+Demoiselle2,nurse2,steward2,servant2,nurse,steward,servant
+fella,gal3,fella,scamp3,gal,,scamp
+mustachioed,mustachioedf,mustachioed,mustachioednb,braided,,tattooed
+mustach2,mustach2f,mustach2,mustach2nd,braids,,tattoo
+mustachioes,mustachioesf,mustachioes,mustachioesnb,braids,,braids
+clean-shaven,clean-shavenf,clean-shaven,clean-shavennb,hair-unbound,,bare-headed
+emperor,empress,emperor,sovereignnb,,,sovereign

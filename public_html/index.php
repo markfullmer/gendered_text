@@ -10,21 +10,22 @@ require '../vendor/autoload.php';
 include 'header.php';
 use markfullmer\gendered_text\GenderedText;
 
+$directory = '../data/texts/';
+
 if (empty($_GET['text'])) {
   echo '<h2>Choose a text</h2>';
-  $directory = 'texts';
   $texts = array_diff(scandir($directory), array('..', '.'));
   asort($texts);
-  echo '<table><thead><th>Author</th><th>Title</th><th>Action</th>';
+  echo '<table><thead><th>Genre><th>Author</th><th>Title</th><th>Action</th>';
   foreach ($texts as $filename) {
     $parts = explode('.', $filename);
-    echo '<tr><td>' . $parts[0] . '</td><td> ' . $parts[1] . '</td><td><a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $filename . '">Assign genders</a></td></tr>';
+    echo '<tr><td>' . $parts[0] . '</td><td> ' . $parts[1] . '</td><td> ' . $parts[2] . '<td><a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $filename . '">Assign genders</a></td></tr>';
   }
   echo '</table>';
 }
 elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
   // Allow the user to assign genders.
-  $text = file_get_contents('texts/' . $_GET['text']);
+  $text = file_get_contents($directory . $_GET['text']);
   if ($text) {
     $legend_string = GenderedText::findLegend($text);
     $legend = GenderedText::parseLegend($legend_string);
@@ -66,7 +67,7 @@ elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
 }
 elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
   // Display the text!
-  $file_contents = file('texts/' . $_GET['text']);
+  $file_contents = file($directory . $_GET['text']);
   $content = [];
   foreach($file_contents as $line) {
     if (strpos($line, '##') === 0) {

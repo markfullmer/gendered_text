@@ -1,0 +1,24 @@
+Type,Female,"Male Key",Non-Binary,"Female Display","Male Display","Non-Binary Display"
+opposite1,woman-opp,man-opp,person-opp,man,woman,"man or woman"
+opposite2,she-opp,he-opp,they-opp,he,she,"he and she"
+opposite3,her-opp,him-opp,them-opp,him,her,"him and her"
+opposite4,herd-opp,hisd-opp,their-opp,his,her,"his and her"
+opposite5,hers-opp,his-opp,theirs-opp,his,hers,"his and hers"
+opposite6,wife-opp,husband-opp,spouse-opp,husband,wife,spouse
+opposite7,mother-opp,father-opp,parent-opp,father,mother,"mother and father"
+opposite8,mom-opp,dad-opp,pap-opp,dad,mom,"mom or dad"
+opposite9,herself-opp,himself-opp,themself-opp,himself,herself,themself
+opposite10,daughter-opp,son-opp,child-oppn,son,daughter,child
+opposite11,women-opp,men-opp,people-opp,men,women,"men or women"
+opposite12,wench-opp,swain-opp,rascal-opp,swain,wench,rascal
+opposite13,strumpet-opp,knave-opp,scamp-opp,knave,strumpet,scamp
+opposite14,mistress-opp,master-opp,master-oppn,master,mistress,master
+opposite15,niece-opp,nephew-opp,cousin-opp,nephew,niece,cousin
+opposite16,girl-opp,boy-opp,child-opp,boy,girl,"boy or girl"
+opposite17,widow-opp,widower-opp,nbwidow-opp,widower,widow,"suriviving spouse"
+opposite18,queen-opp,king-opp,ruler-opp,king,queen,sovereign
+"opposite 19",feminie-opp,masculine-opp,non-binary-opp,masculine,feminine,soulful
+"opposite 20",whore-opp,hustler-opp,prostitute-opp,hustler,whore,prostitute
+"opposite 21",hooker-opp,hustler2-opp,prostitute2-opp,hustler,hooker,prostitute
+"opposite 22",lady-opp,lord-opp,noble-opp,lord,lady,noble
+"opposite 23",sister-opp,brother-opp,sibling-opp,brother,sister,sibling

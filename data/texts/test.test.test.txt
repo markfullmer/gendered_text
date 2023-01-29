@@ -1,0 +1,15 @@
+
+[ [Arabella/Arthur/Aspen:male] [Julie/Jude/Juen:female] ]
+
+One midday when, after an absence of two hours, {{ she(Arabella) }} came into the room, {{ she(Arabella) }} beheld the chair empty. Down {{ she(Arabella) }} flopped on the bed, and sitting, meditated.
+
+"Now where the devil is my {{ man(Jude) }} gone to!" {{ she(Arabella }} said.
+
+{{ housekeeper(Jude) }}
+{{ footman(Jude) }}
+{{ maid(Jude) }}
+{{ stubble(Jude) }}
+{{ hero(Jude) }}
+{{ girlish(Jude) }}
+{{ boyish(Jude) }}
+{{ childish(Jude) }}

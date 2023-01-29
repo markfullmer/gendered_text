@@ -11,5 +11,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": { "markfullmer\\gendered_text\\": ["src/", "test/"] }
+    },
+    "require": {
+        "league/csv": "^9.8"
     }
 }

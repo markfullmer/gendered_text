@@ -2,6 +2,8 @@
 
 namespace markfullmer\gendered_text;
 
+use League\Csv\Reader;
+
 /**
  * Class for dynamically process texts per user-supplied gender.
  */
@@ -17,12 +19,26 @@ class WordMap {
    *    A machine-prepared word map.
    */
   public static function get() {
-    $data = self::$defaultWordMap;
-    foreach ($data as $key => $output) {
-      $vals = array_values($output);
-      array_unshift($vals, $key);
-      $values[] = $vals;
+    $values = [];
+    $maps = ['pronouns', 'general', 'opposites', 'text-specific'];
+    foreach ($maps as $map) {
+      $csv = Reader::createFromPath('../data/replacements/' . $map . '.csv', 'r');
+      $csv->setHeaderOffset(0);
+      $header = $csv->getHeader();
+      $records = $csv->getRecords();
+      foreach ($records as $record) {
+        $values[] = [
+          $record['Type'],
+          $record['Female'],
+          $record['Male Key'],
+          $record['Non-Binary'],
+          $record['Female Display'],
+          $record['Male Display'],
+          $record['Non-Binary Display'],
+        ];
+      }
     }
+
     return self::parseOriginal($values);
   }
 
