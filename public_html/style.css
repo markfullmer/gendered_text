@@ -85,3 +85,14 @@ td {
 #table {
   overflow: auto;
 }
+nav h1, nav h2 {
+  font-weight: 100;
+  margin:0;
+  padding:0;
+}
+nav {
+  background-color: lightgray;
+  font-size: 1.25em;
+  line-height: 1em;
+  padding: 10px 0px;
+}

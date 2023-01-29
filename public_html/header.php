@@ -11,13 +11,16 @@
   <meta property="og:site_name" content="Gendered Text Project" />
   <meta name="author" content="Mark Fullmer and Emily Parkhurst">
   <link rel="canonical" href="https://genderedtextproject.com/" />
-  <style><?php require 'style.css'; ?></style>;
+  <style><?php require 'style.css'; ?></style>
 </head>
 <body>
+    <nav>
+      <div class="container">
+        <h1>Gendered Text Project</h1>
+        <h2>Keep the plot. Keep the prose. Change the pronouns.</h2>
+        <a href="//<?php echo $_SERVER['SERVER_NAME']; ?>">Home</a> |
+        <a href="https://github.com/markfullmer/gendered_text#readme">About</a> |
+        <a href="https://github.com/markfullmer/gendered_text">Source</a>
+    <div>
+</nav>
   <div class="container">
-    <h1>Gendered Text Project</h1>
-    <h6>Keep the plot. Keep the prose. Change the pronouns.</h6>
-    <a href="//<?php echo $_SERVER['SERVER_NAME']; ?>">Home</a> |
-    <a href="https://github.com/markfullmer/gendered_text#readme">About</a> |
-    <a href="https://github.com/markfullmer/gendered_text">Source</a>
-    <hr />
