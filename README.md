@@ -1,4 +1,4 @@
-# Gendered Text
+# Gendered Text Project
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/markfullmer/gendered_text/master/LICENSE)
 
