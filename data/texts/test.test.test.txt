@@ -3,13 +3,13 @@
 
 One midday when, after an absence of two hours, {{ she(Arabella) }} came into the room, {{ she(Arabella) }} beheld the chair empty. Down {{ she(Arabella) }} flopped on the bed, and sitting, meditated.
 
-"Now where the devil is my {{ man(Jude) }} gone to!" {{ she(Arabella }} said.
+"Now where the devil is my {{ man(Jude) }} gone to!" {{ she(Arabella) }} said.
 
-{{ housekeeper(Jude) }}
-{{ footman(Jude) }}
-{{ maid(Jude) }}
-{{ stubble(Jude) }}
-{{ hero(Jude) }}
-{{ girlish(Jude) }}
-{{ boyish(Jude) }}
-{{ childish(Jude) }}
+housekeeper/Jude {{ housekeeper(Jude) }}
+footman/Jude: {{ footman(Jude) }}
+maid/Jude: {{ maid(Jude) }}
+stubble/Jude: {{ stubble(Jude) }}
+hero/Jude: {{ hero(Jude) }}
+girlish/Jude: {{ girlish(Jude) }}
+boyish/Jude: {{ boyish(Jude) }}
+childish/Jude: {{ childish(Jude) }}

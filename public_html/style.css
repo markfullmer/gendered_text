@@ -15,6 +15,17 @@ html {
   margin-left: auto;
   margin-right: auto
 }
+@media only screen and (min-width:33.75em) {
+  .container {
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width:60em) {
+  .container {
+    width: 50vw;
+  }
+}
 * {
   font-family: Lato, Helvetica, sans-serif;
   color: #333447;
@@ -38,10 +49,11 @@ h5 {
 h6 {
   font-size: .875rem
 }
-p {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8
+.container p {
+  font-size: 1.25rem;
+  text-indent: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .row::after {
   content: "";
@@ -50,16 +62,6 @@ p {
 }
 .hidden-sm {
   display: none
-}
-@media only screen and (min-width:33.75em) {
-  .container {
-    width: 80%
-  }
-}
-@media only screen and (min-width:60em) {
-  .container {
-    width: 80%;
-  }
 }
 input,
 select {
@@ -95,4 +97,17 @@ nav {
   font-size: 1.25em;
   line-height: 1em;
   padding: 10px 0px;
+}
+.title {
+  font-size: 1.75rem;
+}
+.subtitle {
+  margin-left: 2rem;
+  font-size:1.25rem;
+}
+button {
+  margin: 5px;
+}
+button a {
+  text-decoration: none;
 }

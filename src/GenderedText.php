@@ -32,24 +32,6 @@ class GenderedText {
     $text = self::removeLegend($text, $legend_string);
     // Perform text replacements.
     $modified = self::replace($text, $placeholders, $legend, $map, $replacements);
-    // Perform some cleanup operations.
-    // 1. Remove Google redirect links
-
-    $dom = new \DOMDocument;
-    $dom->loadHTML($modified);
-    $links = $dom->getElementsByTagName('a');
-    foreach ($links as $link){
-      $original = $link->getAttribute('href');
-      $parts = parse_url($original);
-      if ($parts['host'] == 'www.google.com') {
-        parse_str($parts['query'], $queries);
-        if (isset($queries['q'])) {
-          $link->setAttribute('href', $queries['q']);
-        }
-      }
-    }
-    $modified = $dom->saveHTML();
-
     return $modified;
   }
 
@@ -109,6 +91,16 @@ class GenderedText {
         $text = preg_replace("|{{\s*" . preg_quote($placeholder[0]) . "\s*}}|", $replacement, $text);
       }
     }
+    // Perform non-binary fixes.
+    $nonbinary = [
+      '/they was /m' => 'they were ',
+      '/They was /m' => 'They are ',
+      '/they is /m' => 'they are ',
+      '/they goes /m' => 'they go ',
+      '/she go /m' => 'she goes ',
+      '/he go /m' => 'he goes ',
+    ];
+    $text = preg_replace(array_keys($nonbinary), array_values($nonbinary), $text);
     return $text;
   }
 

@@ -1,15 +1,12 @@
-<h3>Ernest Hemingway, Hills Like White Elephants</h3>
+<h1>Ernest Hemingway, Hills Like White Elephants</h1>
 The hills across the valley of the Ebro were long and white. On this side there was no shade and no trees and the station was between two lines of rails in the sun. Close against the side of the station there was the warm shadow of the building and a curtain, made of strings of bamboo beads, hung across the open door into the bar, to keep out flies. The American and the {{ girl(Jig) }} with {{ him(Man) }} sat at a table in the shade, outside the building. It was very hot and the express from Barcelona would come in forty minutes. It stopped at this junction for two minutes and went to Madrid.
-
 ‘What should we drink?’ the {{ girl(Jig) }} asked. {{ She(Jig) }} had taken off {{ herd(Jig) }} hat and put it on the table.
 ‘It’s pretty hot,’ the {{ man(Man) }} said.
 ‘Let’s drink beer.’
 ‘Dos cervezas,’ the {{ man(Man) }} said into the curtain.
 ‘Big ones?’ a {{ woman(Waitress) }} asked from the doorway.
 ‘Yes. Two big ones.’
-
 The {{ woman(Waitress) }} brought two glasses of beer and two felt pads. {{ She(Waitress) }} put the felt pads and the beer glass on the table and looked at the {{ man(Man) }} and the {{ girl(Jig) }}. The {{ girl(Jig) }} was looking off at the line of hills. They were white in the sun and the country was brown and dry.
-
 ‘They look like white elephants,’ {{ she(Jig) }} said.
 ‘I’ve never seen one,’ the {{ man(Man) }} drank {{ hisd(Man) }} beer.
 ‘No, you wouldn’t have.’
@@ -35,7 +32,6 @@ The {{ man(Man) }} called ‘Listen’ through the curtain. The {{ woman(Waitres
 ‘That was bright.’
 ‘I wanted to try this new drink. That’s all we do, isn’t it – look at things and try new drinks?’
 ‘I guess so.’
-
 The {{ girl(Jig) }} looked across at the hills.‘They’re lovely hills,’ {{ she(Jig) }} said. ‘They don’t really look like white elephants. I just meant the colouring of their skin through the trees.’
 ‘Should we have another drink?’
 ‘All right.’
@@ -45,17 +41,13 @@ The warm wind blew the bead curtain against the table.
 ‘It’s really an awfully simple operation, {{ Jig }},’ the {{ man(Man) }} said. ‘It’s not really an operation at all.’
 The {{ girl(Jig) }} looked at the ground the table legs rested on.
 ‘I know you wouldn’t mind it, {{ Jig }}. It’s really not anything. It’s just to let the air in.’
-
 The {{ girl(Jig) }} did not say anything.
-
 ‘I’ll go with you and I’ll stay with you all the time. They just let the air in and then it’s all perfectly natural.’
 ‘Then what will we do afterwards?’
 ‘We’ll be fine afterwards. Just like we were before.’
 ‘What makes you think so?’
 ‘That’s the only thing that bothers us. It’s the only thing that’s made us unhappy.’
-
 The {{ girl(Jig) }} looked at the bead curtain, put {{ herd(Jig) }} hand out and took hold of two of the strings of beads.
-
 ‘And you think then we’ll be all right and be happy.’
 ‘I know we will. You don’t have to be afraid. I’ve known lots of people that have done it.’
 ‘So have I,’ said the {{ girl(Jig) }}. ‘And afterwards they were all so happy.’
@@ -74,9 +66,7 @@ The {{ girl(Jig) }} looked at the bead curtain, put {{ herd(Jig) }} hand out and
 ‘Well, I care about you.’
 ‘Oh, yes. But I don’t care about me. And I’ll do it and then everything will be fine.’
 ‘I don’t want you to do it if you feel that way.’
-
 The {{ girl(Jig) }} stood up and walked to the end of the station. Across, on the other side, were fields of grain and trees along the banks of the Ebro. Far away, beyond the river, were mountains. The shadow of a cloud moved across the field of grain and {{ she(Jig) }} saw the river through the trees.
-
 ‘And we could have all this,’ {{ she(Jig) }} said. ‘And we could have everything and every day we make it more impossible.’
 ‘What did you say?’
 ‘I said we could have everything.’
@@ -96,9 +86,7 @@ The {{ girl(Jig) }} stood up and walked to the end of the station. Across, on th
 ‘Nor that isn’t good for me,’ {{ she(Jig) }} said. ‘I know. Could we have another beer?’
 ‘All right. But you’ve got to realize – ‘
 ‘I realize,’ the {{ girl(Jig) }} said. ‘Can’t we maybe stop talking?’
-
 They sat down at the table and the {{ girl(Jig) }} looked across at the hills on the dry side of the valley and the {{ man(Man) }} looked at {{ herd(Jig) }} and at the table.
-
 ‘You’ve got to realize,’ {{ he(Man) }} said, ‘ that I don’t want you to do it if you don’t want to. I’m perfectly willing to go through with it if it means anything to you.’
 ‘Doesn’t it mean anything to you? We could get along.’
 ‘Of course it does. But I don’t want anybody but you. I don’t want anyone else. And I know it’s
@@ -117,9 +105,7 @@ The {{ woman(Waitress) }} came out through the curtains with two glasses of beer
 The {{ girl(Jig) }} smiled brightly at the {{ woman(Waitress) }}, to thank {{ her(Waitress) }}.
 ‘I’d better take the bags over to the other side of the station,’ the {{ man(Man) }} said. {{ She(Jig) }} smiled at {{ him(Man) }}.
 ‘All right. Then come back and we’ll finish the beer.’
-
 {{ He(Man) }} picked up the two heavy bags and carried them around the station to the other tracks. {{ He(Man) }} looked up the tracks but could not see the train. Coming back, {{ he(Man) }} walked through the bar-room, where people waiting for the train were drinking. {{ He(Man) }} drank an Anis at the bar and looked at the people. They were all waiting reasonably for the train. {{ He(Man) }} went out through the bead curtain. {{ She(Jig) }} was sitting at the table and smiled at {{ him(Man) }}.
-
 ‘Do you feel better?’ {{ he(Man) }} asked.
 ‘I feel fine,’ {{ she(Jig) }} said. ‘There’s nothing wrong with me. I feel fine.’
 [[Jig/Jim/Jym:female][Man/Woman/Partner:male][Waitress/Waiter/Steward:female]]

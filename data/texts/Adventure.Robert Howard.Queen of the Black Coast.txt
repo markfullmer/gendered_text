@@ -1,4 +1,4 @@
-<h3>{{Conan}} - {{Queen(Bêlit)}} of the Black Coast</h3>
+<h1>{{Conan}} - {{Queen(Bêlit)}} of the Black Coast</h1>
 
 By Robert E. Howard
 First published in Weird Tales May 1934. Text from <a href="http://www.gutenberg.org/files/42183/42183-h/42183-h.htm">Project Gutenberg</a>.

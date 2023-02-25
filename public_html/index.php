@@ -5,6 +5,16 @@
  * Demonstration file of the PHP Porter 2 English stemming algorithm.
  */
 
+// Material for head.
+$title = 'Gendered Text Project: Keep the plot. Keep the prose. Change the pronouns.';
+$url = 'https://genderedtextproject.com/';
+$description = 'Dynamically rewrite the gender of character in texts. Explore implicit bias about gender.';
+$og_image = 'https://genderedtextproject.com/images/demo.png';
+global $title;
+global $url;
+global $description;
+global $og_image;
+
 require '../vendor/autoload.php';
 
 include 'header.php';
@@ -16,10 +26,10 @@ if (empty($_GET['text'])) {
   echo '<h2>Choose a text</h2>';
   $texts = array_diff(scandir($directory), array('..', '.'));
   asort($texts);
-  echo '<table><thead><th>Genre><th>Author</th><th>Title</th><th>Action</th>';
+  echo '<table><thead><th>Genre<th>Author</th><th>Title</th><th>Action</th>';
   foreach ($texts as $filename) {
     $parts = explode('.', $filename);
-    echo '<tr><td>' . $parts[0] . '</td><td> ' . $parts[1] . '</td><td> ' . $parts[2] . '<td><a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $filename . '">Assign genders</a></td></tr>';
+    echo '<tr><td>' . $parts[0] . '</td><td> ' . $parts[1] . '</td><td> ' . $parts[2] . '<td><button><a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $filename . '">Read</a></button></td></tr>';
   }
   echo '</table>';
 }
@@ -84,7 +94,7 @@ elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
     $text = GenderedText::removeLegend($text, $legend_string);
     $legend = GenderedText::buildLegend($_POST['characters']);
     echo '<a class="button" href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '">Back to gender selector</a>';
-    echo '<p>' . nl2br(GenderedText::process($text . $legend)) . '</p>';
+    echo GenderedText::process($text . $legend);
   }
 }
 ?>
