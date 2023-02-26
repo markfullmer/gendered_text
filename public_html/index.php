@@ -26,12 +26,18 @@ if (empty($_GET['text'])) {
   echo '<h1>Choose a text</h1>';
   $texts = array_diff(scandir($directory), array('..', '.'));
   asort($texts);
+  echo '<div id="choices"><input class="search" placeholder="Search title, author, genre" />
+  <button class="sort" data-sort="title">Sort by title</button>
+  <button class="sort" data-sort="author">Sort by author</button>
+  <button class="sort" data-sort="genre">Sort by genre</button>
+  ';
   echo '<table><thead><th>Genre<th>Author</th><th>Title</th><th>Action</th>';
+  echo '<tbody class="list">';
   foreach ($texts as $filename) {
     $parts = explode('.', $filename);
-    echo '<tr><td>' . $parts[0] . '</td><td> ' . $parts[1] . '</td><td> ' . $parts[2] . '<td><button><a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $filename . '">Read</a></button></td></tr>';
+    echo '<tr><td class="genre">' . $parts[0] . '</td><td class="author"> ' . $parts[1] . '</td><td class="title"> ' . $parts[2] . '<td><button><a href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '?text=' . $filename . '">Read</a></button></td></tr>';
   }
-  echo '</table>';
+  echo '</tbody></table></div>';
 }
 elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
   // Allow the user to assign genders.
@@ -99,4 +105,11 @@ elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
 }
 ?>
 </body>
+   <script src="/list.min.js"></script>
+  <script>
+    var options = {
+      valueNames: [ 'author', 'title', 'genre' ]
+    };
+    var choiceList = new List('choices', options);
+  </script>
 </html>

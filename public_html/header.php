@@ -21,14 +21,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
-  <style><?php require 'style.css'; ?>
-</style>
+  <style><?php require 'style.css'; ?></style>
 </head>
 <body>
     <nav>
       <div class="container">
         <div>
-          <span class="title">Gendered Text Project</span>
+          <span class="lede">Gendered Text Project</span>
           <span class="subtitle">Keep the plot. Keep the prose. Change the pronouns.</span>
         </div>
         <a href="/">Home</a> |
