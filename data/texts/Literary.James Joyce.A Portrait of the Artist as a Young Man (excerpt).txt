@@ -1,0 +1,13 @@
+<h1>A Portrait of the Artist as a Young Man (excerpt)</h1>
+<h3>by James Joyce</h3>
+
+[[boy/girl/child:male][mother1/father1/parent1:male][mother2/father2/parent2:female]]
+
+Once upon a time and a very good time it was there was a moocow coming down along the road and this moocow that was coming down along the road met a nicens little {{ boy(boy) }} named baby tuckoo....
+{{ Hisd(boy) }} {{ father(father1) }} told {{ him(boy) }} that story: {{ hisd(boy) }} {{ father(father1) }} looked at {{ him(boy) }} through a glass: {{ he(father1) }} had a {{ hairy(father1) }} face.
+{{ He(boy) }} was baby tuckoo. The moocow came down the road where Betty Byrne lived: she sold lemon platt.
+<em>O, the wild rose blossoms on the little green place.</em>
+{{ He(boy) }} sang that song. That was {{ hisd(boy) }} song.
+<em>O, the green wothe botheth.</em>
+When you wet the bed, first it is warm then it gets cold. {{ Hisd(boy) }} {{ mother(mother2) }} put on the oilsheet. That had the queer smell.
+{{ Hisd(boy) }} {{ mother(mother2) }} had a nicer smell than {{ hisd(boy) }} {{ father(father1) }}. {{ She(mother2) }} played on the piano the sailor’s hornpipe for {{ him(boy) }} to dance.

@@ -23,7 +23,7 @@ use markfullmer\gendered_text\GenderedText;
 $directory = '../data/texts/';
 
 if (empty($_GET['text'])) {
-  echo '<h2>Choose a text</h2>';
+  echo '<h1>Choose a text</h1>';
   $texts = array_diff(scandir($directory), array('..', '.'));
   asort($texts);
   echo '<table><thead><th>Genre<th>Author</th><th>Title</th><th>Action</th>';

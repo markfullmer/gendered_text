@@ -1,0 +1,25 @@
+<h1>Why Don't You Dance? (excerpt)</h1>
+<h3>By Raymond Carver</h3>
+
+[[man/woman/parent:male][boy1/girl1/child1:female][boy2/girl2/child2:male]]
+
+They drank. They listened to the record. And then the {{ man(man) }} put on another.
+Why don't you kids dance? {{ he(man) }} decided to say, and then {{ he(man) }} said it. "Why don't you dance?"
+"I don't think so," the {{ boy(boy2) }} said.
+"Go ahead," the {{ man(man) }} said. "It's my yard. You can dance if you want to."
+Arms about each other, their bodies pressed together, the {{ boy(boy2) }} and the {{ girl(girl1) }} moved up and down the driveway. They were dancing. And when the record was over, they did it again, and when that one ended, the {{ boy(boy2) }} said. "I'm drunk."
+The {{ girl(girl1) }} said, "You're not drunk."
+"Well, I'm drunk," the {{ boy(boy2) }} said.
+The {{ man(man) }} turned the record over and the {{ boy(boy2) }} said, "I am."
+"Dance with me," the {{ girl(girl1) }} said to the {{ boy(boy2) }} and then to the {{ man(man) }}, and when the {{ man(man) }} stood up, {{ she(girl1) }} came to {{ him(man) }} with {{ her(girl1) }} arms wide open.
+"Those people over there, they're watching," {{ she(girl1) }} said.
+"It's okay," the {{ man(man) }} said. "It's my place," {{ he(man) }} said.
+"Let them watch," the {{ girl(girl1) }} said.
+"That's right," the {{ man(man) }} said. "They thought they'd seen everything over here. But they haven't seen this, have they?"
+{{ He(man) }} felt {{ herd(girl1) }} breath on {{ hisd(man) }} neck.
+"I hope you like your bed," {{ he(man) }} said.
+The {{ girl(girl1) }} closed and then opened {{ herd(girl1) }} eyes. {{ She(girl1) }} pushed {{ herd(girl1) }} face into the {{ man(man) }}'s shoulder. {{ She(girl1) }} pulled the {{ man(man) }} closer.
+"You must be desperate or something," {{ she(girl1) }} said.
+<hr>
+Weeks later, {{ she(girl1) }} said: "The {{ guy(man) }} was about middle-aged. All {{ hisd(man) }} things right there in {{ hisd(man) }} yard. No lie. We got real pissed and danced. In the driveway. Oh, my God. Don't laugh. {{ He(man) }} played us these records. Look at this record-player. The old {{ guy(man) }} gave it to us. And all these crappy records. Will you look at this shit?"
+{{ She(girl1) }} kept talking. {{ She(girl1) }} told everyone. There was more to it, and {{ she(girl1) }} was trying to get it talked out. After a time, {{ she(girl1) }} quit trying.
