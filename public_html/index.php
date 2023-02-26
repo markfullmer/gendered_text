@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Demonstration file of the PHP Porter 2 English stemming algorithm.
+ * The entrypoint.
  */
 
 // Material for head.
