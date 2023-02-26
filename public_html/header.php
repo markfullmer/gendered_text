@@ -12,7 +12,11 @@
   <meta name="author" content="Mark Fullmer and Emily Parkhurst">
   <link rel="canonical" href="<?php echo $url; ?>" />
   <meta property="og:image" content="<?php echo $og_image; ?>">
-  <style><?php require 'style.css'; ?></style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+  <style><?php require 'style.css'; ?>
+</style>
 </head>
 <body>
     <nav>

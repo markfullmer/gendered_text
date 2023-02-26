@@ -1,5 +1,5 @@
 <h1>{{Alice}} in Wonderland</h1>
- By Lewis Carroll. Published in 1916. <a href="http://www.gutenberg.org/files/19033/19033-h/19033-h.htm">Original text</a> from Project Gutenberg.
+<h4>By Lewis Carroll. Published in 1916. <a href="http://www.gutenberg.org/files/19033/19033-h/19033-h.htm">Original text</a> from Project Gutenberg.</h4>
 
 I—DOWN THE RABBIT-HOLE
 {{Alice}} was beginning to get very tired of sitting by {{ herd(Alice) }} {{ sister(Sibling) }} on the bank, and of having nothing to do. Once or twice {{ she(Alice) }} had peeped into the book {{ her(Alice) }} {{ sister(Sibling) }} was reading, but it had no pictures or conversations in it, "and what is the use of a book," thought {{Alice}}, "without pictures or conversations?"

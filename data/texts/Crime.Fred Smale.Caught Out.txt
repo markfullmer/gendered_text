@@ -1,6 +1,6 @@
 <h1>Caught Out</h1>
-by Fred C. Smale
-<a href="https://pulpgen.com/pulp/downloads/getpdf.php?id=1525">Originally published</a> in  All-Story Magazine, March, 1914
+<h4>by Fred C. Smale</h4>
+<h4><a href="https://pulpgen.com/pulp/downloads/getpdf.php?id=1525">Originally published</a> in  All-Story Magazine, March, 1914</h4>
 R. {{ANDREW}} McCRAE, the news editor of the Morning Glow, frowned thoughtfully at the slip of paper before {{ him(Andrew) }} and took the telephone receiver from its stand.
 “{{Mr(Bat)}}. Miller in the office?” {{ he(Andrew) }} asked sharply. “Send {{ him(Bat) }} up.”
 Almost before {{ he(Andrew) }} had replaced the instrument, the door opened and there entered a well-groomed, swarthy-complexioned {{ man(Bat) }} of about two and thirty, with aquiline features and bright, restless eyes. {{ His(Bat) }} hair, which {{ he(Bat) }} wore rather long and parted in the middle, was jet-black and hung straight, as though {{ he(Bat) }} had just emerged from a bath.

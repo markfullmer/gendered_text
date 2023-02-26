@@ -26,7 +26,7 @@ html {
     width: 50vw;
   }
 }
-* {
+html, a {
   font-family: Lato, Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5
@@ -54,6 +54,14 @@ h6 {
   text-indent: 2rem;
   margin-top: 0;
   margin-bottom: 0;
+}
+.text {
+  hyphens: auto;
+  text-align: justify;
+  background-color: #f8f0e3;
+  font-family:'Crimson Text', 'Times New Roman', Times, serif;
+  padding: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .row::after {
   content: "";

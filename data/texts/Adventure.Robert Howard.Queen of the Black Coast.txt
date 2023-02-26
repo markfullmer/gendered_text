@@ -1,10 +1,12 @@
 <h1>{{Conan}} - {{Queen(Bêlit)}} of the Black Coast</h1>
 
-By Robert E. Howard
-First published in Weird Tales May 1934. Text from <a href="http://www.gutenberg.org/files/42183/42183-h/42183-h.htm">Project Gutenberg</a>.
+[[Cuzha/Conan:female][Mhambi/Tito:female][captain:female][Argus:female][queen/king:male][soldier:male][sweetheart:female][Judge:male][Oarsmen:male][Dusky_women/Dusky_men:male][Bêlit/Kgabu:male][Pirates:male][Cigfa/Crom:male][N’Yaga:female][person1:male][person2:male][N’Gora:male][corsair:male]]
+
+<h4>By Robert E. Howard</h4>
+<h4>First published in Weird Tales May 1934. Text from <a href="http://www.gutenberg.org/files/42183/42183-h/42183-h.htm">Project Gutenberg</a>.</h4>
 
 
-1 {{Conan}} Joins the Pirates
+<h2>1 {{Conan}} Joins the Pirates</h2>
 Believe green buds awaken in the spring, That autumn
 paints the leaves with somber fire; Believe I held my heart
 inviolate To lavish on one {{man(Conan)}} my hot desire.
@@ -88,7 +90,7 @@ As they moved out over the glassy blue deep, {{Bêlit}} came to the poop. {{Her(
 
 And {{she(Bêlit)}} danced, like the spin of a desert whirlwind, like the leaping of a quenchless flame, like the urge of creation and the urge of death. {{Her(Bêlit)}} white feet spurned the blood-stained deck and dying {{men(Oarsmen)}} forgot death as they gazed frozen at {{her(Bêlit)}}. Then, as the white stars glimmered through the blue velvet dusk, making {{her(Bêlit)}} whirling body a blur of ivory fire, with a wild cry {{she(Bêlit)}} threw herself at {{Conan}}'s feet, and the blind flood of the Cimmerian's desire swept all else away as {{he(Conan)}} crushed {{her(Bêlit)}} panting form against the black plates of {{his(Conan)}} corseleted breast.
 
-2 The Black Lotus
+<h2>2 The Black Lotus</h2>
 
 In that dead citadel of crumbling stone
 {{ Her(person) }} eyes were snared by that unholy sheen,
@@ -208,7 +210,7 @@ The blacks shuffled their feet uneasily, but did as they were told. As they swun
 
 {{ He(Conan) }} recoiled, recognizing the black lotus, whose juice was death, and whose scent brought dream-haunted slumber. But already {{ he(Conan) }} felt a subtle lethargy stealing over {{ him(Conan) }}. {{ He(Conan) }} sought to lift {{ his(person) }} sword, to hew down the serpentine stalks, but {{ his(Conan) }} arm hung lifeless at {{ his(Conan) }} side. {{ He(Conan) }} opened {{ his(Conan) }} mouth to shout to {{ his(Conan) }} warriors, but only a faint rattle issued. The next instant, with appalling suddenness, the jungle waved and dimmed out before {{ his(Conan) }} eyes; {{ he(Conan) }} did not hear the screams that burst out awfully not far away, as {{ his(Conan) }} knees collapsed, letting {{ him(Conan) }} pitch limply to the earth. Above {{ his(Conan) }} prostrate form the great black blossoms nodded in the windless air.
 
-3 The Horror in the Jungle
+<h2>3 The Horror in the Jungle</h2>
 
 Was it a dream the nighted lotus brought?
 Then curst the dream that bought my sluggish life;
@@ -272,7 +274,7 @@ All about the bodies and pieces of bodies were swarms of huge footprints, like t
 
 {{Conan}} came silently upon the pier, approaching the galley above whose deck was suspended something that glimmered ivory-white in the faint twilight. Speechless, the Cimmerian looked on the {{ Queen(Bêlit) }} of the Black Coast as {{ she(Bêlit) }} hung from the yard-arm of {{ her(Bêlit) }} own galley. Between the yard and {{ her(Bêlit) }} white throat stretched a line of crimson clots that shone like blood in the gray light.
 
-4 The Attack from the Air
+<h2>4 The Attack from the Air</h2>
 
 The shadows were black around {{ him(Conan) }},
 The dripping jaws gaped wide,
@@ -336,14 +338,14 @@ Why had not the winged master come to the aid of its slaves when {{ he(Conan) }}
 
 Turning on {{ his(Conan) }} heel, the Cimmerian strode down the rotting wharfs and stepped aboard the galley. A few strokes of {{ his(Conan) }} sword cut person adrift, and {{ he(Conan) }} went to the sweep-head. The Tigress rocked slowly in the sullen water, sliding out sluggishly toward the middle of the river, until the broad current caught her. {{Conan}} leaned on the sweep, {{ his(Conan) }} somber gaze fixed on the cloak-wrapped shape that lay in state on the pyre the richness of which was equal to the ransom of an empress.
 
-5 The Funeral Pyre
+<h2>5 The Funeral Pyre</h2>
 
-Now we are done with roaming, evermore;
+<h6>Now we are done with roaming, evermore;
 No more the oars, the windy harp's refrain;
 Nor crimson pennon frights the dusky shore;
 Blue girdle of the world, receive again
 {{ Her(Bêlit) }} whom thou gavest me.
-THE SONG OF {{BÊLIT}}
+THE SONG OF {{BÊLIT}}</h6>
 
 Again dawn tinged the ocean. A redder glow lit the river-mouth. {{Conan}} of Cimmeria leaned on {{ his(Conan) }} great sword upon the white beach, watching the Tigress swinging out on her last voyage. There was no light in {{ his(Conan) }} eyes that contemplated the glassy swells. Out of the rolling blue wastes all glory and wonder had gone. A fierce revulsion shook {{ him(Conan) }} as {{ he(Conan) }} gazed at the green surges that deepened into purple hazes of mystery.
 
@@ -354,6 +356,4 @@ No hand was at the sweep of the Tigress, no oars drove her through the green wat
 So passed the {{ Queen(Bêlit) }} of the Black Coast, and leaning on {{ his(Conan) }} red-stained sword, {{Conan}} stood silently until the red glow had faded far out in the blue hazes and dawn splashed its rose and gold over the ocean.
 
 
-
-[[Cuzha/Conan:female][Mhambi/Tito:female][captain:female][Argus:female][queen/king:male][soldier:male][sweetheart:female][Judge:male][Oarsmen:male][Dusky_women/Dusky_men:male][Bêlit/Kgabu:male][Pirates:male][Cigfa/Crom:male][N’Yaga:female][person1:male][person2:male][N’Gora:male][corsair:male]]
 

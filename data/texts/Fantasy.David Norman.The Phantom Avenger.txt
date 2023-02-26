@@ -1,6 +1,6 @@
 <h1>The Phantom Avenger</h1>
-By David M. Norman
-<a href="https://pulpgen.com/pulp/downloads/getpdf.php?id=1804">Originally published</a> in the 10-Story Detective, January, 1943
+<h4>By David M. Norman</h4>
+<h4><a href="https://pulpgen.com/pulp/downloads/getpdf.php?id=1804">Originally published</a> in the 10-Story Detective, January, 1943</h4>
 
 LEE SHANNON hoofed it from the bus line five blocks away. Busses were not allowed to go through this extremely exclusive section and Shannon wondered why, what with the rationing and lack of rubber.
 {{ He(Lee) }} was of average height and build, average enough to pretend to be almost any type of {{ man(Lee) }} from hod carrier to banker. That was what helped make {{ him(Lee) }} an ace operative for the Apex Detective Agency.

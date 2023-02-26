@@ -1,4 +1,5 @@
-<h1>Ernest Hemingway, Hills Like White Elephants</h1>
+<h1>Hills Like White Elephants</h1>
+<h3>by Ernest Hemingway</h3>
 The hills across the valley of the Ebro were long and white. On this side there was no shade and no trees and the station was between two lines of rails in the sun. Close against the side of the station there was the warm shadow of the building and a curtain, made of strings of bamboo beads, hung across the open door into the bar, to keep out flies. The American and the {{ girl(Jig) }} with {{ him(Man) }} sat at a table in the shade, outside the building. It was very hot and the express from Barcelona would come in forty minutes. It stopped at this junction for two minutes and went to Madrid.
 ‘What should we drink?’ the {{ girl(Jig) }} asked. {{ She(Jig) }} had taken off {{ herd(Jig) }} hat and put it on the table.
 ‘It’s pretty hot,’ the {{ man(Man) }} said.

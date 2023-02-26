@@ -94,7 +94,7 @@ elseif (!empty($_GET['text']) && !empty($_POST['characters'])) {
     $text = GenderedText::removeLegend($text, $legend_string);
     $legend = GenderedText::buildLegend($_POST['characters']);
     echo '<a class="button" href="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '">Back to gender selector</a>';
-    echo GenderedText::process($text . $legend);
+    echo '<div class="text">' . GenderedText::process($text . $legend) . '</div>';
   }
 }
 ?>

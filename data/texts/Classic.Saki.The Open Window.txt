@@ -1,6 +1,6 @@
 <h1>The Open Window</h1>
-By H.H. Munro (Saki)
-Published in 1914. Text from American Literature.com
+<h4>By H.H. Munro (Saki)</h4>
+<h4>Published in 1914. Text from American Literature.com</h4>
 [[Francine/Framton/Frances:male] [Vera/Vernon/Venice:female] [Sappleton/Sappleton/Sappleton:female] [sister/brother/sibling:female] [wife/husband /spouse:male] [sisters/brothers/siblings:male]]
 "My {{ aunt(Sappleton) }} will be down presently, {{ Mr.(Framton) }} Nuttel," said a very self-possessed young {{ lady(Vera) }} of fifteen; "in the meantime you must try and put up with me."
 {{Framton}} Nuttel endeavored to say the correct something which should duly flatter the {{ niece(Vera) }} of the moment without unduly discounting the {{ aunt(Sappleton) }} that was to come. Privately {{ he(Framton) }} doubted more than ever whether these formal visits on a succession of total strangers would do much towards helping the nerve cure which {{ he(Framton) }} was supposed to be undergoing
