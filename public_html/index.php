@@ -53,11 +53,13 @@ elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
       $set = [];
       echo '<form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">';
       $genders = ['male', 'female', 'non-binary'];
+      unset($legend['names']);
       foreach ($legend as $key => $values) {
-        if ($key != 'names') {
+        $default = $values['names'][$values['gender']];
+        if ($key === $default) {
           $list = implode('/', $values['names']);
           if (!in_array($list, $set)) {
-            echo '<label style="display:block;" for="characters[' . $list . ']">Gender for "' . $list . '": ';
+            echo '<label style="display:block;" for="characters[' . $list . ']">Gender for "' . $default . '": ';
             echo '<select name="characters[' . $list . ']">';
             foreach ($genders as $gender) {
               echo '<option value="' . $gender . '"';

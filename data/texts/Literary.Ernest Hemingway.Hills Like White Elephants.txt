@@ -1,3 +1,5 @@
+[[Jig/Jim/Jym:female][Woman/Man/Partner:male][Waitress/Waiter/Steward:female]]
+
 <h1>Hills Like White Elephants</h1>
 <h3>by Ernest Hemingway</h3>
 The hills across the valley of the Ebro were long and white. On this side there was no shade and no trees and the station was between two lines of rails in the sun. Close against the side of the station there was the warm shadow of the building and a curtain, made of strings of bamboo beads, hung across the open door into the bar, to keep out flies. The American and the {{ girl(Jig) }} with {{ him(Man) }} sat at a table in the shade, outside the building. It was very hot and the express from Barcelona would come in forty minutes. It stopped at this junction for two minutes and went to Madrid.
@@ -109,4 +111,3 @@ The {{ girl(Jig) }} smiled brightly at the {{ woman(Waitress) }}, to thank {{ he
 {{ He(Man) }} picked up the two heavy bags and carried them around the station to the other tracks. {{ He(Man) }} looked up the tracks but could not see the train. Coming back, {{ he(Man) }} walked through the bar-room, where people waiting for the train were drinking. {{ He(Man) }} drank an Anis at the bar and looked at the people. They were all waiting reasonably for the train. {{ He(Man) }} went out through the bead curtain. {{ She(Jig) }} was sitting at the table and smiled at {{ him(Man) }}.
 ‘Do you feel better?’ {{ he(Man) }} asked.
 ‘I feel fine,’ {{ she(Jig) }} said. ‘There’s nothing wrong with me. I feel fine.’
-[[Jig/Jim/Jym:female][Man/Woman/Partner:male][Waitress/Waiter/Steward:female]]
