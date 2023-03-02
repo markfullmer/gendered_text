@@ -1,6 +1,6 @@
 <h1>{{Conan}} - {{Queen(Bêlit)}} of the Black Coast</h1>
 
-[[Cuzha/Conan:female][Mhambi/Tito:female][captain:female][Argus:female][queen/king:male][soldier:male][sweetheart:female][Judge:male][Oarsmen:male][Dusky_women/Dusky_men:male][Bêlit/Kgabu:male][Pirates:male][Cigfa/Crom:male][N’Yaga:female][person1:male][person2:male][N’Gora:male][corsair:male]]
+[[Cuzha/Conan:female][Mhambi/Tito:female][captain/captain:female][Argus/Angus:female][queen/king:male][soldier/soldier:male][sweetheart/sweetheart:female][Judge/Judge:male][Oarsmen/Oarsmen:male][Dusky_women/Dusky_men:male][Bêlit/Kgabu:male][Pirates/Pirates:male][Cigfa/Crom:male][N’Yaga:female][person1:male][person2:male][N’Gora:male][corsair:male]]
 
 <h4>By Robert E. Howard</h4>
 <h4>First published in Weird Tales May 1934. Text from <a href="http://www.gutenberg.org/files/42183/42183-h/42183-h.htm">Project Gutenberg</a>.</h4>

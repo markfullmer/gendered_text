@@ -26,10 +26,11 @@ if (empty($_GET['text'])) {
   echo '<h1>Choose a text</h1>';
   $texts = array_diff(scandir($directory), array('..', '.'));
   asort($texts);
-  echo '<div id="choices"><input class="search" placeholder="Search title, author, genre" />
+  echo '<div id="choices"><div class="big"><input class="search" placeholder="Search title, author, genre" />
   <button class="sort" data-sort="title">Sort by title</button>
   <button class="sort" data-sort="author">Sort by author</button>
   <button class="sort" data-sort="genre">Sort by genre</button>
+  </div>
   ';
   echo '<table><thead><th>Genre<th>Author</th><th>Title</th><th>Action</th>';
   echo '<tbody class="list">';
@@ -51,7 +52,7 @@ elseif (!empty($_GET['text']) && empty($_POST['characters'])) {
     }
     else {
       $set = [];
-      echo '<form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">';
+      echo '<form class="big" action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">';
       $genders = ['male', 'female', 'non-binary'];
       unset($legend['names']);
       foreach ($legend as $key => $values) {

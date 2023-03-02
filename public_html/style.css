@@ -71,8 +71,7 @@ h6 {
 .hidden-sm {
   display: none
 }
-input,
-select {
+input {
   margin: 0.5rem;
 }
 table {
@@ -118,4 +117,28 @@ button {
 }
 button a {
   text-decoration: none;
+}
+select {
+  /* Reset Select */
+  outline: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  color: #1e1e1e;
+  background-color: transparent;
+  cursor: pointer;
+}
+button, input, select {
+  border-radius: 5px;
+  border: 1px solid #2e2e2e;
+}
+button {
+  cursor: pointer;
+}
+.big,
+.big select,
+.big input,
+.big button {
+  font-size: 1.5rem;
 }
