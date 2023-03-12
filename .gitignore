@@ -1,3 +1,4 @@
 .DS_Store
 /vendor/
 demo/config.php
+public_html/php_errorlog
