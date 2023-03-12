@@ -1,56 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
-body,
-html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  left: 0;
-  top: 0;
-  font-size: 100%
+html,
+a,
+button,
+input {
+  font-family: Lato, Helvetica, sans-serif;
 }
-.center,
-.container {
-  margin-left: auto;
-  margin-right: auto
-}
-@media only screen and (min-width:33.75em) {
-  .container {
-    width: 70vw;
-  }
+a {
+  color: darkred;
 }
 
-@media only screen and (min-width:60em) {
-  .container {
-    width: 50vw;
-  }
+a:hover,
+a:focus {
+  color: rgb(175, 0, 0);
 }
-html, a {
-  font-family: Lato, Helvetica, sans-serif;
-  color: #333447;
-  line-height: 1.5
+[role=button],
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  background: darkred;
+  color: #fff;
 }
-h1 {
-  font-size: 2.5rem
+[role=button]:is([aria-current], :hover, :active, :focus),
+button:is([aria-current], :hover, :active, :focus),
+input[type=button]:is([aria-current], :hover, :active, :focus),
+input[type=reset]:is([aria-current], :hover, :active, :focus),
+input[type=submit]:is([aria-current], :hover, :active, :focus) {
+  background: rgb(184, 0, 0);
+  color: #fff;
 }
-h2 {
-  font-size: 2rem
-}
-h3 {
-  font-size: 1.375rem
-}
-h4 {
-  font-size: 1.125rem
-}
-h5 {
-  font-size: 1rem
-}
-h6 {
-  font-size: .875rem
-}
-.container p {
-  font-size: 1.25rem;
+.text p {
   text-indent: 2rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -63,42 +43,13 @@ h6 {
   padding: 2rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.row::after {
-  content: "";
-  display: table;
-  clear: both
+.text h1,
+.text h2,
+.text h3,
+.text p {
+  font-family: 'Crimson Text', 'Times New Roman', Times, serif;
 }
-.hidden-sm {
-  display: none
-}
-input {
-  margin: 0.5rem;
-}
-table {
-  border-collapse: collapse;
-  position: relative;
-}
-tr {
-  border-bottom: 1pt solid black;
-}
-th {
-  background: white;
-  position: sticky;
-  top: 0;
-  text-align: left;
-  padding: 0 1rem 0 0;
-}
-td {
-  padding: 0 1rem 0 0;
-}
-#table {
-  overflow: auto;
-}
-nav h1, nav h2 {
-  font-weight: 100;
-  margin:0;
-  padding:0;
-}
+
 nav {
   background-color: lightgray;
   font-size: 1.25em;
@@ -107,38 +58,8 @@ nav {
 }
 .lede {
   font-size: 1.75rem;
-}
-.subtitle {
-  margin-left: 2rem;
-  font-size:1.25rem;
-}
-button {
-  margin: 5px;
-}
-button a {
-  text-decoration: none;
+  color: darkred;
 }
 select {
-  /* Reset Select */
-  outline: 0;
-  box-shadow: none;
-  /* Personalize */
-  flex: 1;
-  padding: 0 1em;
-  color: #1e1e1e;
-  background-color: transparent;
-  cursor: pointer;
-}
-button, input, select {
-  border-radius: 5px;
-  border: 1px solid #2e2e2e;
-}
-button {
-  cursor: pointer;
-}
-.big,
-.big select,
-.big input,
-.big button {
-  font-size: 1.5rem;
+  width: auto;
 }

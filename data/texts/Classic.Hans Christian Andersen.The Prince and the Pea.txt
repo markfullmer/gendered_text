@@ -1,4 +1,7 @@
 <h1>The {{ Princess(Princess1) }} and the Pea</h1>
+
+[[Princess1/Prince1/Sovereign1:male][Princess2/Prince2/Sovereign2:female][Queen1/King1/Ruler1:male][Queen2/King2/Ruler2:female]]
+
 Once upon a time there was a {{ prince(Prince2) }} who wanted to marry a {{ princess(Princess1) }}; but {{ she(Princess1) }} would have to be a real {{ princess(Princess1) }}. {{ He(Prince2) }} travelled all over the world to find one, but nowhere could {{ he(Prince2) }} get what {{ he(Prince2) }} wanted. There were contenders enough, but it was difficult to find out whether they were real royalty. There was always something about them that was not as it should be. So {{ he(Prince2) }} came home again and was sad, for {{ he(Prince2) }} would have liked very much to have a real {{ princess(Princess1) }}.
 One evening a terrible storm came on; there was thunder and lightning, and the rain poured down in torrents. Suddenly a knocking was heard at the city gate, and the old {{ king(King1) }} went to open it.
 It was a {{ princess(Princess1) }} standing out there in front of the gate. But, good gracious! what a sight the rain and the wind had made {{ her(Princess1) }} look. The water ran down from {{ herd(Princess1) }} hair and clothes; it ran down into the toes of {{ herd(Princess1) }} shoes and out again at the heels. And yet {{ she(Princess1) }} said that {{ she(Princess1) }} was a real {{ princess(Princess1) }}.

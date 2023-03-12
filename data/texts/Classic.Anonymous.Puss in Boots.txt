@@ -1,5 +1,7 @@
 <h1>Puss in Boots</h1>
-[[Puss/Puss/Puss:male] [Marchioness/Marquis/Marques:male] [milliner/miller/milliner:male] [rabbit/rabbit/rabbit:male][Queen/King/Sovereign:male] [princess/prince/royal-heir:female] [Ogress/Ogre/Ogre:male]]
+
+[[Puss/Puss/Puss:male][Marchioness/Marquis/Marques:male][milliner/miller/milliner:male][rabbit/rabbit/rabbit:male][Queen/King/Sovereign:male][princess/prince/royal-heir:female][Ogress/Ogre/Ogre:male]]
+
 Once upon a time there was a {{miller}} who left no more riches to the three {{ sons(Marquis) }} {{ he(miller) }} had than {{ hisd(miller) }} property, {{ hisd(miller) }} ass, and {{ hisd(miller) }} cat. The division was soon made. Neither the lawyer nor the attorney was sent for. They would soon have eaten up all the poor property. The eldest had the property, the second the ass, and the youngest nothing but the cat.
 The youngest, as we can understand, was quite unhappy at having so poor a share.
 "My {{ brothers(Marquis) }}," said {{ he(Marquis) }}, "may get their living handsomely enough by joining their stocks together; but, for my part, when I have eaten up my cat, and made me a muff of {{ hisd(Puss) }} skin, I must die of hunger."
