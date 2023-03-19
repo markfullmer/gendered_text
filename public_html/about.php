@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Demonstration file of the PHP Porter 2 English stemming algorithm.
- */
-
 // Material for head.
 $title = 'About the Gendered Text Project';
 $url = 'https://genderedtextproject.com/about.php';
