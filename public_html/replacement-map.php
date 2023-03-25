@@ -179,7 +179,7 @@ include 'header.php';
                       <td>Christ-god</td>
                       <td>mother-goddess</td>
                       <td>christ-god</td>
-                      <td>civine-spirit</td>
+                      <td>divine-spirit</td>
                   </tr>
                       <tr class="odd">
                       <td>Ciaran</td>
