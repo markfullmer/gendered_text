@@ -1,9 +1,9 @@
 <?php
 
 // Material for head.
-$title = 'About the Gendered Text Project';
-$url = 'https://genderedtextproject.com/about.php';
-$description = 'About the creators, Emily Parkhurst and Mark Fullmer.';
+$title = 'Frequently Asked Questions | Gendered Text Project';
+$url = 'https://genderedtextproject.com/faq.php';
+$description = 'Explanation of the Gendered Text Project';
 $og_image = 'https://genderedtextproject.com/images/mark-fullmer-couch-bantay-2022.jpg';
 global $title;
 global $url;
@@ -22,7 +22,7 @@ We welcome others to participate. If you follow the&nbsp;<a href="/add-text">ins
 Our library includes fiction, written in English, from a range of genres, lengths, points of view, and time periods. There are stores written for children, stories for general adult audiences, and even stories containing explicit sexual content. All works adapted for this project are either in the public domain or are used with permission from the copyright holder.</p>
 
 <p><strong>What is gendered text?</strong>&nbsp;<br />
-You can see the list of words the project has indentified as gendered, as well as gender-neutral alternatives on the project word map. For example, cowgirl/cowboy/cowhand. These words are tagged using the preparation tool&nbsp;and can be gender-swapped later when reading the story in the <a href="/read.php">project library</a>.</p>
+You can see the list of words the project has indentified as gendered, as well as gender-neutral alternatives on the project <a href="/replacement-map.php">word map</a>. For example, cowgirl/cowboy/cowhand. These words are tagged using the preparation tool&nbsp;and can be gender-swapped later when reading the story in the <a href="/read.php">project library</a>.</p>
 
 <p><strong>Who runs this operation?</strong>&nbsp;<br />
 The project is run by volunteers and is open-source.&nbsp;<a href="/user/2">Emily Parkhurst</a>&nbsp;is geek, gamer, genetic counselor, and an avid reader of all genres, including fanfic.&nbsp;<a href="https://markfullmer.com">Mark Fullmer</a>&nbsp;is a poet, musician, <a href="https://writing.markfullmer.com/">communications teacher</a>, and <a href="https://github.com/markfullmer">coding guru</a>.&nbsp;<a href="http://www.maggieanton.com/index.html">Maggie Anton</a>&nbsp;is the author of several novels, including award winning historical fiction and non-fiction.</p>
