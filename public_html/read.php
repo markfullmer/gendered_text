@@ -27,9 +27,9 @@ if (empty($_GET['text'])) {
   $texts = array_diff(scandir($directory), array('..', '.'));
   asort($texts);
   echo '<div id="choices"><div class="big"><input class="search" placeholder="Search title, author, genre" />
-  <a href="#" role="button" class="sort" data-sort="title">Sort by title</a>
-  <a href="#" role="button" class="sort" data-sort="author">Sort by author</a>
   <a href="#" role="button" class="sort" data-sort="genre">Sort by genre</a>
+  <a href="#" role="button" class="sort" data-sort="author">Sort by author</a>
+  <a href="#" role="button" class="sort" data-sort="title">Sort by title</a>
   </div>
   ';
   echo '<table><thead><th>Genre<th>Author</th><th>Title</th><th>Action</th>';
