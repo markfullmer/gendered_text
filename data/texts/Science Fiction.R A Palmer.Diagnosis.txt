@@ -3,7 +3,6 @@
 <h2>By R. A. Palmer</h2>
 <h3>Published in Other Worlds March 1953. Original text from <a href="http://www.gutenberg.org/files/49762/49762-h/49762-h.htm">Project Gutenberg</a>.</h3>
 
-Add three new text-specific terms for Dahnjia/Dahnjen/Dahnjen, Marima/Marmed/Marmed, Bri-Naan/Bra-Naan/Bri-Naan
 "What time did you get to bed last night?"
 "Oh, about ... well, fairly early."
 "Who were you out with?"
