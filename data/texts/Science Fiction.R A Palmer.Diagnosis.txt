@@ -1,0 +1,157 @@
+[[Brianna/Brannan/Breen:male][Mary/Mark/Maz:female][Donna/Donald/Donen:male][Beast/Beast/Beast:male][priestesses/priests/clerics:male]]
+<h1>Diagnosis</h1>
+<h2>By R. A. Palmer</h2>
+<h3>Published in Other Worlds March 1953. Original text from <a href="http://www.gutenberg.org/files/49762/49762-h/49762-h.htm">Project Gutenberg</a>.</h3>
+
+Add three new text-specific terms for Dahnjia/Dahnjen/Dahnjen, Marima/Marmed/Marmed, Bri-Naan/Bra-Naan/Bri-Naan
+"What time did you get to bed last night?"
+"Oh, about ... well, fairly early."
+"Who were you out with?"
+"{{Brannan}}."
+"Then you didn't get to bed early! If you got in by three, it would be early, if I know {{Brannan}}."
+"I got in much before three!"
+"How much?"
+"Oh ... enough. You'd be surprised...."
+"I'm sure I would! {{Mary}}, how do you expect us to get anywhere with this experiment if you come in dog-tired?"
+"{{Donald}} Jensen, I'm not dog-tired. It's you who's got me in bed in the wee hours, not me! I came in early."
+"Then why won't you state the exact time?" {{ he(Donald) }} was exasperated.
+{{ She(Mary) }} smiled at {{ him(Donald) }} archly. "I don't remember, exactly."
+"You don't seem to have much of a memory for anything when it comes to {{Brannan}}. What you see in a {{ guy(Brannan) }} like that, I don't know."
+"What's wrong with {{ him(Brannan) }}?"
+"Not a thing. {{ He(Brannan) }}'s a nice {{ guy(Brannan) }}. Quiet, respectable, deep—and only one thing on {{ hisd(Brannan) }} mind."
+"What?"
+{{ He(Donald) }} glared at {{ her(Mary) }}. "You're a smart {{ girl(Mary) }}," {{ he(Donald) }} said. "You work with me in this laboratory eight hours a day. You are engaged in a very complex experiment with the human brain, registering its waves and emanations in relation to thought, emotions and purely psychological relations. You've got a degree in psychology, another in psychiatry, a third in biology. You have written several advanced papers on the functions of the subconscious mind and its effect on the conscious mind. You have kept this job for three years, exacting as it is. You're a brilliant {{ girl(Mary) }}. And yet you can ask a stupid question like that!"
+{{ She(Mary) }} smiled at {{ him(Donald) }} even more brightly. "What's stupid about it?"
+{{ He(Donald) }} stared at {{ her(Mary) }}, then suddenly grinned back. "Okay, you're ribbing me. But dammit, you let a {{ guy(Brannan) }} like {{Brannan}} soft-soap you and squire you all around the town, and eat it up, and when I pay you a legitimate compliment, you act like ... like a {{ woman(Mary) }}!"
+"I'm sorry, {{ Mr.(Donald) }} Jensen, {{ sir(Donald) }}," {{ she(Mary) }} said. "I didn't mean to forget we are working in a scientific laboratory and that you are my boss. We are both professionals, working on a professional job—"
+{{ He(Donald) }} groaned. "Okay, you win. But will you quit rubbing in that silly statement I made when I hired you? Sure, I said it was a {{ man-opp(Mary) }}'s job, and I wanted it handled like a {{ man(Donald) }}. But you needn't grow horns over it!"
+"Might be a good idea. Then when you fire me for being dog-tired, I could get a job in a circus."
+"Yes, and if you bungle this morning's experiment, I may be able to get a job in a nuthouse!"
+{{ She(Mary) }} was instantly contrite. "Oh Don, I won't! But why don't you do the hard work, and let me be the subject? Then if anything goes wrong, all your work won't be lost...."
+"Nuts. You know as much about it as I do. And besides, what if I accidentally picked up your emotional seat and found out what time {{Brannan}} really brought you in last night?"
+"Maybe you'd be surprised."
+"I'd like to have {{Brannan}} under the machine," {{ he(Donald) }} said. "Maybe you'd be surprised."
+"{{Mary}} Mason can take care of {{ herself(Mary) }}," {{ she(Mary) }} said.
+{{ He(Donald) }} looked at {{ her(Mary) }}. "Yeah, I guess you can. So, how about dinner tonight?"
+"Psychology class tonight."
+"Tomorrow night."
+"Choir practice."
+"Thursday."
+"{{Brannan}}."
+"Friday."
+"Washing and ironing."
+"Saturday and Sunday."
+"My days off."
+"Then do you mind if we get to work?"
+"That's what you hired me for."
+{{ He(Donald) }} bent over {{ hisd(Donald) }} machine and uttered something in a muffled voice.
+"What did you say?" {{ she(Mary) }} asked innocently.
+"I wouldn't repeat it for a {{ lady(Mary) }}'s ears," {{ he(Donald) }} snapped.
+"The pineal gland—the mystery gland of the human brain. Mystics call it the 'third eye.' Some say it is an atrophied eye, in the center of the forehead, others say it is a new sense man is developing, for use in the future."
+"Shut up and let me put this electrode in place," said {{Mary}}. {{ She(Mary) }} swabbed at {{ hisd(Donald) }} forehead with a piece of cotton dipped in alcohol. Then {{ she(Mary) }} placed a small pad of felt dipped in water over the spot, and placed the silver electrode over it, clamped it in place on {{ hisd(Donald) }} head.
+{{ He(Donald) }} grinned up at {{ her(Mary) }}. "Maybe when you turn on the power, and amplify the waves, I'll be able to read your mind."
+"You'd better not. Unless you want me to quit and go home to San Francisco."
+"What's the matter? Afraid to let anyone know what you're thinking?"
+"No," {{ she(Mary) }} said firmly. "I just think my thoughts are private, that's all."
+"Then what are you working on this thing with me for?"
+"We're measuring brain waves, charting patterns, recording reactions. All this stuff about mind-reading is purely imagination. If that's what you're working toward, I'm afraid you're going to be disappointed."
+{{ He(Donald) }} shrugged. "Got the oscilloscope hooked up?"
+"Yes. And also the television screen and the camera. It'll amplify the wave patterns and project them ... and in your case I'm convinced they'll all be...."
+"Don't say it," {{ he(Donald) }} said hastily. "I don't need to read your brain waves to know what you're thinking."
+"Nor do I need this machine to know what you are usually thinking of," {{ she(Mary) }} finished. "Now lie down and relax. I'm going to give you the lowest voltage first. I still don't think you are right in saying there's no real danger."
+{{ He(Donald) }} lay back and closed {{ hisd(Donald) }} eyes.
+Swiftly {{ she(Mary) }} went about, making adjustments, turning rheostats, watching indications on meters with narrowed eyes. Then, with a final check over the entire apparatus, {{ she(Mary) }} switched on the machine to lowest voltage.
+Slowly the tubes warmed up, then there came a slight crackling from the loudspeaker, developing swiftly into a hum that rose and fell in a musical pattern. The green bands on the oscilloscope danced in time to the hum from the loudspeaker, and on the television screen an image began to form. By stages it grew, at first seeming to be a wavering white pillar, then a ghostly form, like a sheeted figure in a graveyard, then suddenly it began to clarify. A face emerged into view, and {{Mary}} almost gasped as {{ she(Mary) }} recognized it as {{ herd(Mary) }} own. But the rest of the picture remained shadowy and indistinct.
+"More power," murmured {{Mary}}. {{ She(Mary) }} turned the rheostat up a trifle further, and the hum from the loudspeaker became even louder, more vibrant. On the screen the rest of the dancing figure coalesced and suddenly {{Mary}} jumped back from the screen. {{ She(Mary) }} turned toward Jensen where {{ he(Donald) }} lay, relaxing with a slight smile on {{ hisd(Donald) }} face, and uttered an exclamation.
+"Don, you stop that!" {{ She(Mary) }} reached for the electrode to snatch it indignantly from {{ hisd(Donald) }} head. As {{ she(Mary) }} did so {{ herd(Mary) }} fingers touched the metal. A bright flash came from the silver disk, raced up {{ herd(Mary) }} arm, and {{ herd(Mary) }} muscles tightened in shock. {{ Her(Mary) }} voice rose suddenly in a scream, and then, as Jensen jerked violently under {{ herd(Mary) }} hands, everything went black. {{ She(Mary) }} slumped beside {{ him(Donald) }}, unconscious, and the hum from the loudspeaker took on a higher, treble note that filled the whole laboratory with its vibrant pulsations.
+High over the valley came a keening note, drifting down the wind with a strange, heterodyning effect. It rose and fell with a definite cadence, as though it were a message.
+Out of the murky darkness at the far end came a stirring; a gigantic groping, as of a monstrous something responding sluggishly to the call. Then, more swiftly, getting its bearings, the shadowed something began moving forward, gaining purpose, gaining massiveness, gaining speed. There was almost an anxious eagerness in its progress, as though it were an appetite sensing a free meal. At the same time there was something obscene in its haste, as though it anticipated more than mere food.
+High on the south wall of the valley, atop the ramparts of the City, stood a figure in a red cloak, staring out over the valley's dark depths. {{ He(Brannan) }} was tall, saturnine, and {{ hisd(Brannan) }} face, though darkly handsome, was somehow malevolent, menacing, revolting. {{ He(Brannan) }} was leering now, in ghastly anticipation of something that was to occur at the base of the cliffs at {{ hisd(Brannan) }} feet. Behind {{ him(Brannan) }} the keening of the Call still emanated from the lips of the gory idol enthroned in the Temple. {{ He(Brannan) }} shook a fist at the darkness below.
+"Feel now the dire might of the anger of {{ Bra-Naan (Brannan) }}!" {{ he(Brannan) }} mouthed. "Die, {{ Dahnjen(Donald) }} Saan, despoiler of the Temple!" {{ He(Brannan) }} turned to an accolyte. "Control the Beast, when {{ he(Beast) }} comes. Let {{ him(Beast) }} kill, but save the {{ Priestess(Mary) }}. {{ Herd(Mary) }} punishment shall be mine alone." {{ He(Brannan) }} licked {{ hisd(Brannan) }} lips.
+"Yes, Oh High One. The Beast shall move only as the Hypno-ray dictates." The accolyte hurried off into the Temple and in a moment, lancing down from above, came the beam of the ray, searching into the depths of the valley.
+The {{ Priestess(Mary) }} {{ Marima(Mary) }} Saan no longer struggled in {{ Dahnjen(Donald) }} Saan's grasp, as {{ he(Donald) }} carried {{ her(Mary) }} amid the gloomy ramparts of the weird stone formations on the valley floor. Instead {{ she(Mary) }} wept, and clung to {{ him(Donald) }}.
+"Why do you weep?" {{ he(Donald) }} asked harshly.
+"Because now we both will die," {{ she(Mary) }} said. "Oh {{ Dahnjen(Donald) }}, why did you do it?"
+"Because I do not propose that {{Bra-Naan (Brannan) }} will remain forever as a barrier to our love," {{ he(Donald) }} said. "Beyond the Valley {{ hisd(Brannan) }} power does not exist. We are going there to live our lives as they should be lived."
+"Alone, in the Wild Land?"
+{{ He(Donald) }} laughed. "It's not so wild as you think. I've been there. And nothing so fearsome exists that we cannot overcome it. Nor will anyone ever find us. The natives are friendly—I know them well."
+Once more {{ she(Mary) }} began to weep. "But we'll never get there. We cannot escape from the Valley. It is guarded at the exit by the Beast. None have ever escaped {{ him(Beast) }}."
+{{ Dahnjen(Donald) }} patted the rifle strapped to {{ hisd(Donald) }} back. "Think you that the Priests alone know anything of science?" {{ he(Donald) }} asked.
+{{ She(Mary) }} looked at the long barrel of the rifle. "What is it?"
+"Something the Beast will not like," {{ he(Donald) }} promised. "And now, be still. Soon we will be on more level ground, and you will be able to walk."
+Some minutes later {{ he(Donald) }} set {{ her(Mary) }} down, and {{ she(Mary) }} walked by {{ hisd(Donald) }} side. But as they moved deeper into the Valley, and into the gloom, a sound began behind them. It was a keening noise, shrill, penetrating, rising and falling with the chill of terror in its pitch.
+"The Call!" cried {{ Marima(Mary) }} Saan. "{{Bra-Naan (Brannan) }} calls the Beast! Now we shall surely die!" {{ She(Mary) }} clung to {{ him(Donald) }}.
+{{ He(Donald) }} urged {{ her(Mary) }} forward again, looking swiftly about {{ him(Donald) }} as they went. Finally {{ he(Donald) }} spied the rock formation {{ he(Donald) }} wanted, and together they crouched in its shadow, waiting. Above them, lancing through the dark mists came the ray from atop the cliff. {{ Dahnjen(Donald) }} growled. "He wants to make sure—he's using the Hypno-ray. Good thing it only works on the Beast!"
+Ahead of them now they heard sounds. Huge thumping sounds, earth-shaking motions as a monstrous body moved toward them in the darkness.
+"The Beast comes!" said {{ Marima(Mary) }} tragically. "Oh {{ Dahnjen(Donald) }}, what shall we do?" {{ She(Mary) }} flung {{ herd(Mary) }} arms around {{ hisd(Donald) }} neck and clung to {{ him(Donald) }}. "Is this the way our love will end?"
+{{ He(Donald) }} bent {{ hisd(Donald) }} head and kissed {{ her(Mary) }}, then {{ he(Donald) }} grinned at {{ her(Mary) }}. "In just a moment you will learn more about that," {{ he(Donald) }} said. "But right now, you crouch down behind me and stay there. As soon as I can see, you'll find out that not only the Priests are possessed of wonderful instruments." {{ He(Donald) }} slipped the rifle from {{ hisd(Donald) }} shoulder and held it ready in {{ hisd(Donald) }} hands.
+The searching ray swept over them several times, and the third pass found them. Momentarily it outlined them in its light, then swept on, as though in disdain. Finally it halted, down the valley, centered on a lumbering form, outlining it in the darkness so that its head could be seen looming high above the ground.
+"The Beast!" breathed {{ Marima(Mary) }}.
+And now, moving more purposefully, heading straight toward them, the monster came. Although they knew that it could not see them as yet, in the darkness, it did not deviate from its course, and they know that its feeble mind was under the control of the priests in the Temple far above them on the cliff wall. As it came, its jowls slavered, and its eyes glared ferociously. The light gleamed off its bared teeth, and reflected from the scaly ugliness of its hide.
+{{ Dahnjen(Donald) }} Saan lifted {{ hisd(Donald) }} newly invented weapon, sighted carefully. Then as {{ Marima(Mary) }} Saan cringed back in terror, a sharp explosion echoed and re-echoed in the confines of the valley. A brilliant flash of light illuminated the scene for a moment, and then a second explosion came from the neck of the Beast. It faltered, uttered a tremendous roar of rage and pain, and blood gouted from its wound. Then roaring continuously, it charged forward once more. Again and again {{ Dahnjen(Donald) }} fired {{ hisd(Donald) }} rifle, and each time explosions shook the valley and jarred the oncoming monster. First one eye, then the other vanished in a shredding of gore, and then the mouth literally exploded, and the brilliant white of the bared teeth vanished in red blood.
+The monster stopped, stood swaying, then came on again, but it was obvious that it had been seriously wounded, and was not guiding its own movements. Its giant head was turned sideways in an awkward stiffness, exposing its ear. {{Dahnjen  (Donald) }} aimed a shot directly into it, and the top of the head seemed to disintegrate. Brains flew through the air, mingled with red, and the monster halted again. For long moments it swayed, then with a crash that shook the rock beside which the two fugitives crouched, it collapsed to the floor of the valley and lay kicking gigantically, thrashing about in monstrous death throes.
+"{{ Dahnjen(Donald) }}!" screamed {{ Marima(Mary) }}. "You've killed the Beast!"
+{{ He(Donald) }} shouldered {{ hisd(Donald) }} rifle and lifted {{ her(Mary) }} to {{ herd(Mary) }} feet. Then {{ he(Donald) }} bent and kissed {{ her(Mary) }} again. "It was what I had in mind," {{ he(Donald) }} admitted.
+Before them lay the narrow entrance to the Valley's lower end. Beyond the gap they saw blue sky and the rolling green of a forest.
+"There," said {{ Dahnjen(Donald) }}, "lies our freedom. Once in the depths of that forest, we will be safe. Hundreds of miles away lies a land where the power of the priests does not reach."
+{{ Marima(Mary) }} clasped {{ hisd(Donald) }} hand in {{ hers(Mary) }} and they both hastened forward.
+But suddenly, across the narrow gap before them, rose a dozen red-robed figures. In the fore was the menacing form of {{Bra-Naan (Brannan) }}. Leveled at them was the deadly crossbow of the Priesthood.
+
+{{ Marima(Mary) }} uttered a cry of horror and leaped forward, placing {{ herd(Mary) }} body between that of {{Bra-Naan (Brannan) }} and {{ Dahnjen(Donald) }}. There was a sharp twang of a bowstring, and the arrow leaped from the {{ priest(Brannan) }}'s crossbow to bury itself in {{ herd(Mary) }} breast. With a scream {{ she(Mary) }} sank to the ground. But as {{ she(Mary) }} did so {{ Dahnjen(Donald) }} recovered from {{ hisd(Donald) }} frozen surprise and whipped {{ hisd(Donald) }} rifle from {{ hisd(Donald) }} shoulder. Crouching behind {{ herd(Mary) }} fallen body, {{ he(Donald) }} leveled it and pressed the trigger. {{Bra-Naan (Brannan) }}'s head exploded on {{ hisdBrannan) }} shoulders and disintegrated. {{ He(Brannan) }} fell to the ground. And as {{ he(Brannan) }} did so, the remaining {{priests}} charged forward. Methodically, cursing and sobbing, {{ Dahnjen(Donald) }} shot them, one by one, and as the last two reached {{ him(Donald) }}, {{ he(Donald) }} clubbed the rifle and swung it savagely about {{ hisd(Donald) }} head. There came a satisfying crunch as the skull of the {{ man(priests) }} in the lead cracked, and then the last {{ man(priests) }} was upon {{ him(priests) }}. {{ Dahnjen(Donald) }} brought the stock of the rifle up under the {{ man(priests) }}'s chin and almost drove it through {{ hisd(priests) }} skull. Then, the battle over, {{ he(Donald) }} stood there, swaying. Eyes glazing, {{ he(Donald) }} dropped to {{ hisd(Donald) }} knees and sagged over the body of {{ Marima(Mary) }} Saan....
+{{Mary}} Mason opened {{ herd(Mary) }} eyes in bewilderment and looked up at Don Jensen bending over {{ her(Mary) }}. On {{ hisd(Donald) }} forehead the silver electrode was still strapped, but broken wires dangled from it, over one ear.
+"What happened?" {{ she(Mary) }} asked.
+"I don't exactly know," {{ he(Donald) }} said. "But I do know you suddenly dashed over and clouted me in the face. Then everything went black for what I judge was quite a period of time. I must have fallen off the couch, finally, and broken the wires, which stopped the machine. Anyway, I came to to find you lying beside me on the floor. Whatever was the idea of bashing me?"
+A flood of red suddenly rose to {{ herd(Mary) }} cheeks. "Now I remember," {{ she(Mary) }} said. "It was what you were thinking! It was on the screen!"
+It was {{ hisd(Donald) }} turn to redden. "What was on the screen?"
+"You know very well." {{ She(Mary) }} got to {{ herd(Mary) }} feet, went over to the television screen and looked into it. It was blank.
+{{ He(Donald) }} followed {{ her(Mary) }} over, removing the electrode from {{ hisd(Donald) }} forehead. {{ He(Donald) }} tossed it on the bench and looked at the clock. "Twenty minutes," {{ he(Donald) }} said.
+"Twenty minutes what?" {{ she(Mary) }} asked.
+"We were both out twenty minutes, and all the time the machine was running. So, whatever was recorded, the only evidence we'll have is the camera. Might as well run it back and see what you missed."
+{{ She(Mary) }} stiffened. "Lord knows what's on it. If what you started out with is any criterion."
+{{ He(Donald) }} grinned at {{ her(Mary) }}. "It's my thoughts, not yours, which are going to be exposed to the public, in this case you," {{ he(Donald) }} said. "And while I develop the film, I suggest you powder up a bit. You look a bit wan and tired...."
+"Before I do," {{ she(Mary) }} said, "I want to warn you."
+"About what?"
+"It wasn't just lines and patterns and lights on the screen. It was actual pictures."
+{{ He(Donald) }} gaped at {{ her(Mary) }}. "Pictures!"
+"Yes. And it means at least one of the results of our experiments are going to be sensational. The pineal gland may be the answer to perfect psychiatric diagnosis, because it seems that it translates the brain waves into actual pictures."
+"The pineal gland—an eye in reverse!" {{ he(Donald) }} gasped.
+"Exactly. And now, I'll leave you. And if you don't care to show me these particular pictures, I'll...."
+"Judging from what I was thinking initially, it's going to be a pleasure!" {{ he(Donald) }} said.
+{{ She(Mary) }} swept furiously from the room.
+Two hours later {{ he(Donald) }} seated {{ her(Mary) }} before the projection screen and went back to the projector.
+"If you're sure this isn't going to embarrass you...." {{ she(Mary) }} began.
+"It won't," {{ he(Donald) }} assured {{ her(Mary) }}. "I haven't seen any of it yet, except a few interesting glimpses I caught in the darkroom. But if you look like some of the things I saw...."
+"Just what do you mean?"
+"Wait and see." {{ He(Donald) }} switched on the projector and came back to sit down beside {{ her(Mary) }}.
+As the first picture appeared on the screen, only an indistinct white pillar was visible. It swirled, thickened, grew more distinct. A face appeared. "It's you," {{ he(Donald) }} said.
+"Yes," {{ she(Mary) }} said. "And then I turned up the power to bring the image up stronger."
+The image on the screen clarified. {{ He(Donald) }} drew a long breath. "Nice!" {{ he(Donald) }} breathed. "And I gather that's where you socked me?"
+"Don't you think I should have? Is that all you've ever got in your head...."
+"Wait a minute," {{ he(Donald) }} said in a strained voice. "There's more of what's in my head, apparently. But I swear I never saw any of that before!"
+The two watched in amazement as the dim confines of the weird valley flashed on the screen. They saw the shadowy bulk of the monster moving about. Then abruptly the scene changed, and {{Mary}} gasped.
+"{{Brannan}}!" {{ she(Mary) }} choked. "But how evil {{ he(Brannan) }} looks!"
+"Oh, I don't know.... That's the way I picture {{ him(Brannan) }}...."
+"In a long cloak?" {{ she(Mary) }} asked.
+"And with a dagger," {{ he(Donald) }} agreed.
+Now {{Mary}} gasped again. "It's you—carrying me down a cliff!"
+"Regular superhero, ain't I?"
+{{ She(Mary) }} snorted. And snorted again as the film reached the point where {{ she(Mary) }} threw {{ herd(Mary) }} arms around {{ hisd(Donald) }} neck and received {{ hisd(Donald) }} kiss.
+"You don't like that?" {{ he(Donald) }} asked.
+{{ She(Mary) }} tossed {{ herd(Mary) }} head, but didn't reply. {{ Herd(Mary) }} eyes were intent on the screen. Suddenly {{ she(Mary) }} snickered. "Look at you!" {{ she(Mary) }} exclaimed. "You'd think you were preparing to protect me from the Devil, or something, the way you push me behind that rock and get ready with your gun. What's coming next—Indians?"
+"Better than that," {{ he(Donald) }} said drily. "If that's an Indian, I'm a pop bottle cork...."
+{{ She(Mary) }} screamed involuntarily, then caught {{ herself(Mary) }}. "What a foul looking beast," {{ she(Mary) }} said. "So that's what you have in your mind!"
+"Looks like I don't intend to keep {{ him(Beast) }} there," {{ he(Donald) }} remarked. {{ He(Donald) }} watched with interest as {{ hisd(Donald) }} shots took effect on the monster and it crashed to the valley floor. "Too bad we don't have sound effects."
+Now {{ she(Mary) }} began to shout with laughter. "Kissing again!" {{ she(Mary) }} said, "The {{ hero(Donald) }} has slain the dragon, and even while {{ he(Donald) }} stands beside its kicking corpse, {{ he(Donald) }} embraces the fair {{ maiden(Mary) }}. Ye Gods, Don, is that the brain I'm working for? You really need a psychiatrist!"
+"What do you mean?" {{ he(Donald) }} asked angrily.
+"Why, it's all so obvious. Here you are, carrying a torch for me, and taking out your frustration in comic-book daydreams. And the protagonist in your dream is poor {{Brannan}}, of whom you are obviously jealous. Why, {{Brannan}} doesn't mean a thing to me! So, here you are, rescuing me—or stealing me—from the evil {{Brannan}}, and slaying the dragon {{ he(Brannan) }} sends out to kill us both, and proceeding on your merry way toward a happily-ever-after ending. See, there's the Garden of Eden at the end of the dark valley...."
+"And there's {{Brannan}} again, to foul up the works," said Jensen. "Looks like my daydreams aren't exactly logical...."
+But {{ he(Donald) }}, too, stopped in sudden horror as the film ground on and showed {{Mary}} leaping to {{ herd(Mary) }} death to save {{ him(Donald) }} from the {{ priest(Brannan) }}'s arrow. Neither of them said a word as the wild battle that followed was enacted before them, to the final scene. They watched {{ hisd(Brannan) }} body topple down and the screen go blank, then {{ he(Donald) }} got up and snapped off the projector and turned up the lights.
+"If you ask me," {{ he(Donald) }} said, "those last weren't my thoughts. And if I remember rightly, when I came to, your hand was still clutching the wires to the machine. Also, I'm hanged if I'd ever even dream of you being killed. I'd have mopped up on that gang and borne you triumphantly to a leafy bower and...."
+"... and what?" {{ she(Mary) }} said faintly.
+"We've got a wonderful thing here," {{ he(Donald) }} said. "A tremendous method of psychiatric diagnoses. We can project every desire, every frustration, every concealed emotion, directly on a screen, and see with our own eyes exactly what is bothering the subconscious of the patient. We can see exactly what they really want. What they really feel. Like...."
+"... like what?" {{ she(Mary) }} asked again.
+{{ He(Donald) }} bent and kissed {{ her(Mary) }}. "How would you like to raise a flock of our kids, while I make a lot of money plowing up the subconscious corn in other people?"
+"I'd have agreed long ago, if you'd asked me," {{ she(Mary) }} said.
+"I'd have asked long ago, if you hadn't kept on going out with {{Brannan}}," {{ he(Donald) }} retorted.
+"What do you think I went out with {{ him(Brannan) }} for!"
+{{ He(Donald) }} stood nonplussed for a moment, then {{ he(Donald) }} grinned. "Maybe we better strap on the electrodes again," {{ he(Donald) }} said. "There's a lot of corn left in both of us!"

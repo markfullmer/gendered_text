@@ -1,0 +1,40 @@
+[[Robyn/Robin/Robin:male] [Ellen/Allin/Ellon:male] [bride/bridegroom/beloved:female] [Mary/Richard/Ryan:male] [Jane/John/Jan:male] [mother/father/parent:male] [rival/rival/rival:male] [cleric/bishop/cleric:male]]
+<h1>A Story of {{Robin}} Hood</h1>
+<h3>Published in 1896. Text from Project Gutenberg.</h3>
+In the rude days of {{ King(Richard) }} {{Richard}} and {{ King(John) }} {{John}} there were many great woods in England. The most famous of these was Sher-wood forest, where the {{ king(Richard) }} often went to hunt deer. In this forest there lived a band of daring souls called out-laws.
+They had done something that was against the laws of the land, and had been forced to hide themselves in the woods to save their lives. There they spent their time in roaming about among the trees, in hunting the {{ king(Richard) }}'s deer, and in robbing rich trav-el-ers that came that way.
+There were nearly a hundred of these outlaws, and their leader was a bold {{ fellow(Robin) }} called {{Robin}} Hood. They were dressed in suits of green, and armed with bows and arrows; and sometimes they carried long wooden lances and broad-swords, which they knew how to handle well. When-ever they had taken anything, it was brought and laid at the feet of {{Robin}} Hood, whom they called their {{ king(Robin) }}. {{ He(Robin) }} then divided it fairly among them, giving to each a just share.
+{{Robin}} never allowed {{ hisd(Robin) }} {{ men(Merry men) }} to harm any-body but the rich who lived in great houses and did no work. {{ He(Robin) }} was always kind to the poor, and {{ he(Robin) }} often sent help to them; and for that reason the common people looked upon {{ him(Robin) }} as their friend.
+Long after {{ he(Robin) }} was dead, folk liked to talk about {{ hisd(Robin) }} deeds. Some praised {{ him(Robin) }}, and some blamed {{ him(Robin) }}. {{ He(Robin) }} was, indeed, a rude, lawless {{ fellow(Robin) }}; but at that time, people did not think of right and wrong as they do now.
+A great many songs were made up about {{Robin}} Hood, and these songs were sung in the cot-ta-ges and huts all over the land for hundreds of years after-ward.
+Here is a little story that is told in one of those songs:—
+{{Robin}} Hood was standing one day under a green tree by the road-side. While {{ he(Robin) }} was lis-ten-ing to the birds among the leaves, {{ he(Robin) }} saw a young {{ man(Allin) }} passing by. This young {{ man(Allin) }} was dressed in a fine {{ suit(Allin) }} of bright red cloth; and, as {{ he(Allin) }} tripped gayly along the road, {{ he(Allin) }} seemed to be as happy as the day.
+"I will not trou-ble {{ him(Allin) }}," said {{Robin}} Hood, "for I think {{ he(Allin) }} is on {{ hisd(Allin) }} way to {{ hisd(Allin) }} wedding."
+The next day {{Robin}} stood in the same place. {{ He(Robin) }} had not been there long when {{ he(Robin) }} saw the same young {{ man(Allin) }} coming down the road. But {{ he(Allin) }} did not seem to be so happy this time. {{ He(Allin) }} had left {{ hisd(Allin) }} scarlet clothing at home, and at every step {{ he(Allin) }} sighed and groaned.
+"Ah the sad day! the sad day!" {{ he(Allin) }} kept saying to {{ himself(Allin) }}.
+Then {{Robin}} Hood stepped out from under the tree, and said,—
+"I say, young {{ man(Allin) }}! Have you any money to spare for my merry {{ men(Merry men) }} and me?"
+"I have nothing at all," said the young {{ man(Allin) }}, "but five shil-lings and a ring."
+"A gold ring?" asked {{Robin}}.
+"Yes?" said the young {{ man(Allin) }}, "it is a gold ring. Here it is."
+"Ah, I see!" said {{Robin}}: "it is a wedding ring."
+"I have kept it these seven years," said the young {{ man(Allin) }}; "I have kept it to give to my {{bride}} on our wedding day. We were going to be married yes-ter-day. But {{ herd(bride) }} {{ father}} has prom-ised {{ her(bride) }} to a rich old {{ man(rival) }} whom {{ she(bride) }} never saw. And now my heart is broken."
+"What is your name?" asked {{Robin}}.
+"My name is {{Allin}}-a-Dale," said the young {{ man(Allin) }}.
+"What will you give me, in gold or fee," said {{Robin}}, "if I will help you win your {{bride}} again in spite of the rich old {{ man(rival) }} to whom {{ she(bride) }} has been promised?"
+"I have no money," said {{Allin}}, "but I will promise to be your servant."
+"How many miles is it to the place where the {{ maiden(bride) }} lives?" asked {{Robin}}.
+"It is not far," said {{Allin}}. "But {{ she(bride) }} is to be married this very day, and the church is five miles away."
+Then {{Robin}} made haste to dress {{ himself(Robin) }} as a harper; and in the after-noon {{ he(Robin) }} stood in the door of the church.
+"Who are you?" said the {{bishop}}, "and what are you doing here?"
+"I am a bold harper," said {{Robin}}, "the best in the north country."
+"I am glad you have come," said the {{bishop}} kindly. "There is no music that I like so well as that of the harp. Come in, and play for us."
+"I will go in," said {{Robin}} Hood; "but I will not give you any music until I see the two who are to be married."
+Just then an old {{ man(rival) }} came in. {{ He(rival) }} was dressed in rich clothing, but was bent with age, and was feeble and gray. By {{ hisd(rival) }} side walked a fair young {{ girl(bride) }}. {{ Herd(bride) }} cheeks were very pale, and {{ herd(bride) }} eyes were full of tears.
+"This is no match," said {{Robin}}. "Let the young {{ ladyt(bride) }} choose for {{ herself(bride) }}."
+Then {{ he(Robin) }} put {{ hisd(Robin) }} horn to {{ hisd(Robin) }} lips, and blew three times. The very next minute, four and twenty {{ men(Merry men) }}, all dressed in green, and car-ry-ing long bows in their hands, came running across the fields. And as they marched into the church, all in a row, the fore-most among them was {{Allin}}-a-Dale.
+"Now whom do you choose?" said {{Robin}} to the {{ maiden(bride) }}.
+"I choose {{Allin}}-a-Dale," {{ she(bride) }} said, blushing.
+"And {{Allin}}-a-Dale you shall have," said {{Robin}}; "and the one that takes you from {{Allin}}-a-Dale shall have {{Robin}} Hood to deal with."
+And so the fair {{ maiden(bride) }} and {{Allin}}-a-Dale were married then and there, and the rich old {{ man(rival) }} went home in a great rage.
+{{ rh-poemf(bride) }}
