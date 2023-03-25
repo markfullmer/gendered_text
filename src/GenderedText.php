@@ -18,7 +18,7 @@ class GenderedText {
    */
   public static function process($text) {
 
-    $text = self::cleanText($text);
+    //$text = self::cleanText($text);
 
     $legend_string = self::findLegend($text);
     $legend = self::parseLegend($legend_string);
