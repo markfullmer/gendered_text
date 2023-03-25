@@ -16,30 +16,6 @@ include 'header.php';
 ?>
 <div class="container">
 <h1>Replacement Map</h1>
-
-<table data-striping="1" class="table table-hover table-striped">
-      <caption>General 2</caption>
-
-
-      <thead>
-      <tr>
-                        <th>Type</th>
-                      <th>Female</th>
-                      <th>Male</th>
-                      <th>Non-Binary</th>
-            </tr>
-    </thead>
-
-      <tbody>
-                      <tr class="odd">
-                      <td>emperor</td>
-                      <td>empress</td>
-                      <td>emperor</td>
-                      <td>sovereignnb (sovereign)</td>
-                  </tr>
-          </tbody>
-    </table>
-  </div>
   <div class="table-responsive">
 <table data-striping="1" class="table table-hover table-striped">
       <caption>Pronouns</caption>
@@ -1419,4 +1395,29 @@ include 'header.php';
                   </tr>
           </tbody>
     </table>
+</div>
+<div>
+<table data-striping="1" class="table table-hover table-striped">
+      <caption>General 2</caption>
+
+
+      <thead>
+      <tr>
+                        <th>Type</th>
+                      <th>Female</th>
+                      <th>Male</th>
+                      <th>Non-Binary</th>
+            </tr>
+    </thead>
+
+      <tbody>
+                      <tr class="odd">
+                      <td>emperor</td>
+                      <td>empress</td>
+                      <td>emperor</td>
+                      <td>sovereignnb (sovereign)</td>
+                  </tr>
+          </tbody>
+    </table>
+  </div>
 </div>
