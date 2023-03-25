@@ -28,12 +28,15 @@
     <nav>
       <div class="container">
         <div>
+          <div class="align-right">
+            <a href="/">Home</a> |
+            <a href="/about.php">About</a> |
+            <a href="/faq.php">FAQ</a> |
+            <a href="https://github.com/markfullmer/gendered_text">Source code</a>
+          </div>
           <a href="/"><span class="lede">Gendered Text Project</span></a>
-          <span class="subtitle">Keep the plot. Keep the prose. Change the pronouns.</span>
+          <div class="subtitle">Keep the plot. Keep the prose. Change the pronouns.</div>
         </div>
-        <a href="/">Home</a> |
-        <a href="/about.php">About</a> |
-        <a href="https://github.com/markfullmer/gendered_text">Source code</a>
     <div>
 </nav>
   <div class="container">
